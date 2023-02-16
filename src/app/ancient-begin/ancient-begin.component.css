@@ -64,6 +64,9 @@
 .pad2{
     padding: 0px 75px 0px 15px;
 }
+.pad3{
+padding: 120px;
+}
 .minheight {
     min-height: 400px;
     max-height: 400px;

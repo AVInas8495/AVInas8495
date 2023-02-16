@@ -10,6 +10,7 @@ export class AncientBeginComponent {
   public tab: string = "tab1";
   isshow:boolean=false;
   visible:boolean=false;
+  visible1:boolean=false
 
   public showTab(tab: string) {
     this.tab = tab;
@@ -26,6 +27,14 @@ showContent(){
   else
     this.showTab('tab1')
   }
+
+  showContent1(){
+    this.visible1=!this.visible1;
+    if(this.visible1)
+      this.showTab('tab6')
+    else
+      this.showTab('tab1')
+    }
 
   ngOnInit(): void {
    
