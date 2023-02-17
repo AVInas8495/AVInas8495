@@ -1,38 +1,50 @@
-.overflow{
+.overflow {
     overflow: hidden;
 }
-.frontcontainer{
+
+.frontcontainer {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.container-fluid{
+
+.container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
-.ancimg{
+
+.ancimg {
     width: 100%;
+    max-height: 310px;
 }
-.position{
+
+.position {
     position: relative;
     bottom: 30px;
     padding: 35px;
 }
-.img2{
+
+.img2 {
     width: 100%;
     height: 360px;
 }
-.downfallrz{
-    min-height: 200px;
-    max-height: 200px;
+
+.downfallrz {
+    width: 85%;
 }
-.bghead{
+
+.bghead {
     background-color: #282317;
 }
-.bgceneter{
+
+.fix-height {
+    height: 415px;
+}
+
+.bgceneter {
     background-image: url("../../assets/centerimg.png");
     background-size: 100% 100%;
     background-position: center;
@@ -41,7 +53,8 @@
     padding-left: 0px;
     background-color: #282317;
 }
-.bgceneter{
+
+.bgceneter {
     background-image: url("../../assets/bgimg.png");
     background-size: 100% 100%;
     background-position: center;
@@ -50,59 +63,72 @@
     padding-left: 0px;
     background-color: #282317;
 }
-.bgceneter{
+
+.bgceneter {
     background-image: url("../../assets/middle.png");
     background-size: 100% 100%;
     background-position: center;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 45px;
     padding-left: 0px;
     background-color: #282317;
+    position: relative;
 }
-.ovalbtn{
+
+.ovalbtn {
     height: 200px;
     width: 200px;
+    margin: -45px 0 -60px;
 }
-.pad{
+
+.pad {
     padding: 150px;
 }
-.pad2{
+
+.pad2 {
     padding: 0px 75px 0px 15px;
 }
-.pad3{
-padding: 120px;
+
+.pad3 {
+    padding: 120px;
 }
-.minheight {
+
+/* .minheight {
     min-height: 400px;
     max-height: 400px;
-    /* --bs-gutter-x: 0px !important; */
-}
- .row.main{
+} */
+.row.main {
     --bs-gutter-x: 0px !important;
 }
 
-.customBtn{
+.customBtn {
     font-family: 'Times';
     font-style: normal;
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    opacity: 0.6;
-    border: 3px solid #D4BE8F;
+    border: 1px solid #D4BE8F;
     border-radius: 4px;
     background-color: #878271;
-    width: 200px;
-    height: 50px;
+    width: 180px;
+    min-height: 50px;
+    height: auto;
+    position: relative;
+    z-index: 999;
 }
-.footimg{
+
+.footimg {
     background-image: url("../../assets/footerimg.png");
     background-size: 100% 100%;
     background-position: center;
     padding-left: 0px;
     background-color: #282317;
 }
+
 /* .main{
     display: flex;
     height: 100vh;
 } */
+
+.rays {}

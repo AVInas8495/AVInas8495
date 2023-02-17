@@ -1,1 +1,288 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Times';
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.common-wrapper {
+    border-radius: 24px;
+    border: 2px solid #D4BE8F;
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+    padding: 0;
+}
+
+.common-wrapper>div {
+    margin: 5px;
+    overflow: hidden;
+}
+
+.container {
+    padding: 15px 80px 30px;
+}
+
+.common-wrapper>div:first-child {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.common-wrapper>div:last-child {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.bg-1857 {
+    background: url(./assets/bg-1857.png);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+.text-bg-1875 {
+    background: url(./assets/text-1857-bg.png);
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-left: 0px !important;
+}
+
+.text-bg-1875 p {
+    line-height: 1.7;
+    padding: 15px 15px 15px 40px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.text-bg-1920 {
+    background: url(./assets/text-1920-bg.png);
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-left: 0px !important;
+}
+
+.text-bg-1920 p {
+    line-height: 1.7;
+    padding: 15px 15px 15px 40px;
+    margin: 0;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-41 {
+    width: 41%;
+}
+
+
+.w-45 {
+    width: 45%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-59 {
+    width: 59%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.rays {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.rays img {
+    position: absolute;
+    height: 320px;
+}
+
+.two-rays .rays img:first-child {
+    transform: rotate(10deg);
+    top: -10px;
+    left: -210px;
+}
+
+.two-rays .rays img:last-child {
+    transform: rotate(-50deg);
+    top: -10px;
+    left: -10px;
+}
+
+.two-rays.left-rays .rays img:last-child {
+    display: none;
+}
+
+.two-rays.right-rays .rays img:first-child {
+    display: none;
+}
+
+
+
+.bd-highlight {
+    position: relative;
+}
+
+.bd-highlight button {
+    position: relative;
+    z-index: 999;
+    background: #A18B5D;
+    border-radius: 24px;
+    border: 3px solid #D4BE8F;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.05em;
+    width: 200px;
+    min-height: 50px;
+    height: auto;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+p.small-font {
+    font-size: 18px;
+}
+
+.four-rays .rays img:first-child {
+    transform: rotate(30deg);
+    top: -70px;
+    left: -300px;
+}
+
+.four-rays .rays img:nth-child(2) {
+    transform: rotate(0deg);
+    top: 0px;
+    left: -180px;
+}
+
+.four-rays .rays img:nth-child(3) {
+    transform: rotate(-40deg);
+    top: 10px;
+    left: -40px;
+}
+
+.four-rays .rays img:last-child {
+    transform: rotate(-80deg);
+    top: -60px;
+    left: 70px;
+}
+
+.four-rays.left-rays .rays img {
+    display: none
+}
+
+.four-rays.left-rays .rays img:first-child {
+    display: block;
+}
+
+.four-rays.right-rays .rays img {
+    display: none;
+}
+
+.four-rays.right-rays .rays img:last-child {
+    display: block;
+}
+
+.right-panel-open {
+    position: relative;
+}
+
+.right-panel-open:before {
+    content: "";
+    width: 1px;
+    height: calc(100% - 64px);
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 32px;
+}
+
+.right-panel-open:after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    left: -100px;
+    top: 50%;
+}
+
+.right-panel-open .bd-highlight:before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+
+.left-panel-open {
+    position: relative;
+}
+
+.left-panel-open:before {
+    content: "";
+    width: 1px;
+    height: calc(100% - 64px);
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 32px;
+}
+
+.left-panel-open:after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    right: -50%;
+    top: 50%;
+}
+
+.left-panel-open .bd-highlight:before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
