@@ -364,8 +364,8 @@
       </div>
 
       <div class="col-md-6">
-        <ng-container [ngSwitch]="tab">
-          <div class="row bghead minheight p-4">
+        <ng-container [ngSwitch]="tabpart">
+          <div *ngSwitchCase="'tab11'" class="row bghead minheight p-4">
             <div class="col-md-6">
               <div class="header">
                 <img src="../../assets/part2up.png" class="ancimg" alt="img" />
@@ -382,6 +382,105 @@
               </div>
             </div>
           </div>
+
+          <div *ngSwitchCase="'tab12'" class="row bghead minheight p-4">
+            <div class="col-md-8">
+              <div class="header">
+                <img src="../../assets/horses.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="para text-white">
+                UP Legislature’s foundation traces its way back to the flame the revolt of 1857 ignited against British rule, originating in modern-day Uttar Pradesh. This revolt swept away the very essence of the East India Company, transferring the administrative power of the subcontinent to the British Crown. The story of our representation within our legislature starts from this very revolt, the revolt that sent a clear message – India could not and would not be taken lightly.
+              </div>
+            </div>
+            
+          </div>
+
+          <div *ngSwitchCase="'tab13'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame26.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab14'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame27.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab15'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame28.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab16'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame29.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab17'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame30.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab18'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame31.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab19'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame32.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab20'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame33.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab21'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame35.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab22'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame37.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab23'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame34.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab24'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame37.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
         </ng-container>
 
         <div class="row bgceneter">
@@ -418,42 +517,133 @@
         </div>
 
         <div *ngIf="isshow" class="row minheight footimg p-4">
-          <div class="col-md-6">
+          <div *ngIf="!visible5" class="col-md-6">
             <div class="d-flex flex-column mb-3">
-              <div class="p-2 bd-highlight">
+              <div *ngIf="!visible3 && !visible4" class="p-2 bd-highlight">
                 <div class="text-center">
-                  <button type="button" class="customBtn" type="button">
+                  <button type="button" class="customBtn" type="button" (click)="showContentpart()">
                     Revolt of 1857
                   </button>
                 </div>
               </div>
-              <div class="p-2 bd-highlight">
+              <div *ngIf="!visible2 && !visible4" class="p-2 bd-highlight">
                 <div class="text-center">
-                  <button type="button" class="customBtn">
+                  <button type="button" class="customBtn" (click)="showContentpart1()">
                     Indian Councils Act
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div *ngIf="!visible2 && !visible3 && !visible5" class="col-md-6">
             <div class="d-flex flex-column mb-3">
               <div class="p-2 bd-highlight">
                 <div class="text-center">
-                  <button type="button" class="customBtn" type="button">
+                  <button type="button" class="customBtn" type="button" (click)="showContentpart2()">
                     In the face of World War 1
                   </button>
                 </div>
               </div>
-              <div class="p-2 bd-highlight">
+              <div *ngIf="!visible4" class="p-2 bd-highlight">
                 <div class="text-center">
-                  <button type="button" class="customBtn">
+                  <button type="button" class="customBtn" (click)="showContentpart3()">
                     Government of India Act
                   </button>
                 </div>
               </div>
             </div>
           </div>
+
+          <div *ngIf="visible2" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab13')">
+                    Origins
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab14')">
+                    Developments
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab15')">
+                    Transfer of power from
+                     EIC to the British
+                     Crown in 1858 November.
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="visible4" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab22')">
+                    1919
+                  </button>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div *ngIf="visible5" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab22')">
+                    1915
+                  </button>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div *ngIf=" visible3" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab17')">
+                    1861 Act Passed
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab18')">
+                    1887
+1st Council of North Western Provinces and Awadh
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab19')">
+                    1892
+Indian Councils Act introducing amendments
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab20')">
+                    1909
+                    Morley-Minto Reforms
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
