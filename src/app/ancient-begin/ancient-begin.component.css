@@ -1,0 +1,26 @@
+
+.customBtn{
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    border: 3px solid #D4BE8F;
+    border-radius: 4px;
+    background-color: #878271;
+    width: 200px;
+    height: 50px;
+}
+.footimg{
+    background-image: url("../../assets/footerimg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    padding-left: 0px;
+    background-color: #282317;
+}
+/* .main{
+    display: flex;
+    height: 100vh;
+} */
