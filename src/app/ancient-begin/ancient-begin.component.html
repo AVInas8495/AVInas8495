@@ -3,13 +3,17 @@
     <div class="row main">
       <div class="col-md-6">
         <ng-container [ngSwitch]="tab">
-          <div *ngSwitchCase="'tab1'" class="container bghead fix-height">
-            <div class="d-flex common-wrapper bg-1857">
-              <div class="w-65">
-                <img src="../../assets/part1img (1).png" class="ancimg" alt="img" />
+          <div *ngSwitchCase="'tab1'" class="container p-4 bghead minheight">
+            <div class="row">
+              <div class="col-md-8">
+                <img
+                  src="../../assets/part1img (1).png"
+                  class="ancimg"
+                  alt="img"
+                />
               </div>
-              <div class="w-35 text-bg-1875 text-white">
-                <p>
+              <div class="col-md-4 text-white">
+                <p class="pad2">
                   The soil of Uttar Pradesh is seeped in rich ancient history
                   that has been witness to our democratic traditions long before
                   the subcontinent claimed Independence from the British. 
@@ -18,18 +22,18 @@
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab2'" class="container  bghead fix-height">
-            <div class="d-flex">
-              <div class="w-35">
-                <div class="row pb-2">
+          <div *ngSwitchCase="'tab2'" class="container p-4 bghead minheight">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="row p-3">
                   <img src="../../assets/anclo.png" class="logo" alt="logo" />
                 </div>
-                <div class="row pt-3">
+                <div class="row p-3">
                   <img src="../../assets/ancup.png" class="logo" alt="logo" />
                 </div>
               </div>
-              <div class="w-65 text-white">
-                <p class="small-font ps-4">
+              <div class="col-md-7 text-white">
+                <span>
                   Ancient India was no stranger to Democracy. The concept of
                   democracy was not only common but prevalent in large sections
                   of society, for example in local governments, trade unions,
@@ -43,12 +47,12 @@
                   kind of governance expanded to different parts of the
                   subcontinent before the land was subjected to different
                   invasions.
-                </p>
+                </span>
               </div>
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab3'" class="container  bghead fix-height">
+          <div *ngSwitchCase="'tab3'" class="container p-4 bghead minheight">
             <div class="row">
               <div class="col-md-6">
                 <div class="row p-3">
@@ -64,7 +68,8 @@
               </div>
               <div class="col-md-6 text-white">
                 <div class="row">
-                  <span>The Sabhas mentioned in the Vedas as well as Mahabharat
+                  <span
+                    >The Sabhas mentioned in the Vedas as well as Mahabharat
                     were essentially the means to deliberate on the various
                     policies of the state as well as public welfare. They had a
                     Sabhapati who was elected by this very Sabha and would be a
@@ -73,46 +78,43 @@
                 </div>
                 <div class="row">
                   <div class="col-md-6">
-                    <span>These sabhapatis were also referred to as Kings, but it
+                    <span
+                      >These sabhapatis were also referred to as Kings, but it
                       is key to note that they were elected by the sabha,
                       essentially making the government a republic. Ancient
                       India was predominantly a collection of republics, not
-                      monarchies. </span>
+                      monarchies. </span
+                    >
                   </div>
                   <div class="col-md-6">
-                    <img src="../../assets/right.png" class="ancimg" alt="logo" />
+                    <img
+                      src="../../assets/right.png"
+                      class="ancimg"
+                      alt="logo"
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab4'" class="container  bghead fix-height">
+          <div *ngSwitchCase="'tab4'" class="container p-4 bghead minheight">
             <div class="row">
-              <div class="col-md-12 text-white">
-                <img src="../../assets/func1.png" style="display: inline-block;margin-right:8px;width: 150px;
-                float: left;">
-                These sabhas and samitis were a forum to have open debates, where everyone was free to speak their mind
-                on the matters being debated. Deliberations of every kind with regard to policy, governance, or public
-                redressal among many others were
-                done within these Sabhas.
-                <img src="../../assets/func2.png"
-                  style="display: inline-block;margin-left:8px;float: right;width: 450px;">Their function was
-                to assist the Sabhapati run the state smoothly.
-                The final resolution was only passed when all the members were in agreement over the resolution. The
-                public was free to seek redressal and come to the sabha with their grievances should they not be
-                satisfied with their local redressal systems, which would then be discussed in the Sabha and addressed. 
-              </div>
+              <img src="../../assets/funcimg.png" class="ancimg" alt="img" />
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab5'" class="container  bghead fix-height">
+          <div *ngSwitchCase="'tab5'" class="container p-4 bghead minheight">
             <div class="row">
               <div class="col-md-5">
                 <img src="../../assets/downleft.png" class="ancimg" alt="img" />
               </div>
               <div class="col-md-7">
-                <img src="../../assets/downright.png" class="downfallrz" alt="img" />
+                <img
+                  src="../../assets/downright.png"
+                  class="downfallrz"
+                  alt="img"
+                />
               </div>
             </div>
             <div class="row">
@@ -129,9 +131,9 @@
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab6'" class="container  bghead fix-height">
-            <div class="d-flex align-items-center">
-              <div class="w-30">
+          <div *ngSwitchCase="'tab6'" class="container p-4 bghead minheight">
+            <div class="row">
+              <div class="col-md-4">
                 <div class="row">
                   <img src="../../assets/mughal.png" class="ancimg" alt="img" />
                 </div>
@@ -139,78 +141,58 @@
                   <img src="../../assets/india.png" class="ancimg" alt="img" />
                 </div>
               </div>
-              <div class="w-40 pe-4">
-                <img src="../../assets/mughalgrp.png" class="ancimg" alt="img" />
+              <div class="col-md-4">
+                <img
+                  src="../../assets/mughalgrp.png"
+                  class="ancimg"
+                  alt="img"
+                />
               </div>
-              <div class="w-30 ps-2">
+              <div class="col-md-4">
                 <div class="text-white">
-                  <p class="small-font">An understanding of the gradual progression from the downfall
-                    of the Mughal Empire to the British East India Company taking
-                    the reigns of the Awadh region culminating in the set up of a
-                    Legislature for British-held India.</p>
+                  An understanding of the gradual progression from the downfall
+                  of the Mughal Empire to the British East India Company taking
+                  the reigns of the Awadh region culminating in the set up of a
+                  Legislature for British-held India.
                 </div>
               </div>
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab7'" class="container  bghead fix-height">
+          <div *ngSwitchCase="'tab7'" class="container p-4 bghead minheight">
+            <div class="row">
+              <div class="col-md-12">
+                <img src="../../assets/nawab.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+          </div>
+
+          <div *ngSwitchCase="'tab8'" class="container p-4 bghead minheight">
             <div class="row">
               <div class="col-md-6">
-                <div class="row p-3">
-                  <img src="../../assets/nawab-1.png" class="ancimg" alt="logo" />
-                </div>
-                <div class="row p-3 text-white">
-                  These sabhapatis were also referred to as Kings, but it is key to note that they were elected by the
-                  sabha, essentially making the government a republic. Ancient India was predominantly a collection of
-                  republics, not monarchies. 
-                </div>
-              </div>
-              <div class="col-md-6 text-white">
-                <div class="row">
-                  <span>The Sabhas mentioned in the Vedas as well as Mahabharat were essentially the means to deliberate
-                    on the various policies of the state as well as public welfare. They had a Sabhapati who was elected
-                    by this very Sabha and would be a part of all the proceedings of the sabha.
-                  </span>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <span>Over the years, when these Sabhas did lose their agency when compared to the position they
-                      held before, they were still equipped to dismiss a king if the members decided a King’s actions
-                      were against the law of the land and/or against public interest.  </span>
-                  </div>
-                  <div class="col-md-6">
-                    <img src="../../assets/nawab-2.png" class="ancimg" alt="logo" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab8'" class="container  bghead fix-height">
-            <div class="row">
-              <div class="col-md-5">
                 <img src="../../assets/entrylft.png" class="ancimg" alt="img" />
               </div>
               <div class="col-md-6">
-                <img src="../../assets/entryrght.png" class="ancimg" alt="img" />
+                <img
+                  src="../../assets/entryrght.png"
+                  class="ancimg"
+                  alt="img"
+                />
               </div>
             </div>
             <div class="row">
               <div class="col-md-12 pt-2 text-white">
-                British presence in the Awadh region came later than in most parts of India. While there were certain
-                pockets that were governed by the Company byelaws, for example the Company factory in Agra as well as
-                the region that fell within its compound in 1619 in Agra, that was the extent of their engagement in
-                administration till 1773. <br><br>
-                In 1773, the then Mughal Emperor legally transferred the regions of Ghazipur and Banaras that were under
-                his jurisdiction to the Company. The Company then gradually started to widen its reach within the UP
-                region. All the territories that subsequently came under the company had as their legislature the
-                Governor General’s Council in Calcutta who could issue rules and ordinances as long as they were in line
-                with the UK law. Over time they made Agra their headquarters for their North Western Indian territories.
+                British presence in the Awadh region came later than in most
+                parts of India. While there were certain pockets that were
+                governed by the Company byelaws, for example the Company factory
+                in Agra as well as the region that fell within its compound in
+                1619 in Agra, that was the extent of their engagement in
+                administration till 1773. 
               </div>
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab9'" class="container  bghead fix-height">
+          <div *ngSwitchCase="'tab9'" class="container p-4 bghead minheight">
             <div class="row">
               <div class="col-md-3">
                 <img src="../../assets/vajid.png" class="ancimg" alt="img" />
@@ -233,10 +215,14 @@
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab10'" class="container  bghead fix-height">
+          <div *ngSwitchCase="'tab10'" class="container p-4 bghead minheight">
             <div class="row">
               <div class="col-md-3">
-                <img src="../../assets/dalhousie.png" class="ancimg" alt="img" />
+                <img
+                  src="../../assets/dalhousie.png"
+                  class="ancimg"
+                  alt="img"
+                />
               </div>
               <div class="col-md-9">
                 <div class="row">
@@ -251,7 +237,11 @@
                   </div>
                 </div>
                 <div class="row">
-                  <img src="../../assets/bottom4.png" class="ancimg" alt="img" />
+                  <img
+                    src="../../assets/bottom4.png"
+                    class="ancimg"
+                    alt="img"
+                  />
                 </div>
               </div>
             </div>
@@ -260,51 +250,60 @@
 
         <div class="row">
           <div class="col-md-12">
-            <div class="text-center bgceneter two-rays {{visible ? 'left-rays' : visible1 ? 'right-rays' : ''}}">
+            <div class="text-center bgceneter">
               <img src="../../assets/oval.png" class="ovalbtn" alt="img" />
-              <div class="rays">
-                <img src="../../assets/rays.png">
-                <img src="../../assets/rays.png">
-              </div>
             </div>
           </div>
         </div>
-        <div class="fix-height footimg">
-          <div class="row h-100 align-items-center">
-            <div *ngIf="!visible1" class="col-md-6 mb-4">
-              <div class="text-center ms-5 ps-5">
-                <button type="button" class="customBtn ms-5" (click)="showContent()">
+        <div class="container minheight footimg">
+          <div class="row">
+            <div *ngIf="!visible1" class="col-md-6 pad">
+              <div class="text-center">
+                <button type="button" class="customBtn" (click)="showContent()">
                   Ancient
                 </button>
               </div>
             </div>
 
-            <div *ngIf="visible1" class="col-md-6 ">
-              <div class="d-flex flex-column left-panel-open">
+            <div *ngIf="visible1" class="col-md-6 pad3">
+              <div class="d-flex flex-column mb-3">
                 <div class="p-2 bd-highlight">
                   <div class="text-center">
-                    <button type="button" type="button" (click)="showTab('tab7')">
+                    <button
+                      type="button"
+                      class="customBtn"
+                      type="button"
+                      (click)="showTab('tab7')"
+                    >
                       Nawabs of Awadh
                     </button>
                   </div>
                 </div>
                 <div class="p-2 bd-highlight">
                   <div class="text-center">
-                    <button type="button" (click)="showTab('tab8')">
+                    <button
+                      type="button"
+                      class="customBtn"
+                      (click)="showTab('tab8')"
+                    >
                       Entry into Awadh region
                     </button>
                   </div>
                 </div>
                 <div class="p-2 bd-highlight">
                   <div class="text-center">
-                    <button type="button" (click)="showTab('tab9')">
+                    <button
+                      type="button"
+                      class="customBtn"
+                      (click)="showTab('tab9')"
+                    >
                       Annexation of Awadh
                     </button>
                   </div>
                 </div>
                 <div class="p-2 bd-highlight">
                   <div class="text-center">
-                    <button type="button" (click)="showTab('tab10')">
+                    <button type="button" class="customBtn">
                       Legislature in British India
                     </button>
                   </div>
@@ -312,31 +311,48 @@
               </div>
             </div>
 
-            <div class="col-md-6 mb-4">
-              <div *ngIf="!visible" class="text-center me-5 pe-5">
-                <button type="button" class="customBtn me-5" (click)="showContent1()">
+            <div class="col-md-6 pad">
+              <div *ngIf="!visible" class="text-center">
+                <button
+                  type="button"
+                  class="customBtn"
+                  (click)="showContent1()"
+                >
                   Arrival of british
                 </button>
               </div>
 
-              <div *ngIf="visible" class="d-flex flex-column right-panel-open">
+              <div *ngIf="visible" class="d-flex flex-column mb-3">
                 <div class="p-2 bd-highlight">
                   <div class="text-center">
-                    <button type="button" type="button" (click)="showTab('tab3')">
+                    <button
+                      type="button"
+                      class="customBtn"
+                      type="button"
+                      (click)="showTab('tab3')"
+                    >
                       Structure
                     </button>
                   </div>
                 </div>
                 <div class="p-2 bd-highlight">
                   <div class="text-center">
-                    <button type="button" (click)="showTab('tab4')">
+                    <button
+                      type="button"
+                      class="customBtn"
+                      (click)="showTab('tab4')"
+                    >
                       Function
                     </button>
                   </div>
                 </div>
                 <div class="p-2 bd-highlight">
                   <div class="text-center">
-                    <button type="button" (click)="showTab('tab5')">
+                    <button
+                      type="button"
+                      class="customBtn"
+                      (click)="showTab('tab5')"
+                    >
                       Downfall
                     </button>
                   </div>
@@ -349,482 +365,285 @@
 
       <div class="col-md-6">
         <ng-container [ngSwitch]="tabpart">
-          <div *ngSwitchCase="'tab11'" class="container  bghead fix-height">
-            <div class="d-flex common-wrapper bg-1857">
-              <div class="w-40">
+          <div *ngSwitchCase="'tab11'" class="row bghead minheight p-4">
+            <div class="col-md-6">
+              <div class="header">
                 <img src="../../assets/part2up.png" class="ancimg" alt="img" />
               </div>
-              <div class="w-60 text-bg-1920 text-white">
-                <p>
-                  A brief understanding of the milestones within the chronicles of our Legislative History in this time
-                  period.
-                  The Revolt of 1857 - the deafening roar against colonialism that originated in modern-day Uttar
-                  Pradesh.
-                  The First Council that had Indian representation.
-                  Indian Legislative Institutions evolving while contributing to the World War effort.
-                </p>
+            </div>
+            <div class="col-md-6">
+              <div class="para text-white">
+                A brief understanding of the milestones within the chronicles of
+                our Legislative History in this time period. The Revolt of 1857
+                – the deafening roar against colonialism that originated in
+                modern-day Uttar Pradesh. The First Council that had Indian
+                representation. Indian Legislative Institutions evolving while
+                contributing to the World War effort.
               </div>
             </div>
           </div>
 
-          <div *ngSwitchCase="'tab12'" class="container  bghead fix-height">
-            <div class="row">
-              <div class="col-md-8">
-                <div class="header">
-                  <img src="../../assets/horses.png" class="ancimg" alt="img" />
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="para text-white">
-                  UP Legislature’s foundation traces its way back to the flame the revolt of 1857 ignited against
-                  British
-                  rule, originating in modern-day Uttar Pradesh. This revolt swept away the very essence of the East
-                  India
-                  Company, transferring the administrative power of the subcontinent to the British Crown. The story of
-                  our representation within our legislature starts from this very revolt, the revolt that sent a clear
-                  message – India could not and would not be taken lightly.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab13'" class="container  bghead fix-height">
-            <div class="text-white">
-              The Revolt of 1857 is widely known in India as its First War of Independence. It was not the first time
-              Indian natives rose up against the British, nor was it the last. However, it was the rapidity of this
-              particular incident that set it apart and led to the subsequent events in our history’s chronicles. 
-              The rebellion was not a black and white sequence of events, but was very complex. The rebellion
-              essentially began as a
-              <div style="float:right;width:60%">
-                <div class="row">
-                  <div class="col-md-6 mb-2 pe-0">
-                    <img src="../../assets/revolt1.png" class="img-fluid">
-                  </div>
-                  <div class="col-md-6 mb-2 pe-0">
-                    <img src="../../assets/revolt2.png" class="img-fluid">
-                  </div>
-                  <div class="col-md-6 pe-0">
-                    <img src="../../assets/revolt3.png" class="img-fluid">
-                  </div>
-                  <div class="col-md-6 pe-0">
-                    <img src="../../assets/revolt4.png" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              mutiny of the sipahis in Meerut on 10th May 1857. There was general unrest as the last independent region
-              of India - Awadh - had finally been annexed by the Company. With this already budding resentment, a rumour
-              that the new cartridges being provided to the Indian soldiers had Cow and Pig fat. The cartridges had to
-              be opened with one’s mouth. This rumour caused outrage in both the Hindu and Muslim communities as Cows
-              are sacred to Hindus and Muslims consider Pigs as unclean. 
-
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab14'" class="container  bghead fix-height">
-
-            <div class="text-white">
-              <div style="float:left;width:55%">
-                <div class="row">
-                  <div class="col-md-6 mb-2">
-                    <img src="../../assets/dev-1.png" class="img-fluid mb-2">
-                    <img src="../../assets/dev-2.png" class="img-fluid">
-                  </div>
-                  <div class="col-md-6 ps-0 pe-4">
-                    <img src="../../assets/dev-3.png" class="img-fluid">
-                  </div>
-                </div>
-              </div>News of the Meerut mutiny spread like wild fire. Individual mutiny’s erupted with the reception of
-              the
-              news in the neighbouring areas. Even though this rebellion was limited to the northern region with modern
-              day Uttar Pradesh at its heart, the siege extended its blood well into the next year. The Lucknow
-              Residency had two relief attempts by the British before they could rescue their survivors. Kanpur and
-              neighbouring areas were similarly entrenched in the developments of the ongoing rebellion. 
-              Historians say the savagery with which the Company retaliated had never been seen before, especially in
-              India. The blood shed, lives lost and the atrocities the year of the rebellion saw were manganimously
-              high. The news reached Britain, albeit with altered narratives, and shocked many a people.
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab15'" class="container  bghead fix-height">
-
-            <div class="row text-white">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-md-6 mb-2">
-                    <img src="../../assets/history-1.png" class="img-fluid mb-2">
-                    <img src="../../assets/history-2.png" class="img-fluid">
-                  </div>
-                  <div class="col-md-6">
-                    <img src="../../assets/history-3.png" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                Historians say the savagery with which the Company retaliated had never been seen before, especially in
-                India. The blood shed, lives lost and the atrocities the year of the rebellion saw were manganimously
-                high. The news reached Britain, albeit with altered narratives, and shocked many a people.  <br>
-
-                It was after this rebellion that the British Crown assumed direct control over the British held Indian
-                territories, on the 1st of November 1858. With this move, The East India Company ceased to be a
-                sovereign power over India, ending the era of India being ruled by a trading organisation.
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab16'" class="container  bghead fix-height">
-
-            <div class="row text-white align-items-center">
-              <div class="col-md-4">
-                <img src="../../assets/council-act.png" class="w-100">
-              </div>
-              <div class="col-md-8">
-                <p>Indian Councils Act was passed as a way to incorporate Indian representation within legislative
-                  institutions that governed them. Find here the different years when the Indian populace fought for
-                  more and better representation, making their voices heard.</p>
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab17'" class="container  bghead fix-height">
-
-            <div class="row text-white">
-              <div class="col-md-4 pe-0">
-                <img src="../../assets/council-act.png" class="w-100">
-              </div>
-              <div class="col-md-8">
-                <span>The assumption of administrative power by the British Crown in 1858 ushered in a new era in the
-                  Constitutional History of India, serving to mark the beginning of the representative institutions in
-                  India. No attempt had so far been made to associate Indians with the administration of their own
-                  country. In 1861, however, with the passage of the Indian Councils Act, Indians would now be a part of
-                  their legislative institutions. </span>
-                <img src="../../assets/council-act-2.png" class="w-100">
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab18'" class="container  bghead fix-height">
-
-            <div class="row text-white">
-              <div class="col-md-8">
-                <small class="d-block">After the Indian Councils Act was passed in the year 1861, the council for the
-                  North Western
-                  Provinces and Awadh at the time could not be formed even after 25 long years. It was in January of
-                  1887 that the first council was formed in the state. Out of a total of nine members, four Indian
-                  members were to be included in this council for the first time.</small>
-
-                <small class="d-block my-3">The first Four Indian Members of the North Western Provinces and
-                  Awadh</small>
-
-                <small class="d-block">Sir Syed Ahmed Khan<br>
-                  Raja Pratap Narayan Singh</small>
-                <div class="row mt-3">
-                  <div class="col-3">
-                    <img src="../../assets/act-m1.png" class="img-fluid">
-                    Sir Syed
-                    Ahmed Khan
-                  </div>
-                  <div class="col-3">
-                    <img src="../../assets/act-m2.png" class="img-fluid">
-                    Raja Pratap
-                    Narayan Singh
-                  </div>
-                  <div class="col-3">
-                    <img src="../../assets/act-m3.png" class="img-fluid">
-                    Rai Bahadur
-                    Durga Prasad
-                  </div>
-                  <div class="col-3">
-                    <img src="../../assets/act-m4.png" class="img-fluid">
-                    Pandit
-                    Ajudhyanath
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 pe-0">
-                <img src="../../assets/council-act.png" class="w-100">
-              </div>
-
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab19'" class="container  bghead fix-height">
-
-            <div class="row text-white">
-              <div class="col-md-4">
-                <img src="../../assets/council-act.png" class="w-100">
-              </div>
-              <div class="col-md-8">
-                <span class="d-block mb-3">The eighties of the 20th Century saw the Birth of the Indian National
-                  Congress. It took up the
-                  question of Legislative reforms. The Councils and the Indian representation within them had proved to
-                  be inadequate, disappointing, and merely tokenistic. </span>
-                <span>As a result of the Indians’ unabating demands, the Indian Councils Act, of 1892 was passed. While
-                  it
-                  did not provide for the principle of election, it was laid down that the members of the provincial
-                  legislative council were to be nominated by the Governors, not without the recommendations of the
-                  District Boards, Municipalities, Landlords, and Merchants. The member count was raised to fifteen. The
-                  Council members now also had the right to ask questions under the provisions of the act. When this
-                  Council met for the first time on December 6th, 1893, Raja Ram Pal rose to ask the first question in
-                  the history of the Council after the Lt. Governor made his opening speech. </span>
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab20'" class="container  bghead fix-height">
-
-            <div class="row text-white">
-              <div class="col-md-4">
-                <img src="../../assets/council-act.png" class="w-100">
-              </div>
-              <div class="col-md-8">
-                <span class="d-block">It was clear that the Act of 1892 was a mere appeasement strategy by the British
-                  as it did not institute any real changes. With the growing dissatisfaction in this time period – given
-                  Lord Curzon’s despotic and oppressive policies, nationwide calamities like the famine and plague owing
-                  to the British administration, and the humiliation of Indians in South Africa – the Indians did not
-                  hold back in expressing their disquiet.</span>
-                <span class="d-block my-2">The British then called upon the Morley-Minto Reforms which were embodied by
-                  the Indian Councils Act of 1909. The Act instituted changes in some of the functions and rights of the
-                  council, the number of members that would form the council, and the provisions for
-                  electorates. </span>
-                <span class="d-block">The member count was now at 50, with the members being allowed to ask
-                  supplementary questions should they not be satisfied with the answer provided. The members now not
-                  only had a right to discuss the budget but also move resolutions on it. Separate electorates for
-                  Muslims were provided.</span>
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab21'" class="container  bghead fix-height">
-
-            <div class="d-flex text-white">
-              <div class="w-45">
-                <img src="../../assets/1915-1.png" class="w-100">
-              </div>
-              <div class="w-55 ps-4">
-                <span class="d-block mb-2">In 1915, a consolidating statute known as the Government of India was passed
-                  in 1915. It replaced nearly all earlier enactments dealing with the Indian Constitution. Any further
-                  meetings of the Council were held under this Act.</span>
-                <img src="../../assets/1915-2.png" class="w-100">
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab22'" class="container  bghead fix-height">
-
-            <div class="row text-white align-items-center">
-              <div class="col-md-4">
-                <img src="../../assets/council-act.png" class="w-100">
-              </div>
-              <div class="col-md-8">
-                <span class="d-block">In 1916, the Congress and the Muslim League united and ceaselessly demanded for
-                  Home-Rule. The World War had just entered a critical stage at the time. With the British heavily
-                  involved in the war and in need of national forces in India, they had no choice but to consider some
-                  of the demands. With the backdrop of World War I and the political developments within the Indian
-                  subcontinent, the Montague-Chelmsford deliberations took place. </span>
-                <span class="d-block my-2">Their report formed the basis of the Government of India Act 1919 – the Act
-                  that made provisions for the first-ever elections in British India, also effectively separating the
-                  Legislature and the Executive. This was a very important step in the journey of our
-                  Legislature. </span>
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab23'" class="container  bghead fix-height">
-
-            <div class="row text-white align-items-center">
-              <div class="col-md-4">
-                <img src="../../assets/constitution.png" class="w-100">
-              </div>
-              <div class="col-md-8">
-                <span class="d-block mb-2">The Government of India Act was another milestone in our legislative history
-                  as it
-                  replaced nearly all the earlier enactments with regard to the Indian Constitution.</span>
-                <img src="../../assets/constitution-2.png" class="w-70">
-              </div>
-            </div>
-          </div>
-
-          <div *ngSwitchCase="'tab24'" class="container  bghead fix-height">
-
-            <div class="header">
-              <img src="../../assets/Frame37.png" class="ancimg" alt="img" />
-            </div>
-          </div>
-
-        </ng-container>
-
-        <div
-          class="row bgceneter four-rays {{main_options_left ? 'left-rays' : submenu_revolt ? 'left-rays' : submenu_face_ww1 ? 'right-rays' : submenu_indian_council ? 'left-rays' : submenu_gov_act ? 'right-rays' : main_options_right ? 'right-rays' : ''}}">
-          <div class="col-md-12">
-            <div class="text-center" style="cursor: pointer" (click)="showaob()">
-              <img src="../../assets/oval2.png" class="ovalbtn" alt="img" />
-              <div class="rays" *ngIf="isshow">
-                <img src="../../assets/rays.png">
-                <img src="../../assets/rays.png">
-                <img src="../../assets/rays.png">
-                <img src="../../assets/rays.png">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div *ngIf="!isshow" class="container  bghead fix-height ">
-          <div class="row">
+          <div *ngSwitchCase="'tab12'" class="row bghead minheight p-4">
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-5 p-2">
-                  <img src="../../assets/img1.png" class="ancimg" alt="img" />
-                </div>
-                <div class="col-md-7 p-2 text-white">
-                  <p>The First Council that had Indian representation. Indian
-                    Legislative Institutions evolving while contributing to the
-                    World War effort.</p>
-                </div>
-              </div>
-              <div>
-                <img src="../../assets/img3.png" class="ancimg" alt="img" />
+              <div class="header">
+                <img src="../../assets/horses.png" class="ancimg" alt="img" />
               </div>
             </div>
             <div class="col-md-4">
-              <img src="../../assets/img2.png" class="img2" alt="img" />
+              <div class="para text-white">
+                UP Legislature’s foundation traces its way back to the flame the revolt of 1857 ignited against British rule, originating in modern-day Uttar Pradesh. This revolt swept away the very essence of the East India Company, transferring the administrative power of the subcontinent to the British Crown. The story of our representation within our legislature starts from this very revolt, the revolt that sent a clear message – India could not and would not be taken lightly.
+              </div>
+            </div>
+            
+          </div>
+
+          <div *ngSwitchCase="'tab13'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame26.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab14'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame27.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab15'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame28.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab16'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame29.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab17'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame30.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab18'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame31.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab19'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame32.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab20'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame33.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab21'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame35.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab22'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame37.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab23'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame34.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'tab24'" class="row bghead minheight p-4">
+            
+              <div class="header">
+                <img src="../../assets/Frame37.png" class="ancimg" alt="img" />
+              </div>
+            </div>
+
+        </ng-container>
+
+        <div class="row bgceneter">
+          <div class="col-md-12">
+            <div
+              class="text-center"
+              style="cursor: pointer"
+              (click)="showaob()"
+            >
+              <img src="../../assets/oval2.png" class="ovalbtn" alt="img" />
             </div>
           </div>
         </div>
 
-        <div *ngIf="isshow" class="container  bghead fix-height ">
-          <div class="row h-100 align-items-center">
-            <div *ngIf="!main_options_left && !submenu_gov_act && !submenu_face_ww1" class="col-md-6">
-              <div class="d-flex align-items-center justify-content-center {{submenu_revolt ? 'ms-5' : ''}}">
-                <div *ngIf="!revolt" class="p-2 bd-highlight {{!submenu_revolt ? 'mb-5 pb-5' : ''}}">
-                  <div class="text-center">
-                    <button type="button" class="customBtn {{!submenu_revolt ? 'mb-5' : ''}} " type="button"
-                      (click)="showContentpart()">
-                      Revolt of 1857
-                    </button>
-                  </div>
-                </div>
-                <div *ngIf="!indian_council" class="p-2 bd-highlight {{main_options_left}}">
-                  <div class="text-center">
-                    <button type="button" class="customBtn" (click)="showContentpart1()">
-                      Indian Councils Act
-                    </button>
-                  </div>
-                </div>
+        <div *ngIf="!isshow" class="row minheight footimg p-4">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5 p-2">
+                <img src="../../assets/img1.png" class="ancimg" alt="img" />
+              </div>
+              <div class="col-md-7 p-2 text-white">
+                The First Council that had Indian representation. Indian
+                Legislative Institutions evolving while contributing to the
+                World War effort.
               </div>
             </div>
-            <div *ngIf="submenu_face_ww1" class="col-md-6">
-              <div class="d-flex flex-column mb-3 left-panel-open">
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" type="button" (click)="showTabpart('tab22')">
-                      1919
-                    </button>
-                  </div>
-                </div>
-
-              </div>
+            <div class="row p-2">
+              <img src="../../assets/img3.png" class="ancimg" alt="img" />
             </div>
-            <div *ngIf="submenu_gov_act" class="col-md-6">
-              <div class="d-flex flex-column mb-3 left-panel-open">
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" type="button" (click)="showTabpart('tab22')">
-                      1915
-                    </button>
-                  </div>
-                </div>
+          </div>
+          <div class="col-md-3 p-2">
+            <img src="../../assets/img2.png" class="img2" alt="img" />
+          </div>
+        </div>
 
-              </div>
-            </div>
-            <div *ngIf="!main_options_right" class="col-md-6">
-              <div
-                class="d-flex align-items-center {{main_options_right || submenu_gov_act || submenu_face_ww1? 'ms-5' : ''}}">
-                <div *ngIf="!face_ww1" class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" class="customBtn" type="button" (click)="showContentpart2()">
-                      In the face of World War 1
-                    </button>
-                  </div>
-                </div>
-                <div *ngIf="!gov_act" class="p-2 bd-highlight {{!submenu_gov_act ? 'mb-5 pb-5' : ''}}">
-                  <div class="text-center">
-                    <button type="button" class="customBtn {{!submenu_gov_act ? 'mb-5 ' : ''}}"
-                      (click)="showContentpart3()">
-                      Government of India Act
-                    </button>
-                  </div>
+        <div *ngIf="isshow" class="row minheight footimg p-4">
+          <div *ngIf="!visible5" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div *ngIf="!visible3 && !visible4" class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showContentpart()">
+                    Revolt of 1857
+                  </button>
                 </div>
               </div>
-            </div>
-
-            <div *ngIf="submenu_revolt" class="col-md-6">
-              <div class="d-flex flex-column mb-3 right-panel-open">
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" type="button" (click)="showTabpart('tab13')">
-                      Origins
-                    </button>
-                  </div>
-                </div>
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" (click)="showTabpart('tab14')">
-                      Developments
-                    </button>
-                  </div>
-                </div>
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" (click)="showTabpart('tab15')">
-                      Transfer of power from
-                      EIC to the British
-                      Crown in 1858 November.
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-
-            <div *ngIf="submenu_indian_council" class="col-md-6">
-              <div class="d-flex flex-column mb-3 right-panel-open">
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" type="button" (click)="showTabpart('tab17')">
-                      1861 Act Passed
-                    </button>
-                  </div>
-                </div>
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" (click)="showTabpart('tab18')">
-                      1887
-                      1st Council of North Western Provinces and Awadh
-                    </button>
-                  </div>
-                </div>
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" (click)="showTabpart('tab19')">
-                      1892
-                      Indian Councils Act introducing amendments
-                    </button>
-                  </div>
-                </div>
-                <div class="p-2 bd-highlight">
-                  <div class="text-center">
-                    <button type="button" (click)="showTabpart('tab20')">
-                      1909
-                      Morley-Minto Reforms
-                    </button>
-                  </div>
+              <div *ngIf="!visible2 && !visible4" class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showContentpart1()">
+                    Indian Councils Act
+                  </button>
                 </div>
               </div>
             </div>
           </div>
+          <div *ngIf="!visible2 && !visible3 && !visible5" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showContentpart2()">
+                    In the face of World War 1
+                  </button>
+                </div>
+              </div>
+              <div *ngIf="!visible4" class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showContentpart3()">
+                    Government of India Act
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="visible2" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab13')">
+                    Origins
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab14')">
+                    Developments
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab15')">
+                    Transfer of power from
+                     EIC to the British
+                     Crown in 1858 November.
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="visible4" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab22')">
+                    1919
+                  </button>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div *ngIf="visible5" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab22')">
+                    1915
+                  </button>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div *ngIf=" visible3" class="col-md-6">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" type="button" (click)="showTabpart('tab17')">
+                    1861 Act Passed
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab18')">
+                    1887
+1st Council of North Western Provinces and Awadh
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab19')">
+                    1892
+Indian Councils Act introducing amendments
+                  </button>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="text-center">
+                  <button type="button" class="customBtn" (click)="showTabpart('tab20')">
+                    1909
+                    Morley-Minto Reforms
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

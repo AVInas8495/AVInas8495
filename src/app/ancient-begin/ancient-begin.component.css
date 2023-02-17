@@ -1,3 +1,85 @@
+.overflow{
+    overflow: hidden;
+}
+.frontcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ancimg{
+    width: 100%;
+}
+.position{
+    position: relative;
+    bottom: 30px;
+    padding: 35px;
+}
+.img2{
+    width: 100%;
+    height: 360px;
+}
+.downfallrz{
+    min-height: 200px;
+    max-height: 200px;
+}
+.bghead{
+    background-color: #282317;
+}
+.bgceneter{
+    background-image: url("../../assets/centerimg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #282317;
+}
+.bgceneter{
+    background-image: url("../../assets/bgimg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #282317;
+}
+.bgceneter{
+    background-image: url("../../assets/middle.png");
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #282317;
+}
+.ovalbtn{
+    height: 200px;
+    width: 200px;
+}
+.pad{
+    padding: 150px;
+}
+.pad2{
+    padding: 0px 75px 0px 15px;
+}
+.pad3{
+padding: 120px;
+}
+.minheight {
+    min-height: 400px;
+    max-height: 400px;
+    /* --bs-gutter-x: 0px !important; */
+}
+ .row.main{
+    --bs-gutter-x: 0px !important;
+}
 
 .customBtn{
     font-family: 'Times';
