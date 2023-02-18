@@ -224,6 +224,54 @@ p.small-font {
     left: -10px;
 }
 
+
+/* Three Rays  */
+.three-rays .rays img:first-child {
+    transform: rotate(30deg);
+    top: -70px;
+    left: -300px;
+}
+
+.three-rays .rays img:nth-child(2) {
+    transform: rotate(-20deg);
+    top: 0px;
+    left: -110px;
+}
+
+
+.three-rays .rays img:last-child {
+    transform: rotate(-70deg);
+    top: -60px;
+    left: 60px;
+}
+
+.three-rays.left-rays .rays img {
+    display: none
+}
+
+.three-rays.left-rays .rays img:nth-child(2) {
+    display: block;
+    transform: rotate(20deg);
+    top: 0px;
+    left: -240px;
+}
+
+.three-rays.right-rays .rays img {
+    display: none;
+}
+
+.three-rays.right-rays .rays img:nth-child(3) {
+    display: block;
+    transform: rotate(-60deg);
+    top: -10px;
+    left: 30px;
+}
+
+.fix-height {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .right-panel-open {
     position: relative;
 }

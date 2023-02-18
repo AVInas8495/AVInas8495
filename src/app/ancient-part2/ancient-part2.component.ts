@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ancient-begin',
-  templateUrl: './ancient-begin.component.html',
-  styleUrls: ['./ancient-begin.component.css']
+  selector: 'app-ancient-part2',
+  templateUrl: './ancient-part2.component.html',
+  styleUrls: ['./ancient-part2.component.css']
 })
-export class AncientBeginComponent {
+export class AncientPartTwoComponent {
 
   public tab: string = "tab1";
   public tabpart: string = "tab11";
 
   isshow: boolean = false;
-  visible: boolean = false;
   visible1: boolean = false;
   visible2: boolean = false;
+  visible3: boolean = false;
   // section 2 variables
   main_options_left: boolean = false;
   main_options_right: boolean = false;
@@ -50,17 +50,25 @@ export class AncientBeginComponent {
   }
 
   showContent() {
-    this.visible = !this.visible;
-    if (this.visible)
+    this.visible1 = !this.visible1;
+    if (this.visible1)
       this.showTab('tab2')
     else
       this.showTab('tab1')
   }
 
   showContent1() {
-    this.visible1 = !this.visible1;
-    if (this.visible1)
-      this.showTab('tab6')
+    this.visible2 = !this.visible2;
+    if (this.visible2)
+      this.showTab('tab5')
+    else
+      this.showTab('tab1')
+  }
+
+  showContent2() {
+    this.visible3 = !this.visible3;
+    if (this.visible3)
+      this.showTab('tab12')
     else
       this.showTab('tab1')
   }
