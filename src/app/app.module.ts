@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AncientBeginComponent } from './ancient-begin/ancient-begin.component';
 import { AncientPartTwoComponent } from './ancient-part2/ancient-part2.component';
+import { MiddlePartComponent } from './middle-part/middle-part.component';
+import { ModernPartComponent } from './modern-part/modern-part.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AncientBeginComponent,
-    AncientPartTwoComponent
+    AncientPartTwoComponent,
+    MiddlePartComponent,
+    ModernPartComponent
   ],
   imports: [
     BrowserModule,
