@@ -11,9 +11,9 @@ import { ScreenTwoComponent } from './screen-two/screen-two.component';
 const routes: Routes = [
 // { path: 'middle', component: MiddlePartComponent },
 // { path: 'modern', component: ModernPartComponent },
-{ path: '', component: ScreenOneComponent },
-{ path: 'screen2', component: ScreenTwoComponent },
-{ path: 'screen3', component: ScreenThreeComponent }
+// { path: '', component: ScreenOneComponent },
+// { path: 'screen2', component: ScreenTwoComponent },
+{ path: 'screen3', component: ScreenThreeComponent },
 ];
 
 
