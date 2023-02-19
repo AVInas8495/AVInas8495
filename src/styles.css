@@ -352,6 +352,71 @@ p.small-font {
     top: 50%;
 }
 
+/* Five Rays  */
+.five-rays .rays img:first-child {
+    transform: rotate(30deg);
+    top: -120px;
+    left: -250px;
+}
+
+.five-rays .rays img:nth-child(2) {
+    transform: rotate(10deg);
+    top: 0px;
+    left: -225px;
+}
+
+.five-rays .rays img:nth-child(3) {
+    transform: rotate(-20deg);
+    top: 0px;
+    left: -130px;
+    height: 400px;
+}
+
+.five-rays .rays img:nth-child(4) {
+    transform: rotate(-60deg);
+    top: 0px;
+    left: 30px;
+}
+
+.five-rays .rays img:last-child {
+    transform: rotate(-80deg);
+    top: -100px;
+    left: 70px;
+}
+
+.five-rays.left-rays .rays img {
+    display: none
+}
+
+.five-rays.left-rays .rays img:nth-child(2) {
+    display: block;
+    transform: rotate(20deg);
+    top: 0px;
+    left: -240px;
+}
+
+.five-rays.center-rays .rays img {
+    display: none
+}
+
+.five-rays.center-rays .rays img:nth-child(2) {
+    display: block;
+    /* transform: rotate(20deg);
+    top: 0px;
+    left: -240px; */
+}
+
+.five-rays.right-rays .rays img {
+    display: none;
+}
+
+.five-rays.right-rays .rays img:nth-child(3) {
+    display: block;
+    transform: rotate(-60deg);
+    top: -10px;
+    left: 30px;
+}
+
 
 /* Screen Styling  */
 .overflow {
@@ -401,7 +466,7 @@ p.small-font {
 }
 
 .bgceneter {
-    background-image: url("../../assets/centerimg.png");
+    background-image: url("assets/centerimg.png");
     background-size: 100% 100%;
     background-position: center;
     padding-top: 0px;
@@ -411,7 +476,7 @@ p.small-font {
 }
 
 .bgceneter {
-    background-image: url("../../assets/bgimg.png");
+    background-image: url("assets/bgimg.png");
     background-size: 100% 100%;
     background-position: center;
     padding-top: 0px;
@@ -421,7 +486,7 @@ p.small-font {
 }
 
 .bgceneter {
-    background-image: url("../../assets/middle.png");
+    background-image: url("assets/middle.png");
     background-size: 100% 100%;
     background-position: center;
     padding-top: 0px;
@@ -475,7 +540,7 @@ p.small-font {
 }
 
 .footimg {
-    background-image: url("../../assets/footerimg.png");
+    background-image: url("assets/footerimg.png");
     background-size: 100% 100%;
     background-position: center;
     padding-left: 0px;
