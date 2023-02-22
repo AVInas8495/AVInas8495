@@ -20,6 +20,7 @@ import { Part2Component } from './part2/part2.component';
 import { Part3Component } from './part3/part3.component';
 import { Part4Component } from './part4/part4.component';
 import { Part5Component } from './part5/part5.component';
+import { CommonModule } from '@angular/common';
 
 export function HttpLoaderFactory(http:HttpClient){
   return new TranslateHttpLoader(http)
@@ -43,6 +44,7 @@ export function HttpLoaderFactory(http:HttpClient){
     Part5Component
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule,

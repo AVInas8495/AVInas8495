@@ -1,10 +1,10 @@
 <!-- <app-ancient-begin style="width: 100%;"></app-ancient-begin> -->
 <!-- <p>{{'main.TEXT'| translate}}</p> -->
 
-<label>
-    {{'Part1.SELECT'|translate}}
-    <select #langselect (change)="translate.use(langselect.value)">
-        <option *ngFor="let lang of translate.getLangs()" [value]="lang" >{{lang}}</option>
+<label class="langSelector">
+    {{'Part1.SELECT'|translate}}: 
+    <select #langselect (change)="translate.use(langselect.value)" class="form-select">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
     </select>
 </label>
 <router-outlet></router-outlet>

@@ -66,10 +66,10 @@
             <div class="col-md-12 text-white">
                 <img src="../../assets/func1.png" style="display: inline-block;margin-right:8px;width: 150px;
           float: left;">
-               {{ 'Part1.IMG1' | translate }}
+                {{ 'Part1.IMG1' | translate }}
                 <img src="../../assets/func2.png"
                     style="display: inline-block;margin-left:8px;float: right;width: 450px;">
-                    {{ 'Part1.IMG2' | translate }}
+                {{ 'Part1.IMG2' | translate }}
             </div>
         </div>
     </div>
@@ -149,7 +149,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 pt-2 text-white">
-                {{ 'Part1.DIV4' | translate }}   
+                {{ 'Part1.DIV4' | translate }}
             </div>
         </div>
     </div>
@@ -162,7 +162,7 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="text-white">
-                        {{ 'Part1.DIV5' | translate }} 
+                        {{ 'Part1.DIV5' | translate }}
                     </div>
                 </div>
                 <div class="row">
@@ -180,7 +180,7 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="text-white">
-                        {{ 'Part1.DIV6' | translate }} 
+                        {{ 'Part1.DIV6' | translate }}
                     </div>
                 </div>
                 <div class="row">
@@ -206,13 +206,13 @@
     <div class="row h-100 align-items-center">
         <div *ngIf="!visible1" class="col-md-6 mb-4">
             <div class="text-center ms-5 ps-5">
-                <button type="button" class="customBtn ms-5" (click)="showContent()">
+                <button type="button" class="customBtn ms-5 {{visible ? 'rightSide' : ''}}" (click)="showContent()">
                     {{ 'Part1.ANCBTN' | translate }}
                 </button>
             </div>
         </div>
 
-        <div *ngIf="visible1" class="col-md-6 ">
+        <div *ngIf="visible1" class="col-md-6 mb-4">
             <div class="d-flex flex-column left-panel-open">
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
@@ -247,7 +247,7 @@
 
         <div class="col-md-6 mb-4">
             <div *ngIf="!visible" class="text-center me-5 pe-5">
-                <button type="button" class="customBtn me-5" (click)="showContent1()">
+                <button type="button" class="customBtn me-5 {{visible1 ? 'leftSide' : ''}}" (click)="showContent1()">
                     {{ 'Part1.AOBBTN' | translate }}
                 </button>
             </div>
