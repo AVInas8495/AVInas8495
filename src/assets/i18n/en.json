@@ -62,8 +62,30 @@
    "1861BTN":"1861 Act Passed",
    "1887BTN":"1887 1st Council of North Western Provinces and Awadh",
    "1892BTN":"1892 Indian Councils Act introducing amendments",
-   "1909BTN":"1909 Morley-Minto Reforms"
+   "1909":"1909 Morley-Minto Reforms"
 
-  }
+  },
+  "Part5":{
+    "JAN":"In January 1980, Congress returned to power with a majority in the next Lok Sabha elections. They decided to dissolve the assemblies of the states that were led by the Janata Party or coalitions. The Seventh Assembly of the Vidhan Sabha was hence yet again dissolved prematurely, and Presidential rule was instate",
+    "TENURE":"Assembly Tenure for Seventh and Eight Assembly <br><br> 7th Assembly<br> 23rd June 1977 – 17th February<br> Seats: 425<br> overnment formed by Janata Party with 352 seats <br><br> 8th Assembly <br> 9th June 1980 – 10th March 1985<br>Seats:425<br> Government formed by INC with 309 seats<br>",
+    "7TH":"  7th Assembly A Coalition government was formed that was led by the Janata Dal Leader of the House Shri Ram Naresh Yadav (Janata Dal) Succeeded by then Speaker Shri Banarsi Das (Janata Dal) Speaker of the House Shri Banarsi Das (JanataParty)Succeeded by Deputy Speaker Shri Jagannath Prasad (Independent) Leader of Oposition Shri Narayan Dutt Tiwari (INC)Succeeded by Shri Raj Mangal Pandey",
+    "SPEAKER":"Speaker",
+    "JAGN":"Shri Jagannath Prasad",
+    "BABU":"Babu Banarasi Das",
+    "LEADER":"Leader of Opposition",
+    "MANGAL":"Shri Raj Mangal Pandey",
+    "DN":"N.D. Tiwari",
+    "CM":"CM of Seventh Assembly",
+    "BABUP":"Shri Babu Banarsi Das was elected Speaker of the Seventh Assembly. In 1979, however, he resigned from his post to become the leader of the Janata Party and the allied parties at the time. He then went on to become the Chief Minister of Uttar Pradesh within the tenure of the same assembly. Shri Jagannath Prasad, who was the then Deputy Speaker elected as an independent candidate, succeeded Shri Banarsi Das as the Speaker of the House. This was the first time the Speaker of the House took up the position of the Chief Minister of the State.<br>In January 1980, Congress returned to power with a majority in the next Lok Sabha elections. Theydecided to dissolve the assemblies of the states that were led by the Janata Party or coalitions. The Seventh Assembly of the Vidhan Sabha was hence yet again dissolved prematurely, and Presidential rule was instated.<br>After the dissolution of the Seventh Assembly, elections were held.",
+    "9TH":"9th Assembly 10th March 1985 – 29th November 1989 Seats: 425 Government formed by INC with 269 seats 10th Assembly 2nd December 1989 – 4th April 1991 Seats: 425 Government led by Janata Dal with 208 seats.",
+    "10TH":"10th Assembly<br>Leader of the House<br>Shri Mulayam Singh Yadav (Janata Dal)<br>Speaker of the House<br>Shri Hari Kishan (Jaata Dal)<br>Leader of Opposition<br>Shri Narayan Dutt Tiwari (INC)",
+    "HARI":"Harikishan Srivastava",
+    "CM10":"CM of tenth Assembly",
+    "YADAV":"Mulayam Singh Yadav",
+    "IMP":"An important undertaking of the Ninth Legislative Assembly was the ‘Uttar Pradesh Legislative Assembly Members (Disqualification on the Ground of Defection) Rules, 1987’ which was laid on the table of the House on September 01, 1986. On June 26, 1987, certain amendments were accepted by the Speaker's Bench. These rules came into force in a modified form from June 28, 1987. The Tenth Assembly had the second shortest tenure after the Fourth Assembly. The Chief Minister Mulayam Singh went on to become the Defence Minister of the Country in 1996.",
+    "11TH":"11th Assembly 22nd June 1991 – 6th December 1992 Seats: 425 seats Government formed by Bharatiya Janata Party with 269 seats 12th Assembly 4th December 1993 – 27th October 1995 Seats: 425 seats Government initially formed by SP and BSP"
+
+    }
+   
   
 }

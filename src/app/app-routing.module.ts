@@ -9,10 +9,10 @@ import { ScreenThreeComponent } from './screen-three/screen-three.component';
 import { ScreenTwoComponent } from './screen-two/screen-two.component';
 
 const routes: Routes = [
-// { path: 'middle', component: MiddlePartComponent },
+// { path: 'ancient', component: AncientBeginComponent },
 // { path: 'modern', component: ModernPartComponent },
-{ path: '', component: ScreenOneComponent },
-// { path: 'screen2', component: ScreenTwoComponent },
+{ path: 'screen1', component: ScreenOneComponent },
+{ path: '', component: ScreenTwoComponent },
 // { path: '', component: ScreenThreeComponent },
 ];
 
