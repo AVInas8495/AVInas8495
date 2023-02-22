@@ -19,7 +19,7 @@
             </div>
             <div class="col-md-4">
                 <div class="para text-white">
-                  {{'Part2.UP' | translate}}
+                    {{'Part2.UP' | translate}}
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
 
     <div *ngSwitchCase="'tab13'" class="container  bghead fix-height">
         <div class="text-white">
-           {{'Part2.REVOLT' | translate}}
+            {{'Part2.REVOLT' | translate}}
             <div style="float:right;width:60%">
                 <div class="row">
                     <div class="col-md-6 mb-2 pe-0">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-              {{'Part2.HISTORIAN' | translate}}
+                {{'Part2.HISTORIAN' | translate}}
             </div>
         </div>
     </div>
@@ -260,11 +260,11 @@
 
 <div *ngIf="isshow" class="container  bghead fix-height ">
     <div class="row h-100 align-items-center">
-        <div *ngIf="!main_options_left && !submenu_gov_act && !submenu_face_ww1" class="col-md-6">
+        <div *ngIf="!main_options_left && !submenu_gov_act && !submenu_face_ww1" class="col-md-6 mb-4">
             <div class="d-flex align-items-center justify-content-center {{submenu_revolt ? 'ms-5' : ''}}">
                 <div *ngIf="!revolt" class="p-2 {{!submenu_revolt ? 'mb-5 pb-5' : ''}}">
                     <div class="text-center">
-                        <button type="button" class="customBtn {{!submenu_revolt ? 'mb-5' : ''}} " type="button"
+                        <button type="button" class="customBtn {{!submenu_revolt ? '' : 'rightSide'}} " type="button"
                             (click)="showContentpart()">
                             {{'Part2.REVBTN' | translate}}
                         </button>
@@ -272,14 +272,15 @@
                 </div>
                 <div *ngIf="!indian_council" class="p-2  {{main_options_left}}">
                     <div class="text-center">
-                        <button type="button" class="customBtn" (click)="showContentpart1()">
+                        <button type="button" class="customBtn {{!submenu_indian_council ? 'mb-5' : 'rightSide'}}"
+                            (click)="showContentpart1()">
                             {{'Part2.ACTBTN' | translate}}
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        <div *ngIf="submenu_face_ww1" class="col-md-6">
+        <div *ngIf="submenu_face_ww1" class="col-md-6 ">
             <div class="d-flex flex-column mb-3 left-panel-open">
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
@@ -303,19 +304,20 @@
 
             </div>
         </div>
-        <div *ngIf="!main_options_right" class="col-md-6">
+        <div *ngIf="!main_options_right" class="col-md-6 mb-4">
             <div
                 class="d-flex align-items-center {{main_options_right || submenu_gov_act || submenu_face_ww1? 'ms-5' : ''}}">
                 <div *ngIf="!face_ww1" class="p-2 ">
                     <div class="text-center">
-                        <button type="button" class="customBtn" type="button" (click)="showContentpart2()">
+                        <button type="button" class="customBtn {{!submenu_face_ww1 ? '' : 'leftSide'}}" type="button"
+                            (click)="showContentpart2()">
                             {{'Part2.FACEBTN' | translate}}
                         </button>
                     </div>
                 </div>
                 <div *ngIf="!gov_act" class="p-2  {{!submenu_gov_act ? 'mb-5 pb-5' : ''}}">
                     <div class="text-center">
-                        <button type="button" class="customBtn {{!submenu_gov_act ? 'mb-5 ' : ''}}"
+                        <button type="button" class="customBtn {{!submenu_gov_act ? 'mb-5 ' : 'leftSide'}}"
                             (click)="showContentpart3()">
                             {{'Part2.ACTBTN2' | translate}}
                         </button>
@@ -324,7 +326,7 @@
             </div>
         </div>
 
-        <div *ngIf="submenu_revolt" class="col-md-6">
+        <div *ngIf="submenu_revolt" class="col-md-6 mb-2">
             <div class="d-flex flex-column mb-3 right-panel-open">
                 <div class="p-2 bd-highlight">
                     <div class="text-center">

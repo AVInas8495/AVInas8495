@@ -303,7 +303,7 @@ p.small-font {
     height: 1px;
     background-color: #ffffff;
     position: absolute;
-    left: -190px;
+    right: 100%;
     top: 50%;
 }
 
@@ -325,11 +325,11 @@ p.small-font {
 .left-panel-open:before {
     content: "";
     width: 1px;
-    height: calc(100% - 64px);
+    height: calc(100% - 84px);
     background-color: #ffffff;
     position: absolute;
     right: 0;
-    top: 32px;
+    top: 42px;
 }
 
 .left-panel-open:after {
@@ -534,10 +534,79 @@ p.small-font {
     background-color: #878271;
     width: 180px;
     min-height: 50px;
+    padding: 15px 5px;
     height: auto;
     position: relative;
     z-index: 999;
 }
+
+.customBtn::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #D4BE8F;
+    display: flex;
+    bottom: -18px;
+    left: 50%;
+    background: #D4BE8F;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 2px;
+    transform: rotate(-45deg) translateY(-50%);
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    line-height: 1;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.customBtn::after {
+    content: "+";
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -6px;
+    width: 20px;
+    font-size: 25px;
+    height: 20px;
+    line-height: 1;
+    font-weight: bold;
+    display: block;
+}
+
+.customBtn.rightSide::before {
+    top: 50%;
+    right: -16px;
+    left: auto;
+    bottom: auto;
+    margin-top: -2px;
+}
+
+.customBtn.rightSide::after {
+    top: 50%;
+    right: -10px;
+    bottom: auto;
+    left: auto;
+    content: "-";
+    margin-top: -16px;
+}
+
+.customBtn.leftSide::before {
+    top: 50%;
+    left: -3px;
+    right: auto;
+    bottom: auto;
+    margin-top: -2px;
+}
+
+.customBtn.leftSide::after {
+    top: 50%;
+    left: -4px;
+    bottom: auto;
+    right: auto;
+    content: "-";
+    margin-top: -16px;
+}
+
 
 .footimg {
     background-image: url("assets/footerimg.png");
