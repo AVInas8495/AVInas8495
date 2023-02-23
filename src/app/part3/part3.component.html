@@ -32,7 +32,7 @@
 
     <div *ngSwitchCase="'tab3'" class="container  bghead fix-height">
 
-        <div class="text-white" [innerHTML]="'Part3.1920' | translate">
+        <div class="text-white">
             <div style="float:left;width:63%">
                 <div class="row">
                     <div class="col-md-6 mb-2">
@@ -43,8 +43,9 @@
                         <img src="../../assets/part3/img313.png" class="img-fluid">
                     </div>
                 </div>
+                
             </div>
-        
+            {{'Part3.1920' | translate}}
         </div>
     </div>
 
@@ -57,17 +58,12 @@
                     </div>
                     <div class="col-md-6 ps-0 pe-4 text-center">
                         <img src="../../assets/part3/img322.png" class="img-fluid mb-2">
-                        Arrangement in seats of opposition 1924
+                        {{'Part3.SEAT' |translate}}
                         <img src="../../assets/part3/img323.png" class="img-fluid">
-                        Removal of sex bar for membership of council
+                        {{'Part3.SEX' |translate}}
                     </div>
                 </div>
-            </div>The first session of the next Council that was elected under the provisions of the Government of
-            India Act 1919 was held on 9th January 1924 with Mr. Keane chairing the proceedings.<br>
-            Before this session, the seating of the members was not organised according to their party affiliations,
-            but according to seniority. During this particular session, it was announced that the Swaraj Party
-            – the then opposition – would be seated on the left block, facing the government block.
-            This system is being followed in the Lower House of the Uttar Pradesh Legislature to date.
+            </div>{{'Part3.FIRSESS' | translate}}
         </div>
 
     </div>
@@ -78,11 +74,7 @@
                 <img src="../../assets/part3/imgtab33.png" class="w-100">
             </div>
             <div class="col-md-4">
-                <span>The workmanship of Vidhan Bhavan is an elegant and winsome amalgamation of European, Mughal,
-                    and gothic styles of construction with an Awadhi flare. Most of its interior is made of famed
-                    marble from Agra and Jaipur. The main octagonal Chamber has a domed ceiling, with jaalis
-                    and exquisite figures of eight dancing peacocks.
-                    The sessions of the Legislative Assembly convene in this very chamber.</span>
+                <span>{{'Part3.WORK' | translate}}</span>
             </div>
         </div>
     </div>
@@ -92,28 +84,13 @@
             <div class="w-30">
                 <div class="text-center text-white">
                     <img src="../../assets/part3/img331.png" class="img-fluid" alt="img" />
-                    Before Vidhan Bhawan
+                    {{'Part3.BEFVB' | translate}}
                 </div>
             </div>
             <div class="w-70 pe-4">
 
                 <div class="text-white ps-4">
-                    <small>Before the year 1922, there was no permanent venue for the council meetings of
-                        the state to be held. The Council sessions were convened in eleven different buildings of
-                        Lucknow,
-                        Allahabad (Now Prayagraj), Bareilly, and Nainital, since its inception in 1887.<br>
-                        <br>
-                        Lucknow<br>
-                        <br>
-                        Government House<br>
-                        Chattar Manzil<br>
-                        Council Chamber<br>
-                        Canning College<br>
-                        <br>
-                        Allahabad (Now Praygraj)<br>
-                        <br>
-                        Thorn Hill Mayne Memorial<br>
-                        Muir Central College</small>
+                    <small  [innerHTML]="'Part3.BEF' | translate"></small>
                 </div>
             </div>
         </div>
@@ -155,15 +132,9 @@
             <div class="w-50 ps-4">
 
                 <div class="text-white">
-                    <h4>Foundation Stone for Assembly (1922)</h4>
+                    <h4>{{ 'Part3.1992' | translate}}</h4>
                     <p class="small-font">
-                        The Foundation Stone for Vidhan Bhavan – originally christened the Council House – was laid on
-                        December 15, 1922,
-                        by the then Governor Sir Spencer Harcourt Butler. M/s Martin and Company of Calcutta was tasked
-                        with
-                        the
-                        construction of the building and took 6 years to conclude the project.
-                        Its chief architects were Sir Swinon Jacob and Sardar Hira Singh.
+                        {{'Part3.FOUND' | translate}}
                     </p>
                 </div>
             </div>
@@ -174,20 +145,13 @@
         <div class="row">
             <div class="col-md-8 text-center text-white">
                 <img src="../../assets/part3/img334.png" class="img-fluid" alt="img" />
-                Vidhan Sabha Wall
+                {{'Part3.VWALL' | translate}}
             </div>
             <div class="col-md-4">
                 <div class="row">
                     <h4>Architecture</h4>
                     <div class="text-white">
-                        The workmanship of Vidhan Bhavan is an elegant and winsome amalgamation of European, Mughal,
-                        and gothic styles of construction with an Awadhi flare. Most of its interior is made of famed
-                        marble
-                        from Agra and Jaipur.
-                        The main octagonal Chamber has a domed ceiling, with jaalis and exquisite figures of eight
-                        dancing
-                        peacocks.
-                        The sessions of the Legislative Assembly convene in this very chamber.
+                       {{'Part3.WORKMAN' | translate}}
                     </div>
                 </div>
             </div>
@@ -203,11 +167,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="text-white">
-                        The Vidhan Bhavan was inaugurated on 21st February 1928 with great pomp and flare.
-                        The correspondence from the time shows the extensive planning that went into organising the
-                        inauguration
-                        – from security to invitations to the minutest of details like who would be seated where. 
-                        Council meetings and eventually the Assembly meetings have convened here ever since.
+                       {{'Part3.VB' | translate}}
                     </div>
                 </div>
 
@@ -248,14 +208,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-40 ps-4">The newly formed Assembly consisted of 228 members and the Legislative Council was
-                constituted of 60
-                members.
-                The tenure of the Assembly was fixed at 5 years and the Council’s at 9 years with one-third of the
-                members
-                retiring
-                every three years. The Houses had the right to elect their own presiding officers
-                - the Speaker of the House for the Assembly and the Chairman for the Council.</div>
+            <div class="w-40 ps-4">{{'Part3.NEW' | translate}}</div>
         </div>
     </div>
     <div *ngSwitchCase="'tab13'" class="container  bghead fix-height">
@@ -268,10 +221,7 @@
                             <img src="../../assets/part3/img341.png" class="img-fluid">
                         </div>
                         <div class="col-md-6">
-                            With the Government of India Act in 1935, the next huge step was ushered toward
-                            the growth of our legislative institutions. The United Province Legislature now became
-                            Bicameral,
-                            with a legislative Council as before, but also a Legislative Assembly.
+                           {{'Part3.WITH' | translate}}
                         </div>
                     </div>
                     <div class="row">
@@ -279,21 +229,7 @@
                             <img src="../../assets/part3/img342.png" class="img-fluid">
                         </div>
                         <div class="col-md-9 ps-0 pe-4">
-                            The newly formed Assembly consisted of 228 members and the Legislative Council was
-                            constituted of
-                            60 members.
-                            The tenure of the Assembly was fixed at 5 years and the Council’s at 9 years with one-third
-                            of the
-                            members
-                            retiring every three years. The Houses had the right to elect their own presiding officers -
-                            the
-                            Speaker of the
-                            House for the Assembly and the Chairman for the Council. The first meeting of the
-                            Legislative
-                            Assembly
-                            was concluded on 29th July 1937. Shri Purushottam Das Tandon and Shri Abdul Hakim were
-                            elected
-                            Speaker and
+                           {{'Part3.60' | translate}}
                         </div>
                     </div>
                 </div>
@@ -304,10 +240,7 @@
     <div *ngSwitchCase="'tab14'" class="container  bghead fix-height">
 
         <div class="text-white">
-            In October 1939, India was declared a belligerent nation by Britain owing to the Second World War.
-            This situation ultimately led Pandit G. B. Pant, to move a resolution on the subject in the Assembly on
-            October 27, 1939,
-            which with a minor amendment was passed on October 30, 1939. The text of the resolution was as follows: 
+           {{'Part3.OCT' | translate}}
             <div style="float:left;width:100%">
                 <div class="row justify-content-center mt-4">
                     <div class="col-md-6 mb-2">
@@ -332,15 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-40 ps-4">On December 9, 1946, as the clock struck 11, the Constituent Assembly began its
-                    first session, with 211 members attending, out of which 55 hailed from Uttar Pradesh. The drafting
-                    was
-                    concluded on 26th November 1949 and approved by the Assembly. On 26 January 1950, the constitution
-                    took effect, making it India’s first Republic Day. The First Assembly of UP to be elected by
-                    Universal
-                    Adult Franchise under the new constitution of India was formed in 1952, four years after the Indian
-                    Independence Act. This Assembly was the First Vidhan Sabha of the newly christened State of Uttar
-                    Pradesh.</div>
+                <div class="w-40 ps-4">{{'Part3.DEC' | translate}}</div>
             </div>
         </div>
     </div>
@@ -382,7 +307,7 @@
             <div class="text-center {{!visible1 ? 'mb-5 pb-5' : ''}}">
                 <button type="button" class="{{!visible1 ? 'mb-5 ms-5' : 'rightSide'}} customBtn ms-5"
                     (click)="showContent()">
-                    First Election & after
+                    {{'Part3.FEBTN' | translate}}
                 </button>
             </div>
         </div>
@@ -392,14 +317,14 @@
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" type="button" (click)="showTab('tab3')">
-                            First Election & the first session that followed
+                            {{'Part3.FBTN' | translate}}
                         </button>
                     </div>
                 </div>
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" (click)="showTab('tab4')">
-                            Momentous Highlights in the period
+                            {{'Part3.MBTN' | translate}}
                         </button>
                     </div>
                 </div>
@@ -409,7 +334,7 @@
         <div class="{{visible2 ? 'col-md-6' : 'col-md-4'}} mb-4" *ngIf="!visible1 && !visible3">
             <div class="text-center ">
                 <button type="button" class="customBtn {{!visible2 ? 'mb-5' : 'rightSide'}}" (click)="showContent1()">
-                    Vidhan Bhawan
+                    {{ 'Part3.VBBTN' | translate}}
                 </button>
             </div>
         </div>
@@ -418,28 +343,28 @@
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" type="button" (click)="showTab('tab6')">
-                            Pre Vidhan Bhawan
+                            {{'Part3.PBTN' | translate}}
                         </button>
                     </div>
                 </div>
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" (click)="showTab('tab8')">
-                            Foundation Stone
+                            {{'Part3.FOBTN' | translate}}
                         </button>
                     </div>
                 </div>
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" (click)="showTab('tab9')">
-                            Extension of the building
+                            {{'Part3.EBTN' | translate}}
                         </button>
                     </div>
                 </div>
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" (click)="showTab('tab10')">
-                            Inauguration
+                            {{'Part3.IBTN' | translate}}
                         </button>
                     </div>
                 </div>
@@ -451,21 +376,21 @@
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" type="button" (click)="showTab('tab13')">
-                            Govt. of India Act 1935
+                            {{'Part3.GBTN' | translate}}
                         </button>
                     </div>
                 </div>
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" (click)="showTab('tab14')">
-                            In the face of World War 2
+                            {{'Part3.ITBTN' | translate}}
                         </button>
                     </div>
                 </div>
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" (click)="showTab('tab15')">
-                            A New Era in a free India
+                            {{'Part3.ABTN' | translate}}
                         </button>
                     </div>
                 </div>
@@ -474,7 +399,7 @@
         <div class="{{visible3 ? 'col-md-6' : 'col-md-4'}} mb-4" *ngIf="!visible2 && !visible1">
             <div class="text-center {{!visible3 ? 'mb-5 pb-5' : ''}}">
                 <button type="button" class="customBtn {{!visible3 ? 'mb-5 me-5' : 'leftSide'}}" (click)="showContent2()">
-                    Bicameral Beginnings
+                   {{'Part3.BBTN' | translate}}
                 </button>
             </div>
         </div>
