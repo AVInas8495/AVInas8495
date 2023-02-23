@@ -290,38 +290,35 @@
       <div class="col-md-4">
         <p>{{'Part4.SPEAKER' | translate}}</p>
         <img src="../../assets/part4img/Agarwal.png" class="w-100">
-        <span> Jagdish Saran Agarwal</span>
+        <span>{{ 'Part4.JAG' | translate}}</span>
       </div>
       <div class="col-md-4">
-        <span class="d-block">The elections for the Fourth Assembly were concluded in the year 1967, giving rise to the
-          first coalition government in the history of the Uttar Pradesh Vidhan Sabha. A new cabinet was formed under
-          the leadership of Shri Chandrabhanu Gupta. Shri Jagdish Sharan Agarwal was unanimously elected as the Speaker
-          of the house. Shri Ram Chandra Vikal took charge as the leader of Opposition within this Assembly. Shri
-          Chaudhary Charan Singh succeeded Shri Gupta as the leader of the Hous. </span>
+        <span class="d-block"  [innerHTML]="'Part4.4TH' | translate"></span>
       </div>
       <div class="col-md-4 pe-0">
         <div class="row text-white">
           <p>{{'Part4.LEADER' | translate}}</p>
           <div class="col-6 md pe-0 d-flex">
-            <div class="img-left flex-column gap-3">
-              <img src="../../assets/part4img/ChandraBasuGupta.png" class="w-100">
-              <span>Chandra Basu Gupta </span>
-            </div>
-            <div class="img-right flex-column">
-              <img src="../../assets/part4img/CharanSingh.png" class="w-100">
-              <span>Charan Singh</span>
-            </div>
-          </div>
-          <p>CM of Fourth Assembly </p>
-          <div class="col-6 md pe-0 d-flex">
             <div class="img-left flex-column mr-10px">
               <img src="../../assets/part4img/ChandraBasuGupta.png" class="w-100">
-              <span>Chandra Basu Gupta
+              <span>{{ 'Part4.GUPTA' | translate}}
               </span>
             </div>
             <div class="img-right flex-column">
               <img src="../../assets/part4img/RamCharanVikup.png" class="w-100">
-              <span>Ram Chandra Vikal</span>
+              <span>{{'Part4.RAM' | translate}}</span>
+            </div>
+          </div>
+
+          <p>{{ 'Part4.CM4' |translate}}</p>
+          <div class="col-6 md pe-0 d-flex">
+            <div class="img-left flex-column gap-3">
+              <img src="../../assets/part4img/ChandraBasuGupta.png" class="w-100">
+              <span>{{ 'Part4.GUPTA' | translate}}</span>
+            </div>
+            <div class="img-right flex-column">
+              <img src="../../assets/part4img/CharanSingh.png" class="w-100">
+              <span>{{'Part4.CS' | translate}}</span>
             </div>
           </div>
         </div>
@@ -341,22 +338,13 @@
 
   <div *ngSwitchCase="'tab223'" class="container  bghead fix-height">
 
-    <div class="row text-white align-items-center">
-      <div class="col-md-4">
-        <img src="../../assets/part4img/constitution.png" class="w-100">
-      </div>
-      <div class="col-md-8">
-        <span class="d-block mb-2">The Government of India Act was another milestone in our legislative history
-          as it
-          replaced nearly all the earlier enactments with regard to the Indian Constitution.</span>
-        <img src="../../assets/part4img/constitution-2.png" class="w-70">
-      </div>
-    </div>
+    
+
   </div>
 
   <div *ngSwitchCase="'tab23'" class="container  bghead fix-height">
 
-    <div class="row text-white align-items-center">
+    <!-- <div class="row text-white align-items-center">
       <div class="col-md-4">
         <img src="../../assets/part4img/constitution.png" class="w-100">
       </div>
@@ -366,7 +354,7 @@
           replaced nearly all the earlier enactments with regard to the Indian Constitution.</span>
         <img src="../../assets/part4img/constitution-2.png" class="w-70">
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div *ngSwitchCase="'tab24'" class="container  bghead fix-height">
@@ -382,7 +370,7 @@
   class="row bgceneter four-rays {{main_options_left ? 'left-rays' : submenu_revolt ? 'left-rays' : submenu_face_ww1 ? 'right-rays' : submenu_indian_council ? 'left-rays' : submenu_gov_act ? 'right-rays' : main_options_right ? 'right-rays' : ''}}">
   <div class="col-md-12">
     <div class="text-center" style="cursor: pointer" (click)="showaob()">
-      <img src="../../assets/part4img/oval2.png" class="ovalbtn" alt="img" />
+      <img src="../../assets/part4img/Part4o.png" class="ovalbtn" alt="img" />
       <div class="rays" *ngIf="isshow">
         <img src="../../assets/part4img/rays.png">
         <img src="../../assets/part4img/rays.png">

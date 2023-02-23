@@ -133,7 +133,14 @@
 "ATMA2":"Govind Kher",
 "SAM":"Sampurnanand",
 "CHAN":"Chandra Bhanu Gupta",
-"OFF":"The First Assembly The Speaker of the House as its presiding officer is expected to maintain order, manage the proceedings and govern the administration of its business. Since the Speaker is required to moderate the proceedings of the House in a manner of speaking, there is an expectation for the elected person to be close to unprejudiced. In the First Assembly, when Shri Atmaram Kher was unanimously elected the Speaker of the House, he recognized that responsibility and announced that he would do his best to follow the middle path and avoid taking part in active politics while "
+"OFF":"The First Assembly The Speaker of the House as its presiding officer is expected to maintain order, manage the proceedings and govern the administration of its business. Since the Speaker is required to moderate the proceedings of the House in a manner of speaking, there is an expectation for the elected person to be close to unprejudiced. In the First Assembly, when Shri Atmaram Kher was unanimously elected the Speaker of the House, he recognized that responsibility and announced that he would do his best to follow the middle path and avoid taking part in active politics while ",
+"4TH":"The elections for the Fourth Assembly were concluded in the year 1967, giving rise to the first coalition government in the history of the Uttar Pradesh Vidhan Sabha. A new cabinet was formed under the leadership of Shri Chandrabhanu Gupta. Shri Jagdish Sharan Agarwal was unanimously elected as the Speaker of the house. Shri Ram Chandra Vikal took charge as the leader of Opposition within this Assembly. Shri Chaudhary Charan Singh succeeded Shri Gupta as the leader of the House. ",
+"JAG":"Jagdish Saran Agarwal",
+"GUPTA":"Chandra Basu Gupta",
+"CS":"Charan Singh",
+"RAM":"Ram Chandra Vikal",
+"CM4":"CM of Fourth Assembly",
+"UP":"Uttar Pradesh gave the country the first woman Chief Minister of a state. 2nd October 1963 got marked as a momentous occasion in our history when Smt. Sucheta Kriplani took office as Chief Minister of Uttar Pradesh within the tenure of the Third Assembly. This was the first time a woman had taken up this office in any of the states in the country.<br>Shri Madan Mohan Verma was elected as Speaker of the house during the Third Assembly. During the congratulatory speech, some members suggested that Shri Verma follow the House of Commons tradition where the Speaker is non-partisan. He replied to this by stating that the speaker in the UK is elected unopposed from his constituency. Since this is not the case in India, he remarked that one tradition cannot be followed without another. <br>The Fourth Assembly is the very first time a single party could not secure an absolute majority. A coalition government was formed for the first time"
 
 
   },
@@ -147,7 +154,7 @@
     "LEADER":"Leader of Opposition",
     "MANGAL":"Shri Raj Mangal Pandey",
     "DN":"N.D. Tiwari",
-    "CM":"CM of Seventh Assembly",
+    "":"CM of Seventh Assembly",
     "BABUP":"Shri Babu Banarsi Das was elected Speaker of the Seventh Assembly. In 1979, however, he resigned from his post to become the leader of the Janata Party and the allied parties at the time. He then went on to become the Chief Minister of Uttar Pradesh within the tenure of the same assembly. Shri Jagannath Prasad, who was the then Deputy Speaker elected as an independent candidate, succeeded Shri Banarsi Das as the Speaker of the House. This was the first time the Speaker of the House took up the position of the Chief Minister of the State.<br>In January 1980, Congress returned to power with a majority in the next Lok Sabha elections. Theydecided to dissolve the assemblies of the states that were led by the Janata Party or coalitions. The Seventh Assembly of the Vidhan Sabha was hence yet again dissolved prematurely, and Presidential rule was instated.<br>After the dissolution of the Seventh Assembly, elections were held.",
     "9TH":"9th Assembly 10th March 1985 – 29th November 1989 Seats: 425 Government formed by INC with 269 seats 10th Assembly 2nd December 1989 – 4th April 1991 Seats: 425 Government led by Janata Dal with 208 seats.",
     "10TH":"10th Assembly<br>Leader of the House<br>Shri Mulayam Singh Yadav (Janata Dal)<br>Speaker of the House<br>Shri Hari Kishan (Jaata Dal)<br>Leader of Opposition<br>Shri Narayan Dutt Tiwari (INC)",
@@ -192,6 +199,7 @@
   "HIRI":"Shri Hriday <br> Narayan Dixit",
   "CHAU":"Shree Ramgovind<br>Chaudhary",
   "YOGI":"Adityanath <br> Yogi",
+  "CM":"CM of Seventh Assembly",
   "S1":"The 17th Vidhan Sabha was witness to the first ever time Lucknow organised the Seventh Conference of the Commonwealth Parliamentary Association within the premises of the Vidhan Bhavan, hosting dignitaries from Australia, Malaysia, and Mauritius among others.",
   "S2":"A milestone in the history of the Uttar Pradesh Legislature was achieved when the proceedings on the birth anniversary of Mahatma Gandhi concluded uninterrupted for 36 hours.",
   "S3":"The practice of Anglo-Indian nomination in the Lower House of the state ended under this Assembly’s tenure.",
