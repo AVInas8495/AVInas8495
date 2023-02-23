@@ -23,7 +23,7 @@ import { Part5Component } from './part5/part5.component';
 import { CommonModule } from '@angular/common';
 
 export function HttpLoaderFactory(http:HttpClient){
-  return new TranslateHttpLoader(http)
+  return new TranslateHttpLoader(http,'./assets/i18n/', '.json')
 }
 
 @NgModule({
