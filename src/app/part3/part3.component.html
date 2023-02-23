@@ -392,9 +392,10 @@
 
 
     <div class="row h-100 align-items-center" *ngIf="isshow">
-        <div *ngIf="!visible2 && !visible3" class="{{visible1 ? 'col-md-6' : 'col-md-4'}} mb-4">
+        <div *ngIf="!visible2 && !visible3" class="{{visible1 ? 'col-md-6 mb-1' : 'col-md-4 mb-4'}} ">
             <div class="text-center {{!visible1 ? 'mb-5 pb-5' : ''}}">
-                <button type="button" class="{{!visible1 ? 'mb-5 ms-5' : ''}} customBtn ms-5" (click)="showContent()">
+                <button type="button" class="{{!visible1 ? 'mb-5 ms-5' : 'rightSide'}} customBtn ms-5"
+                    (click)="showContent()">
                     First Election & after
                 </button>
             </div>
@@ -421,7 +422,7 @@
 
         <div class="{{visible2 ? 'col-md-6' : 'col-md-4'}} mb-4" *ngIf="!visible1 && !visible3">
             <div class="text-center ">
-                <button type="button" class="customBtn {{!visible2 ? 'mb-5' : ''}}" (click)="showContent1()">
+                <button type="button" class="customBtn {{!visible2 ? 'mb-5' : 'rightSide'}}" (click)="showContent1()">
                     Vidhan Bhawan
                 </button>
             </div>
@@ -486,7 +487,7 @@
         </div>
         <div class="{{visible3 ? 'col-md-6' : 'col-md-4'}} mb-4" *ngIf="!visible2 && !visible1">
             <div class="text-center {{!visible3 ? 'mb-5 pb-5' : ''}}">
-                <button type="button" class="customBtn {{!visible3 ? 'mb-5 me-5' : ''}}" (click)="showContent2()">
+                <button type="button" class="customBtn {{!visible3 ? 'mb-5 me-5' : 'leftSide'}}" (click)="showContent2()">
                     Bicameral Beginnings
                 </button>
             </div>

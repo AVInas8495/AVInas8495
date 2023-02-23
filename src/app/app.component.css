@@ -8,19 +8,39 @@
   position: fixed;
   bottom: 15px;
   left: 15px;
-  z-index: 99;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 320px;
-  background: #ffffff;
-  white-space: nowrap;
-  border-radius: 5px;
-  padding: 8px;
-  font-weight: bold;
+  z-index: 999;
+}
+
+.langSelector button {
+  width: 80px;
+  border: none;
+  background: transparent;
+  outline: none;
 }
 
 .form-select {
   margin-left: 15px;
   border: none;
+}
+
+.dropdown-menu.show {
+  display: block;
+  transform: none !important;
+  left: 100% !important;
+  margin-left: 15px !important;
+  background: transparent;
+}
+
+.dropdown-item {
+  background: #878271 !important;
+  border: 1px solid #14110C !important;
+  border-radius: 4px;
+  width: 100% !important;
+  margin: 5px 0;
+  color: #ffffff;
+  padding: 5px 15px;
+}
+
+.dropdown-toggle::after {
+  display: none;
 }

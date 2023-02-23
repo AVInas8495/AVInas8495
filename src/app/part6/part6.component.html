@@ -14,7 +14,7 @@
       </div>
       <div class="w-30  text-white m-2 ">
         <p>
-         {{'Part6.FIND' | translate}}
+          {{'Part6.FIND' | translate}}
         </p>
       </div>
     </div>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="w-50  text-white m-2 ">
-      {{'Part6.PEEK' |translate}}
+        {{'Part6.PEEK' |translate}}
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@
             alt="img" />
 
           <span class="text-white p-2" [innerHTML]="'Part6.HIRI' | translate">
-            
+
           </span>
 
         </div>
@@ -78,7 +78,7 @@
                 class="img-fluid p-1 common-wrapper w-50 bg-1857" alt="img" />
 
               <span class="text-center d-block" [innerHTML]="'Part6.CHAU' | translate">
-                
+
               </span>
             </div>
           </div>
@@ -89,7 +89,7 @@
                 class="img-fluid  p-1 common-wrapper w-50  bg-1857" alt="img" />
 
               <span class="text-center d-block" [innerHTML]="'Part6.YOGI' | translate">
-                
+
               </span>
 
             </div>
@@ -277,7 +277,7 @@
       </div>
       <div class="col-md-9 p-2 text-white ">
         <small [innerHTML]="'Part6.SATISH' | translate">
-          
+
         </small>
       </div>
     </div>
@@ -316,16 +316,17 @@
 
 <div *ngIf="isshow" class="fix-height footimg">
   <div class="row h-100 align-items-center justify-content-center">
-    <div class="col-md-4" *ngIf="!visible2 && !visible3" class="{{visible1 ? 'col-md-6' : 'col-md-4'}} mb-4">
+    <div class="col-md-4" *ngIf="!visible2 && !visible3" class="{{visible1 ? 'col-md-6 mb-1' : 'col-md-4 mb-4'}} ">
       <div class="text-center {{!visible1 ? 'mb-5 pb-5' : ''}}">
-        <button type="button " class="{{!visible1 ? 'mb-5 ms-5' : ''}} customBtn ms-5" (click)="showContent2_1()">
+        <button type="button " class="{{!visible1 ? 'mb-5 ms-5' : 'rightSide'}} customBtn ms-5"
+          (click)="showContent2_1()">
           {{'Part6.17N18BTN' | translate}}
         </button>
       </div>
     </div>
     <div class="{{visible2 ? 'col-md-6' : 'col-md-4'}}" *ngIf="!visible3 && !visible1">
       <div class="text-center">
-        <button type="button" class="customBtn" (click)="showContent2_2()">
+        <button type="button" class="customBtn {{!visible2 ? '' : 'centerSide'}}" (click)="showContent2_2()">
           {{'Part6.VISBTN' | translate}}
         </button>
       </div>
@@ -335,7 +336,7 @@
     </div>
     <div class="{{visible2 ? 'col-md-6' : 'col-md-4'}} mb-4" *ngIf="!visible1 && !visible2">
       <div class="text-center {{!visible2? 'mb-5 pb-5' : ''}}">
-        <button type="button" class="customBtn {{!visible2 ? 'mb-5 me-5' : ''}}" (click)="showContent2_3()">
+        <button type="button" class="customBtn {{!visible3 ? 'mb-5 me-5' : 'centerSide'}}" (click)="showContent2_3()">
           {{'Part6.SPINVBTN' | translate}}
         </button>
       </div>
