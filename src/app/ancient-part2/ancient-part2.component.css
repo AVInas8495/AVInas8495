@@ -45,7 +45,7 @@
 }
 
 .bgceneter {
-    background-image: url("../../assets/centerimg.png");
+    background-image: url("/assets/centerimg.png");
     background-size: 100% 100%;
     background-position: center;
     padding-top: 0px;
@@ -55,7 +55,7 @@
 }
 
 .bgceneter {
-    background-image: url("../../assets/bgimg.png");
+    background-image: url("/assets/bgimg.png");
     background-size: 100% 100%;
     background-position: center;
     padding-top: 0px;
@@ -65,7 +65,7 @@
 }
 
 .bgceneter {
-    background-image: url("../../assets/middle.png");
+    background-image: url("/assets/middle.png");
     background-size: 100% 100%;
     background-position: center;
     padding-top: 0px;
@@ -119,7 +119,7 @@
 }
 
 .footimg {
-    background-image: url("../../assets/footerimg.png");
+    background-image: url("/assets/footerimg.png");
     background-size: 100% 100%;
     background-position: center;
     padding-left: 0px;
