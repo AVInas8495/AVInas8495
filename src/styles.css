@@ -683,7 +683,7 @@ p.small-font {
     padding-top: 20px;
 }
 
-video::-webkit-media-controls-fullscreen-button {
+/* video::-webkit-media-controls-fullscreen-button {
     display: none;
 }
 video::-webkit-media-controls-play-button {display: none;}
@@ -695,7 +695,7 @@ video::-webkit-media-controls-toggle-closed-captions-button {display: none;}
 video::-webkit-media-controls-volume-slider {display: none;}
 video::-internal-media-controls-overflow-button{
     display: none;
-  }
+  } */
 
 /* .main{
     display: flex;
