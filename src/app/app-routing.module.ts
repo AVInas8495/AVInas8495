@@ -12,8 +12,8 @@ const routes: Routes = [
   // { path: 'ancient', component: AncientBeginComponent },
   // { path: 'modern', component: ModernPartComponent },
   // { path: '', component: ScreenOneComponent },
-  // { path: '', component: ScreenTwoComponent },
-  { path: '', component: ScreenThreeComponent },
+  { path: '', component: ScreenTwoComponent },
+  // { path: '', component: ScreenThreeComponent },
 ];
 
 
