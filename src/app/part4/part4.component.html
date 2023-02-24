@@ -226,6 +226,27 @@
     </div>
   </div>
 
+  <div *ngSwitchCase="'tab55'" class="container  bghead fix-height">
+
+    <div class="row text-white">
+      <div class="col-md-4">
+        <!-- <div class="row">
+          <div class="col-md-2">
+            <img src="../../assets/part4img/68L.png" class="w-100">
+          </div>
+          <div class="col-md-2">
+            <img src="../../assets/part4img/68R.png" class="w-100">
+          </div>
+        </div> -->
+        <div class="row"><img src="../../assets/part4img/Women.png" class="w-100"></div>
+        
+      </div>
+      <div class="col-md-8">
+        <span class="d-block mb-3" [innerHTML]="'Part4.UP' | translate"></span>
+      </div>
+    </div>
+  </div>
+
   <div *ngSwitchCase="'tab20'" class="container  bghead fix-height">
 
     <div class="row text-white">
@@ -326,7 +347,71 @@
     </div>
   </div>
 
-  <div *ngSwitchCase="'tab222'" class="container  bghead fix-height">
+  <div *ngSwitchCase="'tab25'" class="container  bghead fix-height">
+
+    <div class="row text-white align-items-center">
+      <div class="col-md-4">
+        <p>{{'Part4.SPEAKER' | translate}}</p>
+        <img src="../../assets/part4img/Agarwal.png" class="w-100">
+        <span>{{ 'Part4.JAG' | translate}}</span>
+      </div>
+      <div class="col-md-4">
+        <span class="d-block"  [innerHTML]="'Part4.4TH' | translate"></span>
+      </div>
+      <div class="col-md-4 pe-0">
+        <div class="row text-white">
+          <p>{{'Part4.LEADER' | translate}}</p>
+          <div class="col-6 md pe-0 d-flex">
+            <div class="img-left flex-column mr-10px">
+              <img src="../../assets/part4img/ChandraBasuGupta.png" class="w-100">
+              <span>{{ 'Part4.GUPTA' | translate}}
+              </span>
+            </div>
+            <div class="img-right flex-column">
+              <img src="../../assets/part4img/RamCharanVikup.png" class="w-100">
+              <span>{{'Part4.RAM' | translate}}</span>
+            </div>
+          </div>
+
+          <p>{{ 'Part4.CM4' |translate}}</p>
+          <div class="col-6 md pe-0 d-flex">
+            <div class="img-left flex-column gap-3">
+              <img src="../../assets/part4img/ChandraBasuGupta.png" class="w-100">
+              <span>{{ 'Part4.GUPTA' | translate}}</span>
+            </div>
+            <div class="img-right flex-column">
+              <img src="../../assets/part4img/CharanSingh.png" class="w-100">
+              <span>{{'Part4.CS' | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab26'" class="container bghead fix-height">
+    
+    <div class="row text-white">
+      <div class="col-md-4">
+        <!-- <div class="row">
+          <div class="col-md-2">
+            <img src="../../assets/part4img/68L.png" class="w-100">
+          </div>
+          <div class="col-md-2">
+            <img src="../../assets/part4img/68R.png" class="w-100">
+          </div>
+        </div> -->
+        <div class="row"><img src="../../assets/part4img/Frame72.png" class="w-100"></div>
+        
+      </div>
+      <div class="col-md-8">
+        <span class="d-block mb-3" [innerHTML]="'Part4.ETH' | translate"></span>
+      </div>
+    </div>
+
+</div>
+
+  <div *ngSwitchCase="'tab22'" class="container  bghead fix-height">
 
     <div class="row text-white align-items-center">
       <div class="col-md-12">
@@ -334,12 +419,6 @@
       </div>
 
     </div>
-  </div>
-
-  <div *ngSwitchCase="'tab223'" class="container  bghead fix-height">
-
-    
-
   </div>
 
   <div *ngSwitchCase="'tab23'" class="container  bghead fix-height">
@@ -355,6 +434,29 @@
         <img src="../../assets/part4img/constitution-2.png" class="w-70">
       </div>
     </div> -->
+
+    <div class="row text-white align-items-center">
+      <div class="col-md-4">
+        <div>
+          <img src="../../assets/part4img/Frmae98.png" class="w-100">
+        </div>
+        <br>
+        <div>
+          <img src="../../assets/part4img/Frame98.1.png" class="w-100">
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <p>{{'Part4.P10' | translate}}</p>
+
+        <p>
+          {{'Part4.P11' | translate}}
+        <p>
+        <p>
+          {{'Part4.P12' | translate}}
+        <p>
+      </div>
+    </div>
   </div>
 
   <div *ngSwitchCase="'tab24'" class="container  bghead fix-height">
@@ -404,14 +506,14 @@
           <div class="text-center">
             <button type="button" class="customBtn {{!submenu_revolt ? 'mb-5' : 'rightSide'}} " type="button"
               (click)="showContentpart()">
-              Vidhan Parishad
+              {{ 'Part4.VPBTN' | translate}}
             </button>
           </div>
         </div>
         <div *ngIf="!indian_council" class="p-2 {{main_options_left}}">
           <div class="text-center">
             <button type="button" class="customBtn {{!submenu_indian_council ? '' : 'rightSide'}}" (click)="showContentpart1()">
-              First & Second Assembly
+              {{ 'Part4.FSBTN' | translate}}
             </button>
           </div>
         </div>
@@ -422,7 +524,7 @@
         <div class="p-2 bd-highlight">
           <div class="text-center">
             <button type="button" type="button" (click)="showTabpart('tab22')">
-              Eminent Members
+              {{'Part4.EMEMBTN' | translate}}
             </button>
           </div>
         </div>
@@ -430,15 +532,15 @@
         <div class="p-2 bd-highlight">
           <div class="text-center">
             <button type="button" type="button" (click)="showTabpart('tab222')">
-              Landmark Legislations
+              {{'Part4.LANDBTN' | translate}}
             </button>
           </div>
         </div>
 
         <div class="p-2 bd-highlight">
           <div class="text-center">
-            <button type="button" type="button" (click)="showTabpart('tab223')">
-              Headliners
+            <button type="button" type="button" (click)="showTabpart('tab55')">
+              {{'Part4.HEADBTN' | translate}}
             </button>
           </div>
 
@@ -452,8 +554,24 @@
       <div class="d-flex flex-column mb-3 left-panel-open">
         <div class="p-2 bd-highlight">
           <div class="text-center">
-            <button type="button" type="button" (click)="showTabpart('tab22')">
-              1915
+            <button type="button" type="button" (click)="showTabpart('tab25')">
+              {{'Part4.EMEMBTN' | translate}}
+            </button>
+          </div>
+        </div>
+
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTabpart('tab26')">
+              {{'Part4.LANDBTN' | translate}}
+            </button>
+          </div>
+        </div>
+
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTabpart('tab26')">
+              {{'Part4.HEADBTN' | translate}}
             </button>
           </div>
         </div>
@@ -465,14 +583,14 @@
         <div *ngIf="!face_ww1" class="p-2 ">
           <div class="text-center">
             <button type="button" class="customBtn {{submenu_face_ww1 ? 'leftSide' : ''}}" type="button" (click)="showContentpart2()">
-              Third & Fourth Assembly
+              {{ 'Part4.TFBTN' | translate}}
             </button>
           </div>
         </div>
         <div *ngIf="!gov_act" class="p-2  {{!submenu_gov_act ? 'mb-5 pb-5' : ''}}">
           <div class="text-center">
             <button type="button" class="customBtn {{!submenu_gov_act ? 'mb-5 ' : 'leftSide'}}" (click)="showContentpart3()">
-              Fifth & Sixth Assembly
+              {{ 'Part4.FSABTN' | translate}}
             </button>
           </div>
         </div>
@@ -484,7 +602,7 @@
         <div class="p-2 bd-highlight">
           <div class="text-center">
             <button type="button" type="button" (click)="showTabpart('tab13')">
-              Eminent Members
+              {{'Part4.EMEMBTN' | translate}}
             </button>
           </div>
         </div>
@@ -501,21 +619,21 @@
         <div class="p-2 bd-highlight">
           <div class="text-center">
             <button type="button" type="button" (click)="showTabpart('tab17')">
-              Eminent Members
+              {{'Part4.EMEMBTN' | translate}}
             </button>
           </div>
         </div>
         <div class="p-2 bd-highlight">
           <div class="text-center">
             <button type="button" (click)="showTabpart('tab18')">
-              Landmark Legislations
+              {{'Part4.LANDBTN' | translate}}
             </button>
           </div>
         </div>
         <div class="p-2 bd-highlight">
           <div class="text-center">
             <button type="button" (click)="showTabpart('tab19')">
-              Headliners
+              {{'Part4.HEADBTN' | translate}}
             </button>
           </div>
         </div>
