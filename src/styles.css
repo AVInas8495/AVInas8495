@@ -573,6 +573,9 @@ p.small-font {
 .pad3 {
     padding: 120px;
 }
+.pr{
+    padding-right: 12px;
+}
 
 /* .minheight {
     min-height: 400px;
@@ -681,6 +684,10 @@ p.small-font {
     padding-left: 0px;
     background-color: #282317;
     padding-top: 20px;
+}
+.assembor{
+    border: 1px solid #D4BE8F;
+    border-radius: 13px;
 }
 
 /* video::-webkit-media-controls-fullscreen-button {

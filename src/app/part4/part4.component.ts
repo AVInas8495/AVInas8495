@@ -9,6 +9,9 @@ export class Part4Component {
 
   public tab: string = "tab1";
   public tabpart: string = "tab11";
+  id:any = "first";
+  id1:any = "third";
+  id2:any = "five";
 
   public showTabpart(tabpart: string) {
     this.tabpart = tabpart;
@@ -70,6 +73,21 @@ export class Part4Component {
       this.showTabpart('tab23')
     else
       this.showTabpart('tab11')
+  }
+
+  tabchange(ids:any){
+    this.id = ids;
+    console.log(this.id)
+  }
+
+  tabchange2(ids:any){
+    this.id1 = ids;
+    console.log(this.id)
+  }
+
+  tabchange3(ids:any){
+    this.id2 = ids;
+    console.log(this.id)
   }
 
   showaob() {
