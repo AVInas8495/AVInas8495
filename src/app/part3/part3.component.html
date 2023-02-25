@@ -63,7 +63,8 @@
                         {{'Part3.SEX' |translate}}
                     </div>
                 </div>
-            </div>{{'Part3.FIRSESS' | translate}}
+            </div>{{'Part3.FIRSESS1' | translate}}
+            <span>{{'Part3.FIRSESS2' | translate}}</span>
         </div>
 
     </div>
@@ -149,9 +150,8 @@
             </div>
             <div class="col-md-4">
                 <div class="row">
-                    <h4>Architecture</h4>
-                    <div class="text-white">
-                       {{'Part3.WORKMAN' | translate}}
+                    <!-- <h4>Architecture</h4> -->
+                    <div class="text-white" [innerHTML]="'Part3.WORKMAN' | translate">
                     </div>
                 </div>
             </div>
@@ -240,7 +240,7 @@
     <div *ngSwitchCase="'tab14'" class="container  bghead fix-height">
 
         <div class="text-white">
-           {{'Part3.OCT' | translate}}
+           <span [innerHTML]="'Part3.OCT' | translate"></span>
             <div style="float:left;width:100%">
                 <div class="row justify-content-center mt-4">
                     <div class="col-md-6 mb-2">
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-40 ps-4">{{'Part3.DEC' | translate}}</div>
+                <div class="w-40 ps-4" [innerHTML]="'Part3.DEC' | translate"></div>
             </div>
         </div>
     </div>

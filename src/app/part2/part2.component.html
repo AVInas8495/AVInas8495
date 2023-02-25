@@ -154,7 +154,7 @@
                 <img src="../../assets/council-act.png" class="w-100">
             </div>
             <div class="col-md-8">
-                <span class="d-block mb-3">{{'Part2.EIGHT' | translate}}</span>
+                <span class="d-block mb-3" [innerHTML]="'Part2.EIGHT' | translate"></span>
                 <span>{{'Part2.ASRESULT' | translate}}</span>
             </div>
         </div>
@@ -176,32 +176,6 @@
 
     <div *ngSwitchCase="'tab21'" class="container  bghead fix-height">
 
-        <div class="d-flex text-white">
-            <div class="w-45">
-                <img src="../../assets/1915-1.png" class="w-100">
-            </div>
-            <div class="w-55 ps-4">
-                <span class="d-block mb-2">{{'Part2.1915' | translate}}</span>
-                <img src="../../assets/1915-2.png" class="w-100">
-            </div>
-        </div>
-    </div>
-
-    <div *ngSwitchCase="'tab22'" class="container  bghead fix-height">
-
-        <div class="row text-white align-items-center">
-            <div class="col-md-4">
-                <img src="../../assets/council-act.png" class="w-100">
-            </div>
-            <div class="col-md-8">
-                <span class="d-block">{{'Part2.1916' | translate}}</span>
-                <span class="d-block my-2">{{'Part2.REPORT' | translate}}</span>
-            </div>
-        </div>
-    </div>
-
-    <div *ngSwitchCase="'tab23'" class="container  bghead fix-height">
-
         <div class="row text-white align-items-center">
             <div class="col-md-4">
                 <img src="../../assets/constitution.png" class="w-100">
@@ -209,6 +183,46 @@
             <div class="col-md-8">
                 <span class="d-block mb-2">{{'Part2.GOVERN' | translate}}</span>
                 <img src="../../assets/constitution-2.png" class="w-70">
+            </div>
+        </div>
+
+    </div>
+
+    <div *ngSwitchCase="'tab22'" class="container  bghead fix-height">
+
+        <div class="row text-white align-items-center">
+            <div class="col-md-4">
+                <img src="../../assets/1915 (2).png" class="w-100">
+            </div>
+            <div class="col-md-8">
+                <span class="d-block" [innerHTML]="'Part2.1916' | translate"></span>
+                <span class="d-block my-2">{{'Part2.REPORT' | translate}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div *ngSwitchCase="'tab43'" class="container  bghead fix-height">
+
+        <div class="row text-white align-items-center">
+            <div class="col-md-4">
+                <img src="../../assets/1919.png" class="w-100">
+            </div>
+            <div class="col-md-8">
+                <span class="d-block" [innerHTML]="'Part2.1919' | translate"></span>
+                <span class="d-block my-2">{{'Part2.REPORT2' | translate}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div *ngSwitchCase="'tab23'" class="container  bghead fix-height">
+
+        <div class="d-flex text-white">
+            <div class="w-45">
+                <img src="../../assets/1915-1.png" class="w-100">
+            </div>
+            <div class="w-55 ps-4">
+                <span class="d-block mb-2">{{'Part2.1915' | translate}}</span>
+                <img src="../../assets/1915-2.png" class="w-100">
             </div>
         </div>
     </div>
@@ -285,7 +299,7 @@
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
                         <button type="button" type="button" (click)="showTabpart('tab22')">
-                            1919
+                            1915
                         </button>
                     </div>
                 </div>
@@ -296,8 +310,8 @@
             <div class="d-flex flex-column mb-3 left-panel-open">
                 <div class="p-2 bd-highlight">
                     <div class="text-center">
-                        <button type="button" type="button" (click)="showTabpart('tab22')">
-                            1915
+                        <button type="button" type="button" (click)="showTabpart('tab43')">
+                            1919
                         </button>
                     </div>
                 </div>
@@ -311,7 +325,7 @@
                     <div class="text-center">
                         <button type="button" class="customBtn {{!submenu_face_ww1 ? '' : 'leftSide'}}" type="button"
                             (click)="showContentpart2()">
-                            {{'Part2.FACEBTN' | translate}}
+                            {{'Part2.ACTBTN2' | translate}}
                         </button>
                     </div>
                 </div>
@@ -319,7 +333,7 @@
                     <div class="text-center">
                         <button type="button" class="customBtn {{!submenu_gov_act ? 'mb-5 ' : 'leftSide'}}"
                             (click)="showContentpart3()">
-                            {{'Part2.ACTBTN2' | translate}}
+                            {{'Part2.FACEBTN' | translate}}
                         </button>
                     </div>
                 </div>
