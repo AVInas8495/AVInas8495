@@ -173,14 +173,14 @@
 
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active"  id="first" (click)="tabchange('first')" style="cursor: pointer;">1st Assembly</a>
+        <a class="nav-link active" id="first" name="tab" (click)="tabchange('first')" style="cursor: pointer;">1st Assembly</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active"  id="second" (click)="tabchange('second')"  style="cursor: pointer;">2nd Assembly</a>
+        <a class="nav-link" id="second" name="tab" (click)="tabchange('second')" style="cursor: pointer;">2nd Assembly</a>
       </li>
-     </ul>
-    
-     <div class="row text-white pt-4" *ngIf="id === 'first'">
+    </ul>
+
+    <div class="row text-white pt-4" *ngIf="id === 'first'">
       <div class="col-md-4">
         <p> {{'Part4.SPEAKER' | translate}}</p>
         <img src="../../assets/part4img/Aatmaram_1094.png" class="w-100">
@@ -208,7 +208,7 @@
           <div class="col-6 md pe-0 d-flex">
             <div class="img-left flex-column mr-10px">
               <img src="../../assets/part4img/samp.png" class="w-100">
-                 <span class="text-center">{{'Part4.SAM' | translate}}</span>
+              <span class="text-center">{{'Part4.SAM' | translate}}</span>
             </div>
             <div class="img-right flex-column">
               <img src="../../assets/part4img/Pant.png" class="w-100">
@@ -220,14 +220,14 @@
     </div>
 
     <div class="row text-white pt-4" *ngIf="id === 'second'">
-      <div class="col-md-4 pe-0">
+      <div class="col-md-4">
         <p> {{'Part4.SPEAKER' | translate}}</p>
         <img src="../../assets/part4img/Aatmaram_1094.png" class="w-100">
         <span>{{'Part4.ATMA' | translate}}</span>
         <span>{{'Part4.ATMA2' | translate}}</span>
       </div>
       <div class="col-md-4 assembor">
-        <span  [innerHTML]="'Part4.2ND' | translate"></span>
+        <span [innerHTML]="'Part4.2ND' | translate"></span>
 
       </div>
       <div class="col-md-4 pe-0">
@@ -245,9 +245,9 @@
           </div>
           <p>{{'Part4.CM2' | translate}}</p>
           <div class="col-6 md pe-0 d-flex">
-            <div class="img-left flex-column mr-10px pr">
+            <div class="img-left flex-column pr">
               <img src="../../assets/part4img/samp.png" class="w-100">
-                 <div class="text-center">{{'Part4.SAM1' | translate}}</div>
+              <div class="text-center">{{'Part4.SAM1' | translate}}</div>
             </div>
             <div class="img-right flex-column">
               <img src="../../assets/part4img/GUPTA.png" class="w-100">
@@ -258,12 +258,30 @@
       </div>
     </div>
 
-    
+
   </div>
 
   <div *ngSwitchCase="'tab18'" class="container  bghead fix-height">
 
-     <div class="w-80 align-items-center">
+    <div class="w-80 align-items-center">
+      <!-- <img src="../../assets/VideoIMage.png" _ngcontent-mqy-c16  class="ancimg  p-1 common-wrapper  bg-1857" alt="img" /> -->
+      <video src="../../assets/WIN_20230120_02_27_42_Pro.mp4" controls _ngcontent-mqy-c16
+        class="ancimg  p-1 common-wrapper  bg-1857" alt="img"></video>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab45'" class="container  bghead fix-height">
+
+    <div class="w-80 align-items-center">
+      <!-- <img src="../../assets/VideoIMage.png" _ngcontent-mqy-c16  class="ancimg  p-1 common-wrapper  bg-1857" alt="img" /> -->
+      <video src="../../assets/WIN_20230120_02_27_42_Pro.mp4" controls _ngcontent-mqy-c16
+        class="ancimg  p-1 common-wrapper  bg-1857" alt="img"></video>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab27'" class="container  bghead fix-height">
+
+    <div class="w-80 align-items-center">
       <!-- <img src="../../assets/VideoIMage.png" _ngcontent-mqy-c16  class="ancimg  p-1 common-wrapper  bg-1857" alt="img" /> -->
       <video src="../../assets/WIN_20230120_02_27_42_Pro.mp4" controls _ngcontent-mqy-c16
         class="ancimg  p-1 common-wrapper  bg-1857" alt="img"></video>
@@ -296,7 +314,7 @@
           </div>
         </div> -->
         <div class="row"><img src="../../assets/part4img/Women.png" class="w-100"></div>
-        
+
       </div>
       <div class="col-md-8">
         <span class="d-block mb-3" [innerHTML]="'Part4.UP' | translate"></span>
@@ -342,8 +360,8 @@
       </div>
     </div> -->
     <div class="row text-white align-items-center">
-      <div class="col-md-4"> 
-       <div>
+      <div class="col-md-4">
+        <div>
           <img src="../../assets/part4img/Women.png" class="w-100">
         </div>
       </div>
@@ -359,19 +377,19 @@
         <p>
       </div>
     </div>
-    
+
   </div>
 
   <div *ngSwitchCase="'tab22'" class="container  bghead fix-height">
 
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active"  id1="third" (click)="tabchange2('third')" style="cursor: pointer;">3rd Assembly</a>
+        <a class="nav-link active" id1="third" (click)="tabchange2('third')" style="cursor: pointer;">3rd Assembly</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active"  id1="fourth" (click)="tabchange2('fourth')"  style="cursor: pointer;">4th Assembly</a>
+        <a class="nav-link active" id1="fourth" (click)="tabchange2('fourth')" style="cursor: pointer;">4th Assembly</a>
       </li>
-     </ul>
+    </ul>
 
 
 
@@ -382,7 +400,7 @@
         <span>{{ 'Part4.JAG' | translate}}</span>
       </div>
       <div class="col-md-4 assembor">
-        <span class="d-block"  [innerHTML]="'Part4.4TH' | translate"></span>
+        <span class="d-block" [innerHTML]="'Part4.4TH' | translate"></span>
       </div>
       <div class="col-md-4 pe-0">
         <div class="row text-white">
@@ -421,7 +439,7 @@
         <span>{{ 'Part4.JAG' | translate}}</span>
       </div>
       <div class="col-md-4 assembor">
-        <span class="d-block"  [innerHTML]="'Part4.3RD' | translate"></span>
+        <span class="d-block" [innerHTML]="'Part4.3RD' | translate"></span>
       </div>
       <div class="col-md-4 pe-0">
         <div class="row text-white">
@@ -455,12 +473,12 @@
 
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active"  id2="five" (click)="tabchange3('five')" style="cursor: pointer;">5th Assembly</a>
+        <a class="nav-link active" id2="five" (click)="tabchange3('five')" style="cursor: pointer;">5th Assembly</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active"  id2="six" (click)="tabchange3('six')"  style="cursor: pointer;">6th Assembly</a>
+        <a class="nav-link active" id2="six" (click)="tabchange3('six')" style="cursor: pointer;">6th Assembly</a>
       </li>
-     </ul>
+    </ul>
 
 
     <div class="row text-white align-items-center pt-4" *ngIf="id2 === 'five'">
@@ -471,7 +489,7 @@
           <span>{{ 'Part4.KHER' | translate}}</span>
         </div>
         <div class="col-md-4 assembor">
-          <span class="d-block"  [innerHTML]="'Part4.5TH' | translate"></span>
+          <span class="d-block" [innerHTML]="'Part4.5TH' | translate"></span>
         </div>
         <div class="col-md-4 pe-0">
           <div class="row text-white">
@@ -486,37 +504,37 @@
           </div>
         </div>
       </div>
-     <div class="row pt-4">
-      <div class="col-md-12">
-        <div style="float:right;width:100%">
-          <div class="row">
-            <div class="col-2 md-12 mb-2 pe-0">
-              <img src="../../assets/part4img/GUPTA.png" class="img-fluid">
-              <div class="text-center">{{'Part4.GUPTA2' | translate}}</div>
+      <div class="row pt-4">
+        <div class="col-md-12">
+          <div style="float:right;width:100%">
+            <div class="row">
+              <div class="col-2 md-12 mb-2 pe-0">
+                <img src="../../assets/part4img/GUPTA.png" class="img-fluid">
+                <div class="text-center">{{'Part4.GUPTA2' | translate}}</div>
+              </div>
+              <div class="col-2 md-12 mb-2 pe-0">
+                <img src="../../assets/part4img/Chaudary.png" class="img-fluid">
+                <div class="text-center">{{'Part4.DARY' | translate}}</div>
+              </div>
+              <div class="col-2 md-12 mb-2 pe-0">
+                <img src="../../assets/part4img/Tri.png" class="img-fluid">
+                <div class="text-center">{{'Part4.TRI1' | translate}}</div>
+              </div>
+              <div class="col-2 md-12 mb-2 pe-0">
+                <img src="../../assets/part4img/Kamlapati.png" class="img-fluid">
+                <div class="text-center">{{'Part4.KAMLA' | translate}}</div>
+              </div>
+              <div class="col-2 md-12 mb-2 pe-0">
+                <img src="../../assets/part4img/Nandan.png" class="img-fluid">
+                <div class="text-center">{{'Part4.NANDAN' | translate}}</div>
+              </div>
+
+
+
             </div>
-            <div class="col-2 md-12 mb-2 pe-0">
-              <img src="../../assets/part4img/Chaudary.png" class="img-fluid">
-              <div class="text-center">{{'Part4.DARY' | translate}}</div>
-            </div>
-            <div class="col-2 md-12 mb-2 pe-0">
-              <img src="../../assets/part4img/Tri.png" class="img-fluid">
-              <div class="text-center">{{'Part4.TRI1' | translate}}</div>
-            </div>
-            <div class="col-2 md-12 mb-2 pe-0">
-              <img src="../../assets/part4img/Kamlapati.png" class="img-fluid">
-              <div class="text-center">{{'Part4.KAMLA' | translate}}</div>
-            </div>
-            <div class="col-2 md-12 mb-2 pe-0">
-              <img src="../../assets/part4img/Nandan.png" class="img-fluid">
-              <div class="text-center">{{'Part4.NANDAN' | translate}}</div>
-            </div>
-           
-           
-  
           </div>
         </div>
       </div>
-     </div>
     </div>
 
 
@@ -527,7 +545,7 @@
         <span>{{ 'Part4.JAG' | translate}}</span>
       </div>
       <div class="col-md-4 assembor">
-        <span class="d-block"  [innerHTML]="'Part4.6TH' | translate"></span>
+        <span class="d-block" [innerHTML]="'Part4.6TH' | translate"></span>
       </div>
       <div class="col-md-4 pe-0">
         <div class="row text-white">
@@ -557,7 +575,7 @@
   </div>
 
   <div *ngSwitchCase="'tab26'" class="container bghead fix-height">
-    
+
     <div class="row text-white">
       <div class="col-md-4">
         <!-- <div class="row">
@@ -569,23 +587,13 @@
           </div>
         </div> -->
         <div class="row"><img src="../../assets/part4img/Frame72.png" class="w-100"></div>
-        
+
       </div>
       <div class="col-md-8">
         <span class="d-block mb-3" [innerHTML]="'Part4.ETH' | translate"></span>
       </div>
     </div>
 
-</div>
-
-  <div *ngSwitchCase="'tab18'" class="container  bghead fix-height">
-
-    <div class="row text-white align-items-center">
-      <div class="col-md-12">
-        <img src="../../assets/part4img/video1962.png" class="w-100">
-      </div>
-
-    </div>
   </div>
 
   <div *ngSwitchCase="'tab23'" class="container  bghead fix-height">
@@ -614,13 +622,12 @@
       </div>
 
       <div class="col-md-8">
-        <p [innerHTML]="'Part4.P10' | translate"
-        ></p>
+        <p [innerHTML]="'Part4.P10' | translate"></p>
 
         <p [innerHTML]="'Part4.P11' | translate">
         <p>
         <p [innerHTML]="'Part4.P12' | translate">
-        
+
         <p>
       </div>
     </div>
@@ -679,7 +686,8 @@
         </div>
         <div *ngIf="!indian_council" class="p-2 {{main_options_left}}">
           <div class="text-center">
-            <button type="button" class="customBtn {{!submenu_indian_council ? '' : 'rightSide'}}" (click)="showContentpart1()">
+            <button type="button" class="customBtn {{!submenu_indian_council ? '' : 'rightSide'}}"
+              (click)="showContentpart1()">
               {{ 'Part4.FSBTN' | translate}}
             </button>
           </div>
@@ -698,7 +706,7 @@
 
         <div class="p-2 bd-highlight">
           <div class="text-center">
-            <button type="button" type="button" (click)="showTabpart('tab22')">
+            <button type="button" type="button" (click)="showTabpart('tab45')">
               {{'Part4.LANDBTN' | translate}}
             </button>
           </div>
@@ -749,14 +757,16 @@
       <div class="d-flex align-items-center {{main_options_right || submenu_gov_act || submenu_face_ww1? 'ms-5' : ''}}">
         <div *ngIf="!face_ww1" class="p-2 ">
           <div class="text-center">
-            <button type="button" class="customBtn {{submenu_face_ww1 ? 'leftSide' : ''}}" type="button" (click)="showContentpart2()">
+            <button type="button" class="customBtn {{submenu_face_ww1 ? 'leftSide' : ''}}" type="button"
+              (click)="showContentpart2()">
               {{ 'Part4.TFBTN' | translate}}
             </button>
           </div>
         </div>
         <div *ngIf="!gov_act" class="p-2  {{!submenu_gov_act ? 'mb-5 pb-5' : ''}}">
           <div class="text-center">
-            <button type="button" class="customBtn {{!submenu_gov_act ? 'mb-5 ' : 'leftSide'}}" (click)="showContentpart3()">
+            <button type="button" class="customBtn {{!submenu_gov_act ? 'mb-5 ' : 'leftSide'}}"
+              (click)="showContentpart3()">
               {{ 'Part4.FSABTN' | translate}}
             </button>
           </div>
