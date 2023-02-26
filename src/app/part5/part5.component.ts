@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class Part5Component {
   public tab: string ="tab1";
   public tabpart: string ="tab11";
+  id7:any = "seven";
+  id9:any = "nine";
 
   isshow:boolean=false;
   visible:boolean=false;
@@ -115,6 +117,16 @@ export class Part5Component {
            this.showtabsall=!this.showtabsall
           }
 
+          tabchange7(ids:any){
+            this.id7 = ids;
+            // console.log(this.id)
+          }
+
+          tabchange9(ids:any){
+            this.id9 = ids;
+            // console.log(this.id)
+          }
+        
 
   ngOnInit(): void {
    

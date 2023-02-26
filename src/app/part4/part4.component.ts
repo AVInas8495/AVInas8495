@@ -17,6 +17,10 @@ export class Part4Component {
     this.tabpart = tabpart;
   }
 
+  // public showTab(tab: string) {
+  //   this.tab =tab;
+  // }
+
   isshow: boolean = false;
   visible: boolean = false;
   visible1: boolean = false;
@@ -32,6 +36,10 @@ export class Part4Component {
   face_ww1: boolean = false;
   revolt: boolean = false;
   indian_council: boolean = false;
+  showtabsall:boolean=false;
+
+  
+
 
   showContentpart() {
     this.submenu_revolt = !this.submenu_revolt;
@@ -92,6 +100,11 @@ export class Part4Component {
 
   showaob() {
     this.isshow = !this.isshow
+  }
+
+  showalltabs(){
+    this.showTabpart('tab11')
+           this.showtabsall=!this.showtabsall
   }
 
 }

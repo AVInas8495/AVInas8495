@@ -76,7 +76,17 @@
 
     </div>
     <div *ngSwitchCase="'tab3'" class="container bghead fix-height">
-        <div class="row align-items-center">
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" id7="seven" (click)="tabchange7('seven')" style="cursor: pointer;">7th Assembly</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id7="eight" (click)="tabchange7('eight')" style="cursor: pointer;">8th Assembly</a>
+            </li>
+          </ul>
+
+        <div class="row align-items-center pt-4"  *ngIf="id7 === 'seven'">
             <div class="col-md-2">
                 <div class="row align-items-center">
                     <div class="col-md-12 text-center text-white">
@@ -93,78 +103,177 @@
                     <div class="col-md-12 text-white mt-2">
                         <div class="common-wrapper">
                             <div class="w-97">
-                                <img src="../../assets/part5img/Rectangle 1095.png" class="ancimg"
+                                <img src="../../assets/part5img/Rectangle 1094 (2).png" class="ancimg"
                                     alt="Babu Banarasi Das" />
                             </div>
+                            
                         </div>
+                        <div class="text-center text-white">{{'Part5.DAS' | translate}}</div>
                     </div>
-                    <small class="d-block">{{'Part5.BABU' | translate}}</small>
+                    <!-- <small class="d-block text-white">{{'Part5.BABU' | translate}}</small> -->
 
 
                 </div>
             </div>
 
-            <div class="col-md-6 text-white">
+            <div class="col-md-6 text-white assembor">
 
-                <span>
+                <span [innerHTML]="'Part5.7TH' | translate">
 
-                    {{'Part5.7TH' | translate}}
+                    
                 </span>
 
 
             </div>
 
-            <div class="col-md-4 ps-0">
+            <div class="col-md-4">
                 <div class="row mg-rw text-white text-center">
                     <h4 class="text-center">{{'Part5.LEADER' | translate}}</h4>
                     <div class="col-md-6 ">
                         <div class="common-wrapper">
                             <div class="w-97">
-                                <img src="../../assets/part5img/Rectangle 1082.png" class="ancimg" alt="Shri Raj Mangal
+                                <img src="../../assets/part5img/Rectangle 1094 (1).png" class="ancimg" alt="Shri Raj Mangal
                                   Pandey" />
 
                             </div>
                         </div>
-                        <small class="d-block">Shri Raj Mangal
-                            Pandey</small>
+                        <small class="d-block">{{'Part5.MANGAL' | translate}}</small>
                     </div>
                     <div class="col-md-6 ">
                         <div class="common-wrapper">
                             <div class="w-97">
-                                <img src="../../assets/part5img/Rectangle 1094 (2).png" class="ancimg"
+                                <img src="../../assets/part5img/Rectangle 1095.png" class="ancimg"
                                     alt="N.D. Tiwari" />
                             </div>
                         </div>
-                        <small class="d-block">N.D. Tiwari</small>
+                        <small class="d-block">{{'Part5.DUTT' | translate}}</small>
                     </div>
                 </div>
                 <div class="row mt-2">
                     <div class="col-md-12 text-white">
-                        <h4 class="text-center">CM of Seventh Assembly</h4>
+                        <h4 class="text-center">{{'Part5.CM7' | translate}}</h4>
                     </div>
                     <div class="col-md-6 ">
                         <div class="common-wrapper">
                             <div class="w-97">
-                                <img src="../../assets/part5img/Rectangle 1094 (1).png" class="ancimg" alt="Ram Naresh
+                                <img src="../../assets/part5img/Rectangle 1082.png" class="ancimg" alt="Ram Naresh
                                 Yadav" />
 
                             </div>
                         </div>
-                        <small class="d-block">Ram Naresh
-                            Yadav</small>
+                        <small class="d-block text-white">{{'Part5.NARESH' | translate}}</small>
                     </div>
                     <div class="col-md-6 ">
                         <div class="common-wrapper">
                             <div class="w-97">
-                                <img src="../../assets/part5img/Rectangle-d1.png" class="ancimg" alt="Babu Banarsi
+                                <img src="../../assets/part5img/Rectangle 1094 (2).png" class="ancimg" alt="Babu Banarsi
                                 Das" />
 
                             </div>
                         </div>
-                        <small class="d-block">Babu Banarsi
-                            Das</small>
+                        <div class="text-center text-white">{{'Part5.DAS1' | translate}}</div>
                     </div>
 
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="row align-items-center pt-4"  *ngIf="id7 === 'eight'">
+            <div class="col-md-2">
+                <div class="row align-items-center">
+                    <div class="col-md-12 text-center text-white">
+                        <h4 class="text-center"> {{'Part5.SPEAKER' | translate}}</h4>
+                        <div class="common-wrapper">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Shripati.png" class="ancimg"
+                                    alt="Shri Jagannath Prasad" />
+                            </div>
+
+                        </div>
+                        <small class="d-block">{{'Part5.SHRI' | translate}}</small>
+                    </div>
+                    <div class="col-md-12 text-white mt-2">
+                        <div class="common-wrapper">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/dharam.png" class="ancimg"
+                                    alt="Babu Banarasi Das" />
+                            </div>
+                            
+                        </div>
+                        <div class="text-center text-white">{{'Part5.DHARAM' | translate}}</div>
+                    </div>
+                    <!-- <small class="d-block text-white">{{'Part5.BABU' | translate}}</small> -->
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6 text-white assembor">
+
+                <span [innerHTML]="'Part5.8TH' | translate">
+
+                    
+                </span>
+
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="row mg-rw text-white text-center">
+                    <h4 class="text-center">{{'Part5.LEADER' | translate}}</h4>
+                    <div class="col-md-6 ">
+                        <div class="common-wrapper">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Rajendra.png" class="ancimg" alt="Shri Raj Mangal
+                                  Pandey" />
+
+                            </div>
+                        </div>
+                        <small class="d-block">{{'Part5.RAJEN' | translate}}</small>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-12 text-white">
+                        <h4 class="text-center">{{'Part5.CM7' | translate}}</h4>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="common-wrapper">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Pratap.png" class="ancimg" alt="Ram Naresh
+                                Yadav" />
+
+                            </div>
+                        </div>
+                        <small class="d-block text-white">{{'Part5.PRATAP' | translate}}</small>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="common-wrapper">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Shripati.png" class="ancimg" alt="Babu Banarsi
+                                Das" />
+
+                            </div>
+                        </div>
+                        <div class="text-center text-white">{{'Part5.SHRI1' | translate}}</div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="common-wrapper">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Dutt.png" class="ancimg" alt="Babu Banarsi
+                                Das" />
+
+                            </div>
+                        </div>
+                        <div class="text-center text-white">{{'Part5.DUTT1' | translate}}</div>
+                    </div>
 
                 </div>
 
@@ -258,8 +367,8 @@
                     </div>
                     <div class="col-md-4 text-white">
 
-                        <p>
-                            {{'Part5.9TH' | translate}}
+                        <p [innerHTML]="'Part5.TENURE9.10' | translate">
+                            
                         </p>
 
 
@@ -277,14 +386,87 @@
 
     </div>
     <div *ngSwitchCase="'tab7'" class="container bghead fix-height">
-        <div class="row">
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" id9="nine" (click)="tabchange9('nine')" style="cursor: pointer;">9th Assembly</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id9="ten" (click)="tabchange9('ten')" style="cursor: pointer;">10th Assembly</a>
+            </li>
+          </ul>
+
+
+        <div *ngIf="id9 === 'nine'" class="row pt-4">
             <div class="col-md-2">
                 <div class="row mg-rw">
                     <div class="col-md-12 text-center">
-                        <strong class="text-center">{{'Part5.SPEAKER' | translate}}</strong>
+                        <strong class="text-center text-white">{{'Part5.SPEAKER' | translate}}</strong>
                         <div class="common-wrapper bg-1857">
                             <div class="w-97">
                                 <img src="../../assets/part5img/Rectangle-d6.png" class="ancimg" alt="SN.D. Tiwari" />
+                            </div>
+                        </div>
+                        <p>N.D. Tiwari</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-white assembor">
+                <span class="d-block p-2 border-light border-1" [innerHTML]="'Part5.10TH' | translate">
+
+                </span>
+            </div>
+            <div class="col-md-4">
+                <div class="row text-white">
+                    <h4 class="">{{'Part5.LEADER' | translate}}</h4>
+                    <div class="col-md-12 ">
+                        <div class="common-wrapper bg-1857 w-40">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Rectangle-d7.png" class="ancimg" alt="Harikishan
+                                  Srivastav" />
+                            </div>
+                        </div>
+                        <small>{{'Part5.HARI' | translate}}</small>
+                    </div>
+                </div>
+                <div class="row  text-white mt-3">
+                    <div class="col-md-12">
+                        <h4 class="text-center">{{'Part5.CM10' | translate}}</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <div class=" common-wrapper bg-1857 w-40">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Rectangle-d8.png" class="ancimg" alt="Ram Naresh
+                                    Yadav" />
+
+                            </div>
+                        </div>
+                        <small>{{'Part5.YADAV' | translate}}</small>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <div *ngIf="id9 === 'ten'" class="row pt-4" >
+            <div class="col-md-2">
+                <div class="row mg-rw">
+                    <div class="col-md-12 text-center">
+                        <strong class="text-center text-white">{{'Part5.SPEAKER' | translate}}</strong>
+                        <div class="common-wrapper bg-1857">
+                            <div class="w-97">
+                                <img src="../../assets/part5img/Rectangle-d7.png" class="ancimg" alt="SN.D. Tiwari" />
                             </div>
                         </div>
                         <p>N.D. Tiwari</p>
@@ -303,7 +485,7 @@
                     <div class="col-md-12 ">
                         <div class="common-wrapper bg-1857 w-40">
                             <div class="w-97">
-                                <img src="../../assets/part5img/Rectangle-d7.png" class="ancimg" alt="Harikishan
+                                <img src="../../assets/part5img/Rectangle-d6.png" class="ancimg" alt="Harikishan
                                   Srivastav" />
                             </div>
                         </div>
@@ -615,7 +797,7 @@
                 </div>
                 <div class="row  text-white mt-3">
                     <div class="col-md-12">
-                        <h5 class="text-center">{{'Part5.CM7' | translate}}</h5>
+                        <h5 class="text-center">{{ 'Part5.CM7' | translate}}</h5>
                     </div>
                     <div class="col-md-6">
                         <div class=" common-wrapper bg-1857 ">

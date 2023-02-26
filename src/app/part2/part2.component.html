@@ -5,7 +5,7 @@
                 <img src="../../assets/part2up.png" class="ancimg" alt="img" />
             </div>
             <div class="w-60 text-bg-1920 text-white">
-                <p>{{'Part2.P1' | translate}}</p>
+                <p [innerHTML]="'Part2.P1' | translate"></p>
             </div>
         </div>
     </div>
@@ -80,8 +80,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                {{'Part2.HISTORIAN' | translate}}
+            <div class="col-md-6" [innerHTML]="'Part2.HISTORIAN' | translate">
+                
             </div>
         </div>
     </div>
@@ -106,7 +106,7 @@
             </div>
             <div class="col-md-8">
                 <span>{{'Part2.ASSUM' | translate}}</span>
-                <img src="../../assets/council-act-2.png" class="w-100">
+                <!-- <img src="../../assets/council-act-2.png" class="w-100"> -->
             </div>
         </div>
     </div>
@@ -139,6 +139,8 @@
                         {{'Part2.PANDIT' | translate}}
                     </div>
                 </div>
+                <div class="row mt-3 text-white">{{'Part2.KEY' | translate}}
+                    </div>
             </div>
             <div class="col-md-4 pe-0">
                 <img src="../../assets/council-act.png" class="w-100">
@@ -155,7 +157,7 @@
             </div>
             <div class="col-md-8">
                 <span class="d-block mb-3" [innerHTML]="'Part2.EIGHT' | translate"></span>
-                <span>{{'Part2.ASRESULT' | translate}}</span>
+                <span [innerHTML]="'Part2.ASRESULT' | translate"></span>
             </div>
         </div>
     </div>
@@ -168,7 +170,7 @@
             </div>
             <div class="col-md-8">
                 <span class="d-block">{{'Part2.CLEAR' | translate}}</span>
-                <span class="d-block my-2">{{'Part2.BRITISH' | translate}}</span>
+                <span class="d-block my-2" [innerHTML]="'Part2.BRITISH' | translate"></span>
                 <span class="d-block">{{'Part2.MEM' | translate}}</span>
             </div>
         </div>
@@ -237,11 +239,11 @@
 </ng-container>
 
 <div
-    class="row bgceneter four-rays {{main_options_left ? 'left-rays' : submenu_revolt ? 'left-rays' : submenu_face_ww1 ? 'right-rays' : submenu_indian_council ? 'left-rays' : submenu_gov_act ? 'right-rays' : main_options_right ? 'right-rays' : ''}}">
+    class="row bgceneter four-rays {{main_options_left ? 'left-rays' : submenu_revolt ? 'left-rays' : submenu_face_ww1 ? 'right-rays' : submenu_indian_council ? 'left-rays' : submenu_gov_act ? 'right-rays' : main_options_right ? 'right-rays' : ''}}"  (click)="showalltabs()">
     <div class="col-md-12">
         <div class="text-center" style="cursor: pointer" (click)="showaob()">
             <img src="../../assets/oval2.png" class="ovalbtn" alt="img" />
-            <div class="rays" *ngIf="isshow">
+            <div class="rays" *ngIf="isshow && showalltabs">
                 <img src="../../assets/rays.png">
                 <img src="../../assets/rays.png">
                 <img src="../../assets/rays.png">
