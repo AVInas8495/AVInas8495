@@ -1,10 +1,10 @@
 <!-- <app-ancient-begin style="width: 100%;"></app-ancient-begin> -->
 <!-- <p>{{'main.TEXT'| translate}}</p> -->
 <div class="langSelector " ngbDropdown>
-    <button type="button" id="dropdownBasic1" ngbDropdownToggle>
+    <button  type="button" id="dropdownBasic1" ngbDropdownToggle>
         <img src="../assets/language.png" class="img-fluid">
     </button>
-    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+    <div  ngbDropdownMenu aria-labelledby="dropdownBasic1">
         <button *ngFor="let lang of translate.getLangs()" ngbDropdownItem
             (click)="translate.use(lang)">{{lang}}</button>
     </div>

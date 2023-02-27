@@ -24,6 +24,7 @@ export class Part3Component {
   submenu_face_ww1: boolean = false;
   submenu_gov_act: boolean = false;
   submenu_indian_council: boolean = false;
+  showtabsall:boolean = false;
   // section 2 variables end
 
   public showTab(tab: string) {
@@ -103,6 +104,12 @@ export class Part3Component {
       this.showTabpart('tab23')
     else
       this.showTabpart('tab11')
+  }
+
+  
+  showalltabs(){
+    this.showTab('tab1')
+           this.showtabsall=!this.showtabsall
   }
 
   ngOnInit(): void {

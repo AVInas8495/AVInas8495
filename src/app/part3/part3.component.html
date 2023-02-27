@@ -273,13 +273,14 @@
 
 <div class="row">
     <div class="col-md-12">
-        <div class="text-center bgceneter three-rays {{visible1 || visible2 ? 'left-rays' : visible3 ? 'right-rays' : ''}}"
-            (click)="showaob()">
+        <div class="text-center bgceneter three-rays {{visible1 || visible2 ? 'left-rays' : visible3 ? 'right-rays' : ''}}" (click)="showalltabs()">
+            <div class="text-center" style="cursor: pointer" (click)="showaob()">
             <img src="../../assets/part3/1920-1947.png" class="ovalbtn" alt="img" />
-            <div class="rays" *ngIf="isshow">
+            <div class="rays" *ngIf="isshow && showalltabs">
                 <img src="../../assets/rays.png">
                 <img src="../../assets/rays.png">
                 <img src="../../assets/rays.png">
+            </div>
             </div>
         </div>
     </div>
