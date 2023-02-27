@@ -11,6 +11,7 @@ export class Part5Component {
   id7:any = "seven";
   id9:any = "nine";
   id11:any = "eleven";
+  id13:any = "thirteen";
 
   isshow:boolean=false;
   visible:boolean=false;
@@ -133,6 +134,10 @@ export class Part5Component {
             // console.log(this.id)
           }
         
+          tabchange13(ids:any){
+            this.id13 = ids;
+            // console.log(this.id)
+          }
 
   ngOnInit(): void {
    
