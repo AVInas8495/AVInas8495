@@ -9,10 +9,10 @@ export class Part6Component {
   
   public tab: string = "tab1";
   public tabpart: string = "tab21";
-
+  id17:any = "seventeen";
 
   isshow:boolean=false;
-
+  showtabsall:boolean = false;
 
 
   ///////////////////////////////////////////////////////  part-6   mychanges ///////////////////////////////////////
@@ -60,8 +60,15 @@ export class Part6Component {
 
 
 
+  showalltabs(){
+    this.showTabpart('tab21')
+   this.showtabsall=!this.showtabsall
+  }
 
-
+  tabchange17(ids:any){
+    this.id17 = ids;
+    // console.log(this.id)
+  }
 
 
   /////////////////////////////////////////////////////////  part-6   mychanges ///////////////////////////////////////
