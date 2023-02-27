@@ -10,6 +10,7 @@ export class Part5Component {
   public tabpart: string ="tab11";
   id7:any = "seven";
   id9:any = "nine";
+  id11:any = "eleven";
 
   isshow:boolean=false;
   visible:boolean=false;
@@ -124,6 +125,11 @@ export class Part5Component {
 
           tabchange9(ids:any){
             this.id9 = ids;
+            // console.log(this.id)
+          }
+
+          tabchange11(ids:any){
+            this.id11 = ids;
             // console.log(this.id)
           }
         
