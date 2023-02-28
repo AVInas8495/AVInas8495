@@ -16,7 +16,7 @@ const routes: Routes = [
   // { path: 'screen3', component: ScreenThreeComponent },
   // { path: '**', component: ScreenOneComponent },
   // { path: '/', component: ScreenOneComponent },
-   { path: '', component: ScreenTwoComponent },
+   { path: '', component: ScreenThreeComponent },
 ];
 
 
