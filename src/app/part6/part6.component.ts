@@ -10,6 +10,7 @@ export class Part6Component {
   public tab: string = "tab1";
   public tabpart: string = "tab21";
   id17:any = "seventeen";
+  Img:any;
 
   isshow:boolean=false;
   showtabsall:boolean = false;
