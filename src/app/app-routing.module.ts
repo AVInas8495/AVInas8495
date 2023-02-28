@@ -11,12 +11,12 @@ import { ScreenTwoComponent } from './screen-two/screen-two.component';
 const routes: Routes = [
   // { path: 'ancient', component: AncientBeginComponent },
   // { path: 'modern', component: ModernPartComponent },
-  //  { path: 'screen1', component: ScreenOneComponent },
-  // { path: 'screen2', component: ScreenTwoComponent },
-  // { path: 'screen3', component: ScreenThreeComponent },
-  // { path: '**', component: ScreenOneComponent },
+   { path: 'screen1', component: ScreenOneComponent },
+  { path: 'screen2', component: ScreenTwoComponent },
+  { path: 'screen3', component: ScreenThreeComponent },
+  { path: '**', component: ScreenOneComponent },
   // { path: '/', component: ScreenOneComponent },
-   { path: '', component: ScreenThreeComponent },
+  //  { path: '', component: ScreenTwoComponent },
 ];
 
 
