@@ -7,14 +7,14 @@ body {
 }
 
 .common-wrapper {
-    border-radius: 24px;
-    border: 2px solid #D4BE8F;
+    border-radius: 4px;
+    border: 1px solid #D4BE8F;
     box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
     padding: 0;
 }
 
 .common-wrapper>div {
-    margin: 5px;
+    margin: 2px;
     overflow: hidden;
 }
 
@@ -23,13 +23,13 @@ body {
 }
 
 .common-wrapper>div:first-child {
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .common-wrapper>div:last-child {
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .bg-1857 {
@@ -573,7 +573,8 @@ p.small-font {
 .pad3 {
     padding: 120px;
 }
-.pr{
+
+.pr {
     padding-right: 12px;
 }
 
@@ -685,10 +686,12 @@ p.small-font {
     background-color: #282317;
     padding-top: 20px;
 }
-.assembor{
+
+.assembor {
     border: 1px solid #D4BE8F;
     border-radius: 13px;
 }
+
 /* .nav-tabs .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
     border: 0;
     border-bottom: 1px solid grey;
@@ -701,22 +704,22 @@ p.small-font {
     background-color: #D4BE8F;
 } */
 
-.nav-item > .nav-link {
+.nav-item>.nav-link {
     border-radius: 4px;
     color: #ffffff;
-  }
-  
-  .nav-item > .nav-link:hover,
-  .nav-item > .nav-link.active {
+}
+
+.nav-item>.nav-link:hover,
+.nav-item>.nav-link.active {
     background-color: #D4BE8F;
     border-radius: 4px;
-  }
-  
-  .nav-item > .nav-link.active {
-    color: #ffffff;
-  }
+}
 
-  /* .nav nav-tabs [id^=tab]:checked + nav-link{
+.nav-item>.nav-link.active {
+    color: #ffffff;
+}
+
+/* .nav nav-tabs [id^=tab]:checked + nav-link{
     background-color: #D4BE8F;
   } */
 
@@ -740,3 +743,23 @@ video::-internal-media-controls-overflow-button{
 } */
 
 .rays {}
+
+
+.carousel-control-prev {
+    left: -100px;
+}
+
+.carousel-control-next {
+    right: -100px;
+}
+
+.carousel-wrapper small {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.carousel-indicators{
+    display: none;
+}
