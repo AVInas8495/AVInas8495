@@ -7,10 +7,7 @@ import { HttpClient,HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AncientBeginComponent } from './ancient-begin/ancient-begin.component';
-import { AncientPartTwoComponent } from './ancient-part2/ancient-part2.component';
-import { MiddlePartComponent } from './middle-part/middle-part.component';
-import { ModernPartComponent } from './modern-part/modern-part.component';
+
 import { Part6Component } from './part6/part6.component';
 import { ScreenThreeComponent } from './screen-three/screen-three.component';
 import { ScreenOneComponent } from './screen-one/screen-one.component';
@@ -29,10 +26,6 @@ export function HttpLoaderFactory(http:HttpClient){
 @NgModule({
   declarations: [
     AppComponent,
-    AncientBeginComponent,
-    AncientPartTwoComponent,
-    MiddlePartComponent,
-    ModernPartComponent,
     Part6Component,
     ScreenThreeComponent,
     ScreenOneComponent,

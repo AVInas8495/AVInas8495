@@ -1,93 +1,133 @@
 <ng-container [ngSwitch]="tabpart">
-  <div *ngSwitchCase="'tab21'" class="container  bghead fix-height">
+  <div *ngSwitchCase="'tab21'" class="container bghead fix-height">
     <div class="d-flex mt-2 justify-content-center align-items-center">
-
       <div class="w-30 pe-1">
-        <img src="../../assets/satish mahana.png" _ngcontent-evd-c16 class="img-fluid p-1 common-wrapper mb-3  bg-1857"
-          alt="img" />
+        <img
+          src="../../assets/satish mahana.png"
+          _ngcontent-evd-c16
+          class="img-fluid p-1 common-wrapper mb-3 bg-1857"
+          alt="img"
+        />
 
-        <img src="../../assets/women member.png" class="img-fluid p-1 common-wrapper bg-1857" alt="img" />
+        <img
+          src="../../assets/women member.png"
+          class="img-fluid p-1 common-wrapper bg-1857"
+          alt="img"
+        />
       </div>
 
       <div class="w-30 ps-2">
-        <img src="../../assets/incumbent.png" _ngcontent-wfe-c16 class="img-fluid p-1 common-wrapper " alt="img" />
+        <img
+          src="../../assets/incumbent.png"
+          _ngcontent-wfe-c16
+          class="img-fluid p-1 common-wrapper"
+          alt="img"
+        />
       </div>
-      <div class="w-30  text-white m-2 ">
+      <div class="w-30 text-white m-2">
         <p>
-          {{'Part6.FIND' | translate}}
+          {{ "Part6.FIND" | translate }}
         </p>
       </div>
     </div>
   </div>
-  <div *ngSwitchCase="'tab22'" class="container  bghead fix-height">
+  <div *ngSwitchCase="'tab22'" class="container bghead fix-height">
     <div class="d-flex align-items-center">
-      <div class=" w-50  m-2">
+      <div class="w-50 m-2">
         <div class="d-flex">
           <div class="w-35 mb-3 pe-2">
-            <img src="../../assets/tribhuvan narayan singh-21 (1) 1.png" class="img-fluid p-2 common-wrapper  bg-1857"
-              alt="img" />
+            <img
+              src="../../assets/tribhuvan narayan singh-21 (1) 1.png"
+              class="img-fluid p-2 common-wrapper bg-1857"
+              alt="img"
+            />
           </div>
           <div class="w-60 mb-3 ms-2">
-            <img src="../../assets/UPLA (1).png" class="img-fluid p-1 common-wrapper bg-1857" alt="img" />
+            <img
+              src="../../assets/UPLA (1).png"
+              class="img-fluid p-1 common-wrapper bg-1857"
+              alt="img"
+            />
           </div>
         </div>
 
         <div class="w-100">
-          <img src="../../assets/Nevaseva.png" class="img-fluid p-1 common-wrapper bg-1857" alt="img" />
+          <img
+            src="../../assets/Nevaseva.png"
+            class="img-fluid p-1 common-wrapper bg-1857"
+            alt="img"
+          />
         </div>
       </div>
 
-      <div class="w-50  text-white m-2 " [innerHTML]="'Part6.17.18TEN' | translate">
-        
-      </div>
+      <div
+        class="w-50 text-white m-2"
+        [innerHTML]="'Part6.17.18TEN' | translate"
+      ></div>
     </div>
   </div>
 
-  <div *ngSwitchCase="'tab23'" class="container  bghead fix-height">
-
+  <div *ngSwitchCase="'tab23'" class="container bghead fix-height">
     <ngb-carousel class="carousel-wrapper">
       <ng-template ngbSlide>
-        <div class="d-flex flex-row w-100 ">
+        <div class="d-flex flex-row w-100">
           <div class="w-65 d-flex flex-row justify-content-center">
-            <div class="w-30 d-flex flex-column  text-center">
-              <h4 class="text-white p-2">{{'Part6.SPEAKER' | translate}}</h4>
-              <img src="../../assets/Shri Hriday.png" _ngcontent-mqy-c16 class="ancimg  p-1 common-wrapper  bg-1857"
-                alt="img" />
-    
-              <span class="text-white p-2" [innerHTML]="'Part6.HIRI' | translate">
-    
+            <div class="w-30 d-flex flex-column text-center">
+              <h4 class="text-white p-2">{{ "Part6.SPEAKER" | translate }}</h4>
+              <img
+                src="../../assets/Shri Hriday.png"
+                _ngcontent-mqy-c16
+                class="ancimg p-1 common-wrapper bg-1857"
+                alt="img"
+              />
+
+              <span
+                class="text-white p-2"
+                [innerHTML]="'Part6.HIRI' | translate"
+              >
               </span>
-    
             </div>
             <div class="w-70 ps-2">
-              <div class="text-white p-3 mt-5" style="border: 1px solid #ebebeb;border-radius: 15px;" [innerHTML]="'Part6.17TH' | translate">
-           
-              </div>
+              <div
+                class="text-white p-3 mt-5"
+                style="border: 1px solid #ebebeb; border-radius: 15px"
+                [innerHTML]="'Part6.17TH' | translate"
+              ></div>
             </div>
-    
           </div>
           <div class="w-35 ps-3">
             <div class="row">
               <div class="col-md-12 d-flex flex-column text-white p-2">
-                <h4>{{'Part6.CM' | translate}}</h4>
+                <h4>{{ "Part6.CM" | translate }}</h4>
                 <div class="w-70 text-center">
-                  <img src="../../assets/Adityanath.png" _ngcontent-mqy-c16
-                    class="img-fluid  p-1 common-wrapper w-50  bg-1857" alt="img" />
-    
-                  <span class="text-center d-block" [innerHTML]="'Part6.YOGI' | translate">
-    
+                  <img
+                    src="../../assets/Adityanath.png"
+                    _ngcontent-mqy-c16
+                    class="img-fluid p-1 common-wrapper w-50 bg-1857"
+                    alt="img"
+                  />
+
+                  <span
+                    class="text-center d-block"
+                    [innerHTML]="'Part6.YOGI' | translate"
+                  >
                   </span>
-    
                 </div>
               </div>
               <div class="col-md-12 d-flex flex-column text-white p-2">
-                <h4>{{'Part6.LEADER' | translate}}</h4>
+                <h4>{{ "Part6.LEADER" | translate }}</h4>
                 <div class="w-70 text-center">
-                  <img src="../../assets/Shree Ramgovind.png" _ngcontent-mqy-c16
-                    class="img-fluid p-1 common-wrapper w-50 bg-1857" alt="img" />
-    
-                  <span class="text-center d-block" [innerHTML]="'Part6.CHAU' | translate">
-    
+                  <img
+                    src="../../assets/Shree Ramgovind.png"
+                    _ngcontent-mqy-c16
+                    class="img-fluid p-1 common-wrapper w-50 bg-1857"
+                    alt="img"
+                  />
+
+                  <span
+                    class="text-center d-block"
+                    [innerHTML]="'Part6.CHAU' | translate"
+                  >
                   </span>
                 </div>
               </div>
@@ -96,48 +136,64 @@
         </div>
       </ng-template>
       <ng-template ngbSlide>
-        <div class="d-flex flex-row w-100 ">
+        <div class="d-flex flex-row w-100">
           <div class="w-65 d-flex flex-row justify-content-center">
-            <div class="w-30 d-flex flex-column  text-center">
-              <h4 class="text-white p-2">{{'Part6.SPEAKER' | translate}}</h4>
-              <img src="../../assets/Mahana.png" _ngcontent-mqy-c16 class="ancimg  p-1 common-wrapper  bg-1857"
-                alt="img" />
-    
-              <span class="text-white p-2" [innerHTML]="'Part6.MAHANA' | translate">
-    
+            <div class="w-30 d-flex flex-column text-center">
+              <h4 class="text-white p-2">{{ "Part6.SPEAKER" | translate }}</h4>
+              <img
+                src="../../assets/Mahana.png"
+                _ngcontent-mqy-c16
+                class="ancimg p-1 common-wrapper bg-1857"
+                alt="img"
+              />
+
+              <span
+                class="text-white p-2"
+                [innerHTML]="'Part6.MAHANA' | translate"
+              >
               </span>
-    
             </div>
             <div class="w-70 ps-2">
-              <div class="text-white p-3 mt-5" style="border: 1px solid #ebebeb;border-radius: 15px;" [innerHTML]="'Part6.18TH' | translate">
-         
-              </div>
+              <div
+                class="text-white p-3 mt-5"
+                style="border: 1px solid #ebebeb; border-radius: 15px"
+                [innerHTML]="'Part6.18TH' | translate"
+              ></div>
             </div>
-    
           </div>
           <div class="w-35 ps-3">
             <div class="row">
-    
               <div class="col-md-12 d-flex flex-column text-white p-2">
-                <h4>{{'Part6.CM' | translate}}</h4>
+                <h4>{{ "Part6.CM" | translate }}</h4>
                 <div class="w-70 text-center">
-                  <img src="../../assets/Adityanath.png" _ngcontent-mqy-c16
-                    class="img-fluid  p-1 common-wrapper w-50  bg-1857" alt="img" />
-    
-                  <span class="text-center d-block" [innerHTML]="'Part6.YOGI' | translate">
-    
+                  <img
+                    src="../../assets/Adityanath.png"
+                    _ngcontent-mqy-c16
+                    class="img-fluid p-1 common-wrapper w-50 bg-1857"
+                    alt="img"
+                  />
+
+                  <span
+                    class="text-center d-block"
+                    [innerHTML]="'Part6.YOGI' | translate"
+                  >
                   </span>
-    
                 </div>
               </div>
               <div class="col-md-12 d-flex flex-column text-white p-2">
-                <h4>{{'Part6.LEADER' | translate}}</h4>
+                <h4>{{ "Part6.LEADER" | translate }}</h4>
                 <div class="w-70 text-center">
-                  <img src="../../assets/Akhi.png" _ngcontent-mqy-c16
-                    class="img-fluid p-1 common-wrapper w-50 bg-1857" alt="img" />
-    
-                  <span class="text-center d-block" [innerHTML]="'Part6.AKHI' | translate">
-    
+                  <img
+                    src="../../assets/Akhi.png"
+                    _ngcontent-mqy-c16
+                    class="img-fluid p-1 common-wrapper w-50 bg-1857"
+                    alt="img"
+                  />
+
+                  <span
+                    class="text-center d-block"
+                    [innerHTML]="'Part6.AKHI' | translate"
+                  >
                   </span>
                 </div>
               </div>
@@ -146,66 +202,70 @@
         </div>
       </ng-template>
     </ngb-carousel>
-
   </div>
 
-  <div *ngSwitchCase="'tab24'" class="container  bghead fix-height">
-    <div class="d-flex flex-row w-100 ">
+  <div *ngSwitchCase="'tab24'" class="container bghead fix-height">
+    <div class="d-flex flex-row w-100">
       <div class="w-60 d-flex flex-row">
         <div class="w-40 d-flex flex-column text-center">
-          <span class="text-white p-2">{{'Part6.SPEAKER' | translate}}</span>
-          <img src="../../assets/tribhuvan narayan singh-21 (1) 1.png" _ngcontent-mqy-c16
-            class="ancimg  p-1 common-wrapper  bg-1857" alt="img" />
+          <span class="text-white p-2">{{ "Part6.SPEAKER" | translate }}</span>
+          <img
+            src="../../assets/tribhuvan narayan singh-21 (1) 1.png"
+            _ngcontent-mqy-c16
+            class="ancimg p-1 common-wrapper bg-1857"
+            alt="img"
+          />
 
           <span class="text-white p-2">
             Shri Satish
-            <br>
+            <br />
             Mahana
           </span>
-
         </div>
         <div class="w-60">
           <div class="text-white p-2">
             <p>
-              18th Assembly
-              The Bharatiya Janata Party formed the
-              government with an absolute majority.
-              Leader of the House 
-              Shri Adityanath Yogi
-              Speaker of the House
-              Shri Satish Mahana
-              Leader of Oposition
+              18th Assembly The Bharatiya Janata Party formed the government
+              with an absolute majority. Leader of the House  Shri Adityanath
+              Yogi Speaker of the House Shri Satish Mahana Leader of Oposition
               Shri Akhilesh Yadav
             </p>
           </div>
         </div>
-
       </div>
       <div class="w-40 h-50">
         <div class="row">
           <div class="col-md-12 d-flex flex-column text-white p-2">
-            <span>{{'Part6.LEADER' | translate}}</span>
+            <span>{{ "Part6.LEADER" | translate }}</span>
             <div class="w-40">
-              <img src="../../assets/Shri Akhilesh.png" _ngcontent-mqy-c16 class="ancimg p-1 common-wrapper  bg-1857"
-                alt="img" />
+              <img
+                src="../../assets/Shri Akhilesh.png"
+                _ngcontent-mqy-c16
+                class="ancimg p-1 common-wrapper bg-1857"
+                alt="img"
+              />
 
               <span class="text-center">
                 Shri Akhilesh
-                <br>
+                <br />
                 Yadav
               </span>
             </div>
           </div>
           <div class="col-md-12 d-flex flex-column text-white p-2">
-            <span>{{'Part6.CM' | translate}}</span>
+            <span>{{ "Part6.CM" | translate }}</span>
             <div class="w-40">
-              <img src="../../assets/Adityanath.png" _ngcontent-mqy-c16 class="ancimg  p-1 common-wrapper  bg-1857"
-                alt="img" />
+              <img
+                src="../../assets/Adityanath.png"
+                _ngcontent-mqy-c16
+                class="ancimg p-1 common-wrapper bg-1857"
+                alt="img"
+              />
 
               <span class="text-center w">
-                Adityanath<br> Yogi
+                Adityanath<br />
+                Yogi
               </span>
-
             </div>
           </div>
         </div>
@@ -213,204 +273,252 @@
     </div>
   </div>
 
-  <div *ngSwitchCase="'tab25'" class="container  bghead fix-height">
+  <div *ngSwitchCase="'tab25'" class="container bghead fix-height">
     <div class="w-80 align-items-center">
       <!-- <img src="../../assets/VideoIMage.png" _ngcontent-mqy-c16  class="ancimg  p-1 common-wrapper  bg-1857" alt="img" /> -->
-      <video src="../../assets/WIN_20230120_02_27_42_Pro.mp4" controls _ngcontent-mqy-c16
-        class="ancimg  p-1 common-wrapper  bg-1857" alt="img"></video>
+      <video
+        src="../../assets/WIN_20230120_02_27_42_Pro.mp4"
+        controls
+        _ngcontent-mqy-c16
+        class="ancimg p-1 common-wrapper bg-1857"
+        alt="img"
+      ></video>
     </div>
-
   </div>
-  <div *ngSwitchCase="'tab26'" class="container  bghead fix-height">
-
+  <div *ngSwitchCase="'tab26'" class="container bghead fix-height">
     <div class="row">
       <div class="col-md-5">
         <div class="row">
           <div class="col-md-12 mb-2">
             <div class="d-flex">
               <div class="w-55 ps-2 pe-2">
-                <img src="../../assets/CPA (1).png" _ngcontent-vxt-c16 class="ancimg  p-1 common-wrapper  bg-1857"
-                  alt="img" />
+                <img
+                  src="../../assets/CPA (1).png"
+                  _ngcontent-vxt-c16
+                  class="ancimg p-1 common-wrapper bg-1857"
+                  alt="img"
+                />
               </div>
-              <div class="w-45 ">
-                <img src="../../assets/CPA (2).png" _ngcontent-vxt-c16 class="ancimg  p-1 common-wrapper  bg-1857"
-                  alt="img" />
+              <div class="w-45">
+                <img
+                  src="../../assets/CPA (2).png"
+                  _ngcontent-vxt-c16
+                  class="ancimg p-1 common-wrapper bg-1857"
+                  alt="img"
+                />
               </div>
             </div>
-
           </div>
           <div class="col-md-12">
-            <img src="../../assets/ajadi ka amrit mahotsav.png" _ngcontent-vxt-c16 class="ancimg  p-1 common-wrapper  bg-1857"
-              alt="img" />
-
+            <img
+              src="../../assets/ajadi ka amrit mahotsav.png"
+              _ngcontent-vxt-c16
+              class="ancimg p-1 common-wrapper bg-1857"
+              alt="img"
+            />
           </div>
-
         </div>
       </div>
       <div class="col-md-7 text-white">
-        <span class="d-block mb-2">{{'Part6.S1' | translate}}
-        </span>
-        <span class="d-block mb-2">
-          {{'Part6.S2' | translate}}</span>
-        <span class="d-block mb-2">
-          {{'Part6.S3' | translate}}</span>
-        <span class="d-block mb-2">
-          {{'Part6.S4' | translate}}</span>
+        <span class="d-block mb-2">{{ "Part6.S1" | translate }} </span>
+        <span class="d-block mb-2"> {{ "Part6.S2" | translate }}</span>
+        <span class="d-block mb-2"> {{ "Part6.S3" | translate }}</span>
+        <span class="d-block mb-2"> {{ "Part6.S4" | translate }}</span>
       </div>
-
-
     </div>
   </div>
-  <div *ngSwitchCase="'tab27'" class="container  bghead fix-height">
+  <div *ngSwitchCase="'tab27'" class="container bghead fix-height">
     <div class="row">
       <div class="col-md-12">
         <div class="row">
           <div class="col-md-6">
-            <img src="../../assets/National-Youth-Parliament-Scheme- 1.png" _ngcontent-vxt-c16
-              class="ancimg  p-1 common-wrapper  bg-1857" alt="img" />
-              <div class="col-md-12 pt-4">
-                <img src="../../assets/Parliament-Aliza-Bakht-The-Wire 1.png" _ngcontent-vxt-c16
-                  class="ancimg  p-1 common-wrapper  bg-1857" alt="img" />
-    
-              </div>
+            <img
+              src="../../assets/National-Youth-Parliament-Scheme- 1.png"
+              _ngcontent-vxt-c16
+              class="ancimg p-1 common-wrapper bg-1857"
+              alt="img"
+            />
+            <div class="col-md-12 pt-4">
+              <img
+                src="../../assets/Parliament-Aliza-Bakht-The-Wire 1.png"
+                _ngcontent-vxt-c16
+                class="ancimg p-1 common-wrapper bg-1857"
+                alt="img"
+              />
+            </div>
           </div>
-          
 
           <div class="col-md-6 p-2 text-white">
             <small>
-              {{'Part6.SM1' |translate}}
+              {{ "Part6.SM1" | translate }}
             </small>
           </div>
         </div>
       </div>
       <div class="col-md-12">
         <div class="row">
-          
-
           <div class="col-md-6 p-2 text-white">
             <small>
-              {{'Part6.SM2' |translate}}
+              {{ "Part6.SM2" | translate }}
             </small>
           </div>
         </div>
       </div>
-   
-
-
-
     </div>
   </div>
-  <div *ngSwitchCase="'tab28'" class="container  bghead fix-height">
+
+  <div *ngSwitchCase="'tab28'" class="container bghead fix-height">
     <div class="row">
       <div class="col-md-3">
         <div class="row">
           <div class="col-md-12 mb-2">
-            <img src="../../assets/SM.png" _ngcontent-vxt-c16 class="ancimg  p-1 common-wrapper  bg-1857"
-              alt="img" />
-
+            <img
+              src="../../assets/SM.png"
+              _ngcontent-vxt-c16
+              class="ancimg p-1 common-wrapper bg-1857"
+              alt="img"
+            />
           </div>
           <div class="col-md-12">
-            <img src="../../assets/SM1.png" _ngcontent-vxt-c16
-              class="ancimg  p-1 common-wrapper  bg-1857" alt="img" />
-
+            <img
+              src="../../assets/SM1.png"
+              _ngcontent-vxt-c16
+              class="ancimg p-1 common-wrapper bg-1857"
+              alt="img"
+            />
           </div>
-
         </div>
       </div>
-      <div class="col-md-9 p-2 text-white ">
-        <small [innerHTML]="'Part6.SATISH' | translate">
-
-        </small>
+      <div class="col-md-9 p-2 text-white">
+        <small [innerHTML]="'Part6.SATISH' | translate"> </small>
       </div>
     </div>
   </div>
 </ng-container>
 
 <div
-  class="row bgceneter three-rays {{visible1  ? 'left-rays' : visible2 ? 'center-rays' : visible3 ? 'right-rays' : ''}}"  (click)="showalltabs()">
+  class="row bgceneter three-rays {{
+    visible1
+      ? 'left-rays'
+      : visible2
+      ? 'center-rays'
+      : visible3
+      ? 'right-rays'
+      : ''
+  }}"
+  (click)="showalltabs()"
+>
   <div class="col-md-12">
     <div class="text-center" style="cursor: pointer" (click)="showaob()">
       <img src="../../assets/latest.png" class="ovalbtn" alt="img" />
       <div class="rays" *ngIf="isshow && showalltabs">
-        <img src="../../assets/rays.png">
-        <img src="../../assets/rays.png">
-        <img src="../../assets/rays.png">
+        <img src="../../assets/rays.png" />
+        <img src="../../assets/rays.png" />
+        <img src="../../assets/rays.png" />
       </div>
     </div>
   </div>
 </div>
 
-<div *ngIf="!isshow" class="container  bghead fix-height ">
+<div *ngIf="!isshow" class="container bghead fix-height">
   <div class="d-flex justify-content-center">
-
     <div class="w-35 pe-1">
-      <img src="../../assets/upla.png" _ngcontent-evd-c16 class="img-fluid p-1 common-wrapper mb-3  bg-1857"
-        alt="img" />
+      <img
+        src="../../assets/upla.png"
+        _ngcontent-evd-c16
+        class="img-fluid p-1 common-wrapper mb-3 bg-1857"
+        alt="img"
+      />
 
-      <img src="../../assets/narendra-modi.png" class="img-fluid p-1 common-wrapper bg-1857" alt="img" />
+      <img
+        src="../../assets/narendra-modi.png"
+        class="img-fluid p-1 common-wrapper bg-1857"
+        alt="img"
+      />
     </div>
 
     <div class="w-35 ps-3">
-      <img src="../../assets/digtal.png" _ngcontent-wfe-c16 class="img-fluid p-1 common-wrapper " alt="img" />
+      <img
+        src="../../assets/digtal.png"
+        _ngcontent-wfe-c16
+        class="img-fluid p-1 common-wrapper"
+        alt="img"
+      />
     </div>
   </div>
 </div>
 
 <div *ngIf="isshow" class="fix-height footimg">
   <div class="row h-100 align-items-center justify-content-center">
-    <div class="col-md-4" *ngIf="!visible2 && !visible3" class="{{visible1 ? 'col-md-6 mb-1' : 'col-md-4 mb-4'}} ">
-      <div class="text-center {{!visible1 ? 'mb-5 pb-5' : ''}}">
-        <button type="button " class="{{!visible1 ? 'mb-5 ms-5' : 'rightSide'}} customBtn ms-5"
-          (click)="showContent2_1()">
-          {{'Part6.17N18BTN' | translate}}
+    <div
+      class="col-md-4"
+      *ngIf="!visible2 && !visible3"
+      class="{{ visible1 ? 'col-md-6 mb-1' : 'col-md-4 mb-4' }} "
+    >
+      <div class="text-center {{ !visible1 ? 'mb-5 pb-5' : '' }}">
+        <button
+          type="button "
+          class="{{ !visible1 ? 'mb-5 ms-5' : 'rightSide' }} customBtn ms-5"
+          (click)="showContent2_1()"
+        >
+          {{ "Part6.17N18BTN" | translate }}
         </button>
       </div>
     </div>
-    <div class="{{visible2 ? 'col-md-6' : 'col-md-4'}}" *ngIf="!visible3 && !visible1">
+    <div
+      class="{{ visible2 ? 'col-md-6' : 'col-md-4' }}"
+      *ngIf="!visible3 && !visible1"
+    >
       <div class="text-center">
-        <button type="button" class="customBtn {{!visible2 ? '' : 'centerSide'}}" (click)="showContent2_2()">
-          {{'Part6.VISBTN' | translate}}
+        <button
+          type="button"
+          class="customBtn {{ !visible2 ? '' : 'centerSide' }}"
+          (click)="showContent2_2()"
+        >
+          {{ "Part6.VISBTN" | translate }}
         </button>
       </div>
     </div>
-    <div *ngIf="visible3" class="col-md-6 mb-4">
-
-    </div>
-    <div class="{{visible2 ? 'col-md-6' : 'col-md-4'}} mb-4" *ngIf="!visible1 && !visible2">
-      <div class="text-center {{!visible2? 'mb-5 pb-5' : ''}}">
-        <button type="button" class="customBtn {{!visible3 ? 'mb-5 me-5' : 'centerSide'}}" (click)="showContent2_3()">
-          {{'Part6.SPINVBTN' | translate}}
+    <div *ngIf="visible3" class="col-md-6 mb-4"></div>
+    <div
+      class="{{ visible2 ? 'col-md-6' : 'col-md-4' }} mb-4"
+      *ngIf="!visible1 && !visible2"
+    >
+      <div class="text-center {{ !visible2 ? 'mb-5 pb-5' : '' }}">
+        <button
+          type="button"
+          class="customBtn {{ !visible3 ? 'mb-5 me-5' : 'centerSide' }}"
+          (click)="showContent2_3()"
+        >
+          {{ "Part6.SPINVBTN" | translate }}
         </button>
       </div>
     </div>
 
-    <div *ngIf="visible1" class="col-md-6 ">
-      <div class="d-flex flex-column  right-panel-open">
+    <div *ngIf="visible1" class="col-md-6">
+      <div class="d-flex flex-column right-panel-open">
         <div class="bd-highlight p-2">
           <div class="text-center">
             <button type="button" type="button" (click)="showTabpart('tab23')">
-              {{ 'Part6.EMEMBTN' | translate}}
+              {{ "Part6.EMEMBTN" | translate }}
             </button>
           </div>
         </div>
         <div class="bd-highlight p-2">
           <div class="text-center">
             <button type="button" (click)="showTabpart('tab25')">
-              {{'Part6.LANDBTN' | translate}}
+              {{ "Part6.LANDBTN" | translate }}
             </button>
           </div>
         </div>
         <div class="bd-highlight p-2">
           <div class="text-center">
             <button type="button" (click)="showTabpart('tab26')">
-              {{'Part6.HEADBTN' | translate}}
+              {{ "Part6.HEADBTN" | translate }}
             </button>
           </div>
         </div>
       </div>
     </div>
-
-
-
   </div>
 </div>
