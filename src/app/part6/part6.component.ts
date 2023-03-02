@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-part6',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./part6.component.css'],
 })
 export class Part6Component {
+
+img:any={
+
+  latestimg:{
+    en:'../../assets/latest.png',
+    hn:'../../assets/Hindi.png',
+  }
+}
+
+currentLanguage:string ="";
+
   public tab: string = 'tab1';
   public tabpart: string = 'tab21';
 
@@ -92,5 +104,14 @@ export class Part6Component {
     else this.showTabpart('tab11');
   }
 
-  ngOnInit(): void {}
+  constructor(private ts:TranslateService){
+
+  }
+
+  ngOnInit(): void {
+
+    this.ts.onLangChange.subscribe( lang=>{
+      this.currentLanguage = lang.lang
+    })
+  }
 }
