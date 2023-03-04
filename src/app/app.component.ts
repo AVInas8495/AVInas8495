@@ -8,9 +8,13 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
 
-
+  public langen: string;
+  public langhn: string;
   
   constructor (public translate:TranslateService){
+
+    this.langen = "English";
+    this.langhn = "Hindi";
 
     translate.addLangs(['en','hn']);
     translate.setDefaultLang('en');

@@ -5,8 +5,10 @@
         <img src="../assets/language.png" class="img-fluid">
     </button>
     <div  ngbDropdownMenu aria-labelledby="dropdownBasic1">
-        <button *ngFor="let lang of translate.getLangs()" ngbDropdownItem
-            (click)="translate.use(lang)">{{lang}}</button>
+        <button  ngbDropdownItem
+            (click)="translate.use('hn')">{{langhn | translate}}</button>
+            <button  ngbDropdownItem
+            (click)="translate.use('en')">{{langen | translate}}</button>
     </div>
 </div>
 
@@ -16,4 +18,5 @@
         <option [value]="lang">{{lang}}</option>
     </select>
 </label> -->
+
 <router-outlet></router-outlet>

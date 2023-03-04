@@ -231,7 +231,7 @@
   </div>
 
   <div *ngSwitchCase="'tab17'" class="container bghead fix-height">
-    <ngb-carousel class="carousel-wrapper">
+    <ngb-carousel class="carousel-wrapper" data-interval="false">
       <ng-template ngbSlide>
         <div class="row text-white pt-4">
           <div class="col-md-4">
@@ -453,7 +453,10 @@
   <div *ngSwitchCase="'tab19'" class="container bghead fix-height">
     <div class="row text-white">
       <div class="col-md-6">
-        <img src="../../assets/part4img/Frame50.png" class="w-100" />
+        <div class="row"><img src="../../assets/part4img/Frame50.png" class="w-100" /></div>
+        <div class="row">
+          
+        </div>
       </div>
       <div class="col-md-6">
         <span class="d-block mb-3" [innerHTML]="'Part4.OFF' | translate"></span>
