@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-part4',
@@ -6,8 +7,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./part4.component.css'],
 })
 export class Part4Component {
+
+  vd:any={
+
+    video12:{
+      en:'../../assets/part4img/1.2E.mp4',
+      hn:'../../assets/part4img/1.2H.mp4',
+    },
+    video34:{
+      en:'../../assets/part4img/3.4E.mp4',
+      hn:'../../assets/part4img/3.4H.mp4',
+    },
+    video56:{
+      en:'../../assets/part4img/5.6E.mp4',
+      hn:'../../assets/part4img/5.6H.mp4',
+    },
+  }
+
   public tab: string = 'tab1';
   public tabpart: string = 'tab11';
+  currentLanguage:string ="";
 
   public showTabpart(tabpart: string) {
     this.tabpart = tabpart;
@@ -72,4 +91,17 @@ export class Part4Component {
     this.showTabpart('tab11');
     this.showtabsall = !this.showtabsall;
   }
+
+  constructor(private ts:TranslateService){
+
+  }
+
+  ngOnInit(): void {
+
+    this.ts.onLangChange.subscribe( lang=>{
+      this.currentLanguage = lang.lang
+    })
+
+  }
+
 }

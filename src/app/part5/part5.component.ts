@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-part5',
@@ -6,8 +7,35 @@ import { Component } from '@angular/core';
   styleUrls: ['./part5.component.css'],
 })
 export class Part5Component {
+
+  vd:any={
+
+    video78:{
+      en:'../../assets/part5img/7.8E.mp4',
+      hn:'../../assets/part5img/7.8H.mp4',
+    },
+    video910:{
+      en:'../../assets/part5img/9.10E.mp4',
+      hn:'../../assets/part5img/9.10H.mp4',
+    },
+    video1112:{
+      en:'../../assets/part5img/11.12E.mp4',
+      hn:'../../assets/part5img/11.12H.mp4',
+    },
+    video1314:{
+      en:'../../assets/part5img/13.14E.mp4',
+      hn:'../../assets/part5img/13.14H.mp4',
+    },
+    video1516:{
+      en:'../../assets/part5img/15.16E.mp4',
+      hn:'../../assets/part5img/15.16H.mp4',
+    },
+  }
+
   public tab: string = 'tab1';
   public tabpart: string = 'tab11';
+
+  currentLanguage:string ="";
 
   isshow: boolean = false;
   visible: boolean = false;
@@ -93,5 +121,15 @@ export class Part5Component {
     this.showtabsall = !this.showtabsall;
   }
 
-  ngOnInit(): void {}
+  constructor(private ts:TranslateService){
+
+  }
+
+  ngOnInit(): void {
+
+    this.ts.onLangChange.subscribe( lang=>{
+      this.currentLanguage = lang.lang
+    })
+
+  }
 }
