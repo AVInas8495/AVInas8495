@@ -73,6 +73,9 @@ body {
 .container {
     padding: 27px 80px 27px;
 }
+/* .container2{
+    padding: 27px 120px 27px;
+} */
 
 .common-wrapper>div:first-child {
     border-top-left-radius: 4px;

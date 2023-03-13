@@ -14,7 +14,7 @@ export class AppComponent {
   constructor (public translate:TranslateService){
 
     this.langen = "English";
-    this.langhn = "Hindi";
+    this.langhn = "हिंदी";
 
     translate.addLangs(['en','hn']);
     translate.setDefaultLang('en');
