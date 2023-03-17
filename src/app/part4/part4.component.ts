@@ -11,16 +11,16 @@ export class Part4Component {
   vd:any={
 
     video12:{
-      en:'../../assets/part4img/1.2E.mp4',
-      hn:'../../assets/part4img/1.2H.mp4',
+      en:'./assets/part4img/1.2E.mp4',
+      hn:'./assets/part4img/1.2H.mp4',
     },
     video34:{
-      en:'../../assets/part4img/3.4E.mp4',
-      hn:'../../assets/part4img/3.4H.mp4',
+      en:'./assets/part4img/3.4E.mp4',
+      hn:'./assets/part4img/3.4H.mp4',
     },
     video56:{
-      en:'../../assets/part4img/5.6E.mp4',
-      hn:'../../assets/part4img/5.6H.mp4',
+      en:'./assets/part4img/5.6E.mp4',
+      hn:'./assets/part4img/5.6H.mp4',
     },
   }
 

@@ -11,8 +11,8 @@ export class Part6Component {
 img:any={
 
   latestimg:{
-    en:'../../assets/latest.png',
-    hn:'../../assets/Hindi.png',
+    en:'./assets/latest.png',
+    hn:'./assets/Hindi.png',
   }
 }
 

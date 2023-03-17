@@ -11,24 +11,24 @@ export class Part5Component {
   vd:any={
 
     video78:{
-      en:'../../assets/part5img/7.8E.mp4',
-      hn:'../../assets/part5img/7.8H.mp4',
+      en:'./assets/part5img/7.8E.mp4',
+      hn:'./assets/part5img/7.8H.mp4',
     },
     video910:{
-      en:'../../assets/part5img/9.10E.mp4',
-      hn:'../../assets/part5img/9.10H.mp4',
+      en:'./assets/part5img/9.10E.mp4',
+      hn:'./assets/part5img/9.10H.mp4',
     },
     video1112:{
-      en:'../../assets/part5img/11.12E.mp4',
-      hn:'../../assets/part5img/11.12H.mp4',
+      en:'./assets/part5img/11.12E.mp4',
+      hn:'./assets/part5img/11.12H.mp4',
     },
     video1314:{
-      en:'../../assets/part5img/13.14E.mp4',
-      hn:'../../assets/part5img/13.14H.mp4',
+      en:'./assets/part5img/13.14E.mp4',
+      hn:'./assets/part5img/13.14H.mp4',
     },
     video1516:{
-      en:'../../assets/part5img/15.16E.mp4',
-      hn:'../../assets/part5img/15.16H.mp4',
+      en:'./assets/part5img/15.16E.mp4',
+      hn:'./assets/part5img/15.16H.mp4',
     },
   }
 

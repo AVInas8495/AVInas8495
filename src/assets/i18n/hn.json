@@ -287,7 +287,7 @@
         "HEADBTN": "मुख्य बिंदु"
     },
     "img" : {
-        "en": "'../../assets/latest.png'",
-        "hn": "'../../assets/Hindi.png'"
+        "en": "'./assets/latest.png'",
+        "hn": "'./assets/Hindi.png'"
         }
 }
