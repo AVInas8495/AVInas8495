@@ -136,7 +136,7 @@ p {
 }
 
 .w-35 {
-    width: 35%;
+    width: 40%;
 }
 
 .w-40 {
@@ -779,3 +779,9 @@ video::-internal-media-controls-overflow-button{
 .carousel-indicators{
     display: none;
 }
+/* .padlr{
+    margin: 0px 0px 0px 50px;
+}
+.padlr1{
+    margin: 0px 0px 0px 0px;
+} */
