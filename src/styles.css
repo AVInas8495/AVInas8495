@@ -73,9 +73,9 @@ body {
 .container {
     padding: 27px 80px 27px;
 }
-/* .container2{
-    padding: 27px 120px 27px;
-} */
+.container140{
+    padding: 27px 140px 27px;
+}
 
 .common-wrapper>div:first-child {
     border-top-left-radius: 4px;
@@ -136,7 +136,7 @@ p {
 }
 
 .w-35 {
-    width: 40%;
+    width: 35%;
 }
 
 .w-40 {
@@ -150,6 +150,9 @@ p {
 
 .w-45 {
     width: 45%;
+}
+.w-46{
+    width: 46%;
 }
 
 .w-50 {
@@ -167,6 +170,10 @@ p {
 .w-60 {
     width: 60%;
 }
+.w-62{
+    width: 62%;
+}
+
 
 .w-65 {
     width: 65%;
