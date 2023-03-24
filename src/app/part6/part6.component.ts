@@ -8,12 +8,21 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class Part6Component {
 
+  
+
 img:any={
 
   latestimg:{
     en:'./assets/latest.png',
     hn:'./assets/Hindi.png',
   }
+}
+vd:any={
+
+  video1718:{
+    en:'./assets/part5img/17.18E.mp4',
+    hn:'./assets/part5img/17.18H.mp4',
+  },
 }
 
 currentLanguage:string ="";
