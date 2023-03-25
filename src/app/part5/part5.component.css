@@ -1,0 +1,18 @@
+/* .green {
+    background-color: green;
+} */
+
+/* .red {
+    background-color: red;
+} */
+
+.red{
+    box-shadow: 0 0 5px 5px #A18B5D;
+  /* box-shadow: 0 0.5em 0.5em -0.4em var(--hover); */
+  /* background-color: red;
+  transform: translateY(-0.25em); */
+}
+
+.clicked{
+    box-shadow: 0 0 5px 5px #A18B5D;
+}

@@ -465,8 +465,8 @@
                 <div class="b">
                   <div class="w-97">
                     <img
-                      src="./assets/part5img/Dutt.png"
-                      class="ancimg"
+                      src="./assets/part5img/Rectangle 1095.png"
+                      class="ancimg common-wrapper8"
                       alt="Ram Naresh
                                       Yadav"
                     />
@@ -1523,7 +1523,7 @@
           <button 
             type="button"
             class="ms-5 customBtn {{ visible11 ? 'rightSide' : '' }}"
-            (click)="showContent1()"
+            (click)="showContent1()" [ngClass]="{'green' : toggle, 'red': !toggle}"
           >
             {{ "Part5.7N8BTN" | translate }}
           </button>
@@ -1533,21 +1533,21 @@
         <div class="d-flex flex-column left-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" type="button" (click)="showTab('tab19')">
+              <button type="button" [ngClass]="{'clicked': tab== 'tab19'  }" (click)="showTab('tab19')">
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab20')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab20'  }" (click)="showTab('tab20')">
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab21')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab21'  }" (click)="showTab('tab21')">
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1559,7 +1559,7 @@
           <button
             type="button"
             class="customBtn ms-5 {{ visible21 ? 'leftSide' : '' }}"
-            (click)="showContent2()"
+            (click)="showContent2()" [ngClass]="{'green' : toggle, 'red': !toggle}"
           >
             {{ "Part5.15N16BTN" | translate }}
           </button>
@@ -1569,21 +1569,21 @@
         <div class="d-flex flex-column right-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" type="button" (click)="showTab('tab3')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab3'  }" (click)="showTab('tab3')">
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab4')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab4'  }" (click)="showTab('tab4')">
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab5')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab5'  }" (click)="showTab('tab5')">
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1594,21 +1594,21 @@
         <div class="d-flex flex-column left-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" type="button" (click)="showTab('tab11')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab11'  }" (click)="showTab('tab11')">
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" type="button" (click)="showTab('tab12')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab12'  }" (click)="showTab('tab12')">
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" type="button" (click)="showTab('tab13')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab13'  }" (click)="showTab('tab13')">
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1620,7 +1620,7 @@
           <button
             type="button"
             class="customBtn ms-5 {{ visible31 ? 'rightSide' : '' }}"
-            (click)="showContent3()"
+            (click)="showContent3()" [ngClass]="{'green' : toggle, 'red': !toggle}"
           >
             {{ "Part5.9N10BTN" | translate }}
           </button>
@@ -1630,21 +1630,21 @@
         <div class="d-flex flex-column left-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" type="button" (click)="showTab('tab15')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab15'  }" (click)="showTab('tab15')">
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab16')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab16'  }" (click)="showTab('tab16')">
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab17')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab17'  }" (click)="showTab('tab17')">
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1657,7 +1657,7 @@
           <button
             type="button"
             class="customBtn ms-5 {{ visible41 ? 'leftSide' : '' }}"
-            (click)="showContent4()"
+            (click)="showContent4()" [ngClass]="{'green' : toggle, 'red': !toggle}"
           >
             {{ "Part5.13N14BTN" | translate }}
           </button>
@@ -1667,21 +1667,21 @@
         <div class="d-flex flex-column right-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" type="button" (click)="showTab('tab7')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab7'  }" (click)="showTab('tab7')">
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab8')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab8'  }" (click)="showTab('tab8')">
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" (click)="showTab('tab9')">
+              <button type="button"  [ngClass]="{'clicked': tab== 'tab9'  }" (click)="showTab('tab9')">
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1693,7 +1693,7 @@
           <button
             type="button"
             class="customBtn {{ visible51 ? 'leftSide' : '' }}"
-            (click)="showContent5()"
+            (click)="showContent5()" [ngClass]="{'green' : toggle, 'red': !toggle}"
           >
             {{ "Part5.11N12BTN" | translate }}
           </button>

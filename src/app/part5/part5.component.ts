@@ -37,6 +37,9 @@ export class Part5Component {
 
   currentLanguage:string ="";
 
+  toggle = true;
+  status = 'Enable';
+
   isshow: boolean = false;
   visible: boolean = false;
   visible1: boolean = false;
@@ -63,6 +66,8 @@ export class Part5Component {
   }
 
   showContent1() {
+    this.toggle = !this.toggle;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     this.visible2 = !this.visible2;
     this.visible3 = !this.visible3;
     this.visible4 = !this.visible4;
@@ -73,8 +78,9 @@ export class Part5Component {
   }
 
   showContent2() {
+    this.toggle = !this.toggle;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     this.visible1 = !this.visible1;
-
     this.visible3 = !this.visible3;
     this.visible4 = !this.visible4;
     this.visible5 = !this.visible5;
@@ -84,9 +90,10 @@ export class Part5Component {
   }
 
   showContent3() {
+    this.toggle = !this.toggle;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     this.visible1 = !this.visible1;
     this.visible2 = !this.visible2;
-
     this.visible4 = !this.visible4;
     this.visible5 = !this.visible5;
     this.visible31 = !this.visible31;
@@ -95,10 +102,11 @@ export class Part5Component {
   }
 
   showContent4() {
+    this.toggle = !this.toggle;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     this.visible1 = !this.visible1;
     this.visible2 = !this.visible2;
     this.visible3 = !this.visible3;
-
     this.visible5 = !this.visible5;
     this.visible41 = !this.visible41;
 
@@ -107,6 +115,8 @@ export class Part5Component {
   }
 
   showContent5() {
+    this.toggle = !this.toggle;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     this.visible1 = !this.visible1;
     this.visible2 = !this.visible2;
     this.visible3 = !this.visible3;
