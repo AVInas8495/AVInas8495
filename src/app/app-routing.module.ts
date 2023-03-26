@@ -9,7 +9,7 @@ const routes: Routes = [
   //  { path: 'screen1', component: ScreenOneComponent },
   // { path: 'screen2', component: ScreenTwoComponent },
   // { path: 'screen3', component: ScreenThreeComponent },
-  { path: '**', component: ScreenTwoComponent },
+  { path: '**', component: ScreenThreeComponent },
   // { path: '/', component: ScreenOneComponent },
   //  { path: '', component: ScreenTwoComponent },
 ];
