@@ -1,8 +1,8 @@
 <ng-container [ngSwitch]="tabpart">
   <div *ngSwitchCase="'tab11'" class="container bghead fix-height">
-    <div class="d-flex common-wrapper bg-1857">
+    <div class="d-flex common-wrapper" style="height: 316px !important;">
       <div class="w-40">
-        <img src="./assets/1857 war.png" class="ancimg" alt="img" />
+        <img src="./assets/1857 brief1.png" class="ancimg" style="height: 311px !important;" alt="img" />
       </div>
       <div class="w-60 text-bg-1920 text-white">
         <p [innerHTML]="'Part2.P1' | translate"></p>
@@ -12,35 +12,35 @@
 
   <div *ngSwitchCase="'tab12'" class="container bghead fix-height">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-7">
         <div class="header">
-          <img src="./assets/horses.png" class="ancimg" alt="img" />
+          <img src="./assets/1857overview.png" class="ancimg common-wrapper" alt="img" />
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="para text-white">
+      <div class="col-md-5">
+        <p class="small-font text-white">
           {{ "Part2.UP" | translate }}
-        </div>
+        </p>
       </div>
     </div>
   </div>
 
   <div *ngSwitchCase="'tab13'" class="container bghead fix-height">
-    <div class="text-white">
+    <div class="text-white" style="font-size: 18px !important;">
       {{ "Part2.REVOLT" | translate }}
-      <div style="float: right; width: 60%">
+      <div style="float: right; width: 60%; margin-left: 24px;">
         <div class="row">
-          <div class="col-md-6 mb-2 pe-0">
-            <img src="./assets/revolt1.png" class="img-fluid" />
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti1.png" class="img-fluid common-wrapper" />
           </div>
-          <div class="col-md-6 mb-2 pe-0">
-            <img src="./assets/revolt2.png" class="img-fluid" />
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti2.png" style="height: 174px !important;" class="img-fluid common-wrapper" />
           </div>
-          <div class="col-md-6 pe-0">
-            <img src="./assets/revolt3.png" class="img-fluid" />
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti3.png" class="img-fluid common-wrapper" />
           </div>
-          <div class="col-md-6 pe-0">
-            <img src="./assets/revolt4.png" class="img-fluid" />
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti4.png" class="img-fluid common-wrapper" />
           </div>
         </div>
       </div>
@@ -49,19 +49,23 @@
   </div>
 
   <div *ngSwitchCase="'tab14'" class="container bghead fix-height">
-    <div class="text-white">
-      <div style="float: left; width: 55%">
+    <div class="row">
+      <div class="col-md-7">
         <div class="row">
           <div class="col-md-6 mb-2">
-            <img src="./assets/dev-1.png" class="img-fluid mb-2" />
-            <img src="./assets/dev-2.png" class="img-fluid" />
+            <img src="./assets/krantikavikas1.png" class="img-fluid mb-2 common-wrapper" />
+            <img src="./assets/krantikavikas2.png" class="img-fluid common-wrapper" />
           </div>
           <div class="col-md-6 ps-0 pe-4">
-            <img src="./assets/dev-3.png" class="img-fluid" />
+            <img src="./assets/krantikavikas3.png" style="height: 342px !important;" class="img-fluid common-wrapper" />
           </div>
         </div>
       </div>
-      {{ "Part2.NEWS" | translate }}
+      <div class="col-md-5 text-white">
+        <p class="small-font">
+          {{ "Part2.NEWS" | translate }}
+          </p>
+      </div>
     </div>
   </div>
 
@@ -70,15 +74,15 @@
       <div class="col-md-6">
         <div class="row">
           <div class="col-md-6 mb-2">
-            <img src="./assets/history-1.png" class="img-fluid mb-2" />
-            <img src="./assets/history-2.png" class="img-fluid" />
+            <img src="./assets/eicfactory.png" class="img-fluid mb-2 common-wrapper" />
+            <img src="./assets/eic.png" class="img-fluid common-wrapper" />
           </div>
           <div class="col-md-6">
-            <img src="./assets/history-3.png" class="img-fluid" />
+            <img src="./assets/powertransfer-modified.png" style="height: 295px !important;" class="img-fluid common-wrapper" />
           </div>
         </div>
       </div>
-      <div class="col-md-6" [innerHTML]="'Part2.HISTORIAN' | translate"></div>
+      <div class="col-md-6" style="font-size: 18px !important;" [innerHTML]="'Part2.HISTORIAN' | translate"></div>
     </div>
   </div>
 
@@ -88,7 +92,7 @@
         <img src="./assets/council-act.png" class="w-100" />
       </div>
       <div class="col-md-8">
-        <p>{{ "Part2.ICOUNCILS" | translate }}</p>
+        <p class="small-font">{{ "Part2.ICOUNCILS" | translate }}</p>
       </div>
     </div>
   </div>
@@ -99,7 +103,7 @@
         <img src="./assets/council-act.png" class="w-100" />
       </div>
       <div class="col-md-8">
-        <span>{{ "Part2.ASSUM" | translate }}</span>
+        <p class="small-font">{{"Part2.ASSUM" | translate }}</p>
         <!-- <img src="./assets/council-act-2.png" class="w-100"> -->
       </div>
     </div>
@@ -108,9 +112,9 @@
   <div *ngSwitchCase="'tab18'" class="container bghead fix-height">
     <div class="row text-white">
       <div class="col-md-8">
-        <small class="d-block">{{ "Part2.AFTER" | translate }}</small>
+        <p class="d-block small-font">{{ "Part2.AFTER" | translate }}</p>
 
-        <small class="d-block my-3">{{ "Part2.FIRST" | translate }}</small>
+        <p class="d-block my-3 small-font">{{ "Part2.FIRST" | translate }}</p>
 
         <small class="d-block"
           >{{ "Part2.SIR" | translate }}<br />
@@ -134,7 +138,7 @@
             {{ "Part2.PANDIT" | translate }}
           </div>
         </div>
-        <div class="row mt-3 text-white" [innerHTML]="'Part2.KEY' | translate"></div>
+        <p class="row mt-3 text-white small-font" [innerHTML]="'Part2.KEY' | translate"></p>
       </div>
       <div class="col-md-4 pe-0">
         <img src="./assets/council-act.png" class="w-100" />
@@ -148,11 +152,11 @@
         <img src="./assets/council-act.png" class="w-100" />
       </div>
       <div class="col-md-8">
-        <span
-          class="d-block mb-3"
+        <p
+          class="d-block mb-3 small-font"
           [innerHTML]="'Part2.EIGHT' | translate"
-        ></span>
-        <span [innerHTML]="'Part2.ASRESULT' | translate"></span>
+        ></p>
+        <p class="small-font" [innerHTML]="'Part2.ASRESULT' | translate"></p>
       </div>
     </div>
   </div>
@@ -163,12 +167,12 @@
         <img src="./assets/council-act.png" class="w-100" />
       </div>
       <div class="col-md-8">
-        <span class="d-block">{{ "Part2.CLEAR" | translate }}</span>
-        <span
-          class="d-block my-2"
+        <p class="d-block small-font">{{ "Part2.CLEAR" | translate }}</p>
+        <p
+          class="d-block my-2 small-font"
           [innerHTML]="'Part2.BRITISH' | translate"
-        ></span>
-        <span class="d-block">{{ "Part2.MEM" | translate }}</span>
+        ></p>
+        <p class="d-block small-font">{{ "Part2.MEM" | translate }}</p>
       </div>
     </div>
   </div>
@@ -179,7 +183,7 @@
         <img src="./assets/BarCodeRemoval.jpg" class="w-100" />
       </div>
       <div class="col-md-8">
-        <span class="d-block mb-2">{{ "Part2.GOVERN" | translate }}</span>
+        <p class="d-block mb-2 small-font">{{ "Part2.GOVERN" | translate }}</p>
         <img src="./assets/constitution-2.png" class="w-70" />
       </div>
     </div>
@@ -191,7 +195,7 @@
         <img src="./assets/1915 (2).png" class="w-100" />
       </div>
       <div class="col-md-8">
-        <span class="d-block" [innerHTML]="'Part2.1915.2' | translate"></span>
+        <p class="d-block small-font" [innerHTML]="'Part2.1915.2' | translate"></p>
         <!-- <span class="d-block my-2">{{'Part2.REPORT' | translate}}</span> -->
       </div>
     </div>
@@ -203,8 +207,8 @@
         <img src="./assets/1919.png" class="w-100" />
       </div>
       <div class="col-md-8">
-        <span class="d-block" [innerHTML]="'Part2.1919' | translate"></span>
-        <span class="d-block my-2">{{ "Part2.REPORT2" | translate }}</span>
+        <p class="d-block small-font" [innerHTML]="'Part2.1919' | translate"></p>
+        <p class="d-block my-2 small-font">{{ "Part2.REPORT2" | translate }}</p>
       </div>
     </div>
   </div>
@@ -215,7 +219,7 @@
         <img src="./assets/world war 1b.png" class="w-100 common-wrapper4" />
       </div>
       <div class="w-55 ps-4">
-        <span class="d-block mb-2">{{ "Part2.1915" | translate }}</span>
+        <p class="d-block mb-2 small-font">{{ "Part2.1915" | translate }}</p>
         <img src="./assets/world war 1 indiab.png" class="w-100 common-wrapper4" />
       </div>
     </div>
@@ -264,19 +268,21 @@
     <div class="col-md-8">
       <div class="row">
         <div class="col-md-5 p-2">
-          <img src="./assets/img1.png" class="ancimg" alt="img" />
+          <img src="./assets/ww1.png" class="ancimg common-wrapper" alt="img" />
         </div>
         <div class="col-md-7 p-2 text-white">
           <p>{{ "Part2.P2" | translate }}</p>
         </div>
       </div>
-      <div>
-        <img src="./assets/img3.png" class="ancimg" alt="img" />
+      <div class="row mt-3">
+        <div class="col-md-12">
+        <img src="./assets/worldwar1.png" class="ancimg common-wrapper" style="height: 178px !important;" alt="img" />
+      </div>
       </div>
     </div>
     <div class="col-md-4">
       <img
-        src="./assets/british rule in india.png"
+        src="./assets/thornhillhall.png"
         class="img2 common-wrapper"
         alt="img"
       />

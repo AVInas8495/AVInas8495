@@ -101,7 +101,7 @@ body {
 }
 
 .text-bg-1875 {
-    background: url(./assets/text-1857-bg.png);
+    /* background: url(./assets/text-1857-bg.png); */
     box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
     background-position: center;
     background-size: cover;
@@ -117,7 +117,7 @@ body {
 }
 
 .text-bg-1920 {
-    background: url(./assets/text-1920-bg.png);
+    /* background: url(./assets/text-1920-bg.png); */
     box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
     background-position: center;
     background-size: cover;
@@ -189,6 +189,9 @@ p {
     width: 70%;
 }
 
+.ps-50 {
+    padding-left: 2.5rem!important;
+}
 .rays {
     position: absolute;
     top: 50%;
@@ -277,7 +280,7 @@ p {
 
 
 p.small-font {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .four-rays .rays img:first-child {

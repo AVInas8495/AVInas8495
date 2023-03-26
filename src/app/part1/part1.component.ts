@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-part1',
@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class Part1Component {
   public tab: string = 'tab1';
   public tabpart: string = 'tab11';
+
+
+  toggle = true;
+status = 'Enable';
 
   isshow: boolean = false;
   visible: boolean = false;
@@ -25,12 +29,20 @@ export class Part1Component {
   submenu_gov_act: boolean = false;
   submenu_indian_council: boolean = false;
   showtabsall: boolean = false;
+  selectedButton:boolean=false;
+  // err=true;
+  
+  
   // section 2 variables end
 
   public showTab(tab: string) {
     this.tab = tab;
-  }
+    // this.err = !this.err
+    }
 
+
+
+ 
   public showTabpart(tabpart: string) {
     this.tabpart = tabpart;
   }
@@ -48,6 +60,8 @@ export class Part1Component {
   }
 
   showContent() {
+    this.toggle = !this.toggle;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     this.visible = !this.visible;
     if (this.visible) this.showTab('tab2');
     else this.showTab('tab1');
