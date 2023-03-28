@@ -23,6 +23,6 @@ export class AppComponent {
     translate.use(browserLang?.match(/en|hn/) ? browserLang : 'en');
   }
   ngOnInit() {
-    this.rightClickDisable.disableRightClick();
+    // this.rightClickDisable.disableRightClick();
   }
 }
