@@ -795,9 +795,16 @@ video::-internal-media-controls-overflow-button{
 .carousel-indicators{
     display: none;
 }
-/* .padlr{
-    margin: 0px 0px 0px 50px;
+.shiftend{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
 }
-.padlr1{
-    margin: 0px 0px 0px 0px;
-} */
+.pos{
+    position: relative;
+    right: 135px;
+    bottom: 270px;
+}
+.marrht{
+    margin-right: 129px !important;
+}

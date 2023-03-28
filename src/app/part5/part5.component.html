@@ -1,5 +1,4 @@
 <ng-container [ngSwitch]="tab">
-    
   <div *ngSwitchCase="'tab1'" class="container bghead fix-height">
     <div class="row align-items-center mt-3">
       <div class="col-md-6">
@@ -11,7 +10,7 @@
                   src="./assets/part5img/upassembly.png"
                   class="ancimg"
                   alt="img"
-                  style="height: 122px !important;"
+                  style="height: 122px !important"
                 />
               </div>
             </div>
@@ -27,22 +26,22 @@
           </div>
           <div class="col-md-6 mb-2">
             <div class="common-wrapper mb-3">
-              <div class="w-97" style="height: 123px;">
+              <div class="w-97" style="height: 123px">
                 <img
                   src="./assets/part5img/Rectangle 1087 (3).png"
                   class="ancimg"
                   alt="img"
-                  style="height: 131px !important;"
+                  style="height: 131px !important"
                 />
               </div>
             </div>
             <div class="common-wrapper mb-3">
-              <div class="w-97" style="height: 129px;">
+              <div class="w-97" style="height: 129px">
                 <img
                   src="./assets/part5img/kalyan singh ji.png"
                   class="ancimg"
                   alt="img"
-                  style="height: 129px !important;"
+                  style="height: 129px !important"
                 />
               </div>
             </div>
@@ -51,7 +50,7 @@
       </div>
 
       <div class="col-md-6 text-white">
-        <p>
+        <p class="text-center mt-3">
           {{ "Part5.JAN" | translate }}
         </p>
       </div>
@@ -67,7 +66,7 @@
                 src="./assets/part5img/seventh.png"
                 class="ancimg"
                 alt="img"
-                style="height: 185px !important;"
+                style="height: 185px !important"
               />
             </div>
           </div>
@@ -77,7 +76,7 @@
                 src="./assets/part5img/eight.png"
                 class="ancimg"
                 alt="img"
-                style="height: 185px !important;"
+                style="height: 185px !important"
               />
             </div>
           </div>
@@ -107,24 +106,25 @@
                     />
                   </div>
                 </div>
-                <small class="d-block">{{ "Part5.DAS" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.DAS" | translate }}
+                </div>
               </div>
               <div class="col-md-12 text-white mt-2">
                 <div class="common-wrapper">
                   <div class="w-97">
                     <img
-                      src="./assets/part5img/Rectangle-d1.png
-                                        "
+                      src="./assets/part5img/jagnnathprasad.png"
                       class="ancimg"
                       alt="Babu Banarasi Das"
                     />
                   </div>
                 </div>
-                <div class="text-center text-white">
+                <div class="text-center text-white mt-3">
                   {{ "Part5.JAGN" | translate }}
                 </div>
               </div>
-              <!-- <small class="d-block text-white">{{'Part5.BABU' | translate}}</small> -->
+              <!-- <div class="d-block text-white mt-3 text-center">{{'Part5.BABU' | translate}}</div> -->
             </div>
           </div>
 
@@ -138,35 +138,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="row mg-rw text-white text-center">
-              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
-              <div class="col-md-6">
-                <div class="common-wrapper">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Rectangle 1095.png"
-                      class="ancimg"
-                      alt="Shri Raj Mangal
-                                          Pandey"
-                    />
-                  </div>
-                </div>
-                <small class="d-block">{{ "Part5.DUTT" | translate }}</small>
-              </div>
-              <div class="col-md-6">
-                <div class="common-wrapper">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Rectangle 1094 (1).png"
-                      class="ancimg"
-                      alt="N.D. Tiwari"
-                    />
-                  </div>
-                </div>
-                <small class="d-block">{{ "Part5.MANGAL" | translate }}</small>
-              </div>
-            </div>
-            <div class="row mt-2">
+            <div class="row">
               <div class="col-md-12 text-white">
                 <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
               </div>
@@ -181,9 +153,9 @@
                     />
                   </div>
                 </div>
-                <small class="d-block text-white">{{
-                  "Part5.NARESH" | translate
-                }}</small>
+                <div class="d-block text-white mt-3 text-center">
+                  {{ "Part5.NARESH" | translate }}
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="common-wrapper">
@@ -196,8 +168,40 @@
                     />
                   </div>
                 </div>
-                <div class="text-center text-white">
+                <div class="text-center text-white mt-3">
                   {{ "Part5.DAS1" | translate }}
+                </div>
+              </div>
+            </div>
+            <div class="row mg-rw text-white text-center mt-4">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+              <div class="col-md-6">
+                <div class="common-wrapper">
+                  <div class="w-97">
+                    <img
+                      src="./assets/part5img/Rectangle 1095.png"
+                      class="ancimg"
+                      alt="Shri Raj Mangal
+                                          Pandey"
+                    />
+                  </div>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.DUTT" | translate }}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="common-wrapper">
+                  <div class="w-97">
+                    <img
+                      src="./assets/part5img/Rectangle 1094 (1).png"
+                      class="ancimg"
+                      alt="N.D. Tiwari"
+                    />
+                  </div>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MANGAL" | translate }}
                 </div>
               </div>
             </div>
@@ -205,11 +209,12 @@
         </div>
       </ng-template>
       <ng-template ngbSlide>
-        <div class="row pt-2">
+        <div class="row pt-4">
           <div class="col-md-2">
             <div class="row align-items-center">
               <div class="col-md-12 text-center text-white">
                 <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
+                <div class="">
                   <div class="w-97">
                     <img
                       src="./assets/part5img/Shripati.png"
@@ -217,106 +222,114 @@
                       alt="Shri Jagannath Prasad"
                     />
                   </div>
-                <small class="d-block">{{ "Part5.SHRI" | translate }}</small>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.DAS" | translate }}
+                </div>
               </div>
-
-            </div>
-          </div>
-          <div class="col-md-6 text-white mt-3">
-            <span
-              class="d-block p-2"
-              style="border: 1px solid #d4be8f; border-radius: 15px"
-              [innerHTML]="'Part5.8TH' | translate"
-            >
-            </span>
-          </div>
-          <div class="col-md-4">
-            <div class="row mg-rw text-white text-center">
-              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
-              <div class="col-md-6">
-                <div>
+              <div class="col-md-12 text-white mt-2">
+                <div class="">
                   <div class="w-97">
                     <img
-                      src="./assets/part5img/Rajendra.png"
+                      src="./assets/part5img/dharam.png"
                       class="ancimg"
-                      alt="Shri Raj Mangal
-                                          Pandey"
+                      alt="Babu Banarasi Das"
                     />
                   </div>
                 </div>
-                <small class="d-block">{{ "Part5.RAJEN" | translate }}</small>
+                <div class="text-center text-white mt-3">
+                  {{ "Part5.DHARAM" | translate }}
+                </div>
               </div>
+              <!-- <div class="d-block text-white mt-3 text-center">{{'Part5.BABU' | translate}}</div> -->
             </div>
-          </div>
-        </div>
-        <div class="row pt-2">
-          <div class="col-md-2">
-            <div class="row align-items-center">
-          <div class="col-md-12 text-white mt-2 text-center">
-                <div class="w-97">
-                <img
-                  src="./assets/part5img/dharam.png"
-                  class="ancimg"
-                  alt="Babu Banarasi Das"
-                />
-              </div>
-            <div class="text-center text-white">
-              {{ "Part5.DHARAM" | translate }}
-            </div>
-          </div>
-        </div>
           </div>
 
-          <div class="col-md-6" style="float: none; margin-left: auto; margin-bottom: -8px;">
-            
-            <div class="row">
-              <div class="col-md-12 text-white" style="float: none; margin-left: auto;">
-                <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div
+              class="col-md-12 text-white mb-3"
+              style="margin-left: 67px !important"
+            >
+              <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
+            </div>
+            <div class="row shiftend">
+              <div class="col-md-3"></div>
+              <div class="col-md-3">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Pratap.png"
+                    class="ancimg"
+                    alt="Ram Naresh
+                                    Yadav"
+                  />
+                </div>
+                <div class="d-block text-white mt-3 text-center">
+                  {{ "Part5.PRATAP" | translate }}
+                </div>
               </div>
-              <div class="col-md-4">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Pratap.png"
-                      class="ancimg"
-                      alt="Ram Naresh
-                                        Yadav"
-                    />
-                  </div>
-                <small class="d-block text-white">{{
-                  "Part5.PRATAP" | translate
-                }}</small>
-              </div>
-              <div class="col-md-4">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Shripati.png"
-                      class="ancimg"
-                      alt="Babu Banarsi
-                                        Das"
-                    />
-                  </div>
-                <div class="text-center text-white">
+              <div class="col-md-3">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Shripati.png"
+                    class="ancimg"
+                    alt="Babu Banarsi
+                                    Das"
+                  />
+                </div>
+                <div class="text-center text-white mt-3">
                   {{ "Part5.SHRI1" | translate }}
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <div class="common-wrapper">
                   <div class="w-97">
                     <img
                       src="./assets/part5img/Rectangle 1095.png"
                       class="ancimg"
                       alt="Babu Banarsi
-                                        Das"
+                                    Das"
                     />
                   </div>
                 </div>
-                <div class="text-center text-white">
+                <div class="text-center text-white mt-3">
                   {{ "Part5.DUTT1" | translate }}
                 </div>
               </div>
             </div>
+
+            <div class="row pt-4">
+              <div class="col-md-6 pos text-white mt-3">
+                <span
+                  class="d-block p-2"
+                  style="border: 1px solid #d4be8f; border-radius: 15px"
+                  [innerHTML]="'Part5.8TH' | translate"
+                >
+                </span>
+              </div>
+
+              <div class="col-md-6">
+                <div class="row mg-rw text-white text-center">
+                  <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+                  <div class="col-md-6" style="margin-left: 24px">
+                    <div>
+                      <div class="w-97">
+                        <img
+                          src="./assets/part5img/Rajendra (1).png"
+                          class="ancimg"
+                          alt="Shri Raj Mangal
+                                        Pandey"
+                        />
+                      </div>
+                    </div>
+                    <div class="d-block mt-3 text-center">
+                      {{ "Part5.RAJEN" | translate }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-      
         </div>
       </ng-template>
     </ngb-carousel>
@@ -328,9 +341,8 @@
         <div class="row mg-rw">
           <div class="col-md-12 common-wrapper b">
             <div class="w-97">
-
               <video
-                src="{{vd.video78[currentLanguage]}}"
+                src="{{ vd.video78[currentLanguage] }}"
                 controls
                 _ngcontent-mqy-c16
                 class="ancimg p-1 common-wrapper b"
@@ -398,13 +410,11 @@
   <div *ngSwitchCase="'tab7'" class="container bghead fix-height">
     <ngb-carousel class="carousel-wrapper">
       <ng-template ngbSlide>
-        <div class="row text-white pt-4">
+        <div class="row text-white">
           <div class="col-md-4">
             <div class="row mg-rw">
               <div class="col-md-12 text-center">
-                <strong class="text-center">{{
-                  "Part5.SPEAKER" | translate
-                }}</strong>
+                <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
                 <div class="">
                   <div class="w-97">
                     <img
@@ -416,7 +426,7 @@
                     />
                   </div>
                 </div>
-                <p>{{ "Part5.NIYAZ" | translate }}</p>
+                <p class="text-center mt-3">{{ "Part5.NIYAZ" | translate }}</p>
               </div>
             </div>
           </div>
@@ -432,35 +442,8 @@
 
           <div class="col-md-4">
             <div class="row text-white">
-              <h5 class="">{{ "Part5.LEADER" | translate }}</h5>
-              <div class="col-md-6">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Mulayam.png"
-                    class="ancimg"
-                    alt="Mohd. Azam
-                                        Khan"
-                  />
-                </div>
-                <small>{{ "Part5.MULAYAM" | translate }}</small>
-              </div>
-              <div class="col-md-6">
-                <div class="common-wrapper8">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Satyapal (2).png"
-                      class="ancimg"
-                      alt="Ram Naresh
-                                    Yadav"
-                    />
-                  </div>
-                </div>
-                <small>{{ "Part5.SATPAL" | translate }}</small>
-              </div>
-            </div>
-            <div class="row text-white mt-3">
               <div class="col-md-12">
-                <h5 class="text-center">{{ "Part5.CM" | translate }}</h5>
+                <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
               </div>
               <div class="col-md-6">
                 <div class="b">
@@ -473,7 +456,9 @@
                     />
                   </div>
                 </div>
-                <small>{{ "Part5.DUTTC" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.DUTTC" | translate }}
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="b">
@@ -486,7 +471,40 @@
                     />
                   </div>
                 </div>
-                <small>{{ "Part5.VEER" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.VEER" | translate }}
+                </div>
+              </div>
+            </div>
+            <div class="row text-white mt-3">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+              <div class="col-md-6">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Mulayam.png"
+                    class="ancimg"
+                    alt="Mohd. Azam
+                                        Khan"
+                  />
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MULAYAM" | translate }}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="common-wrapper8">
+                  <div class="w-97">
+                    <img
+                      src="./assets/part5img/Satyapal (2).png"
+                      class="ancimg"
+                      alt="Ram Naresh
+                                    Yadav"
+                    />
+                  </div>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.SATPAL" | translate }}
+                </div>
               </div>
             </div>
           </div>
@@ -497,9 +515,7 @@
           <div class="col-md-4">
             <div class="row mg-rw">
               <div class="col-md-12 text-center">
-                <strong class="text-center">{{
-                  "Part5.SPEAKER" | translate
-                }}</strong>
+                <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
                 <div class="">
                   <div class="w-97">
                     <img
@@ -511,7 +527,7 @@
                     />
                   </div>
                 </div>
-                <p>{{ "Part5.HARI" | translate }}</p>
+                <p class="text-center mt-3">{{ "Part5.HARI" | translate }}</p>
               </div>
             </div>
           </div>
@@ -527,24 +543,8 @@
 
           <div class="col-md-4">
             <div class="row text-white">
-              <h5 class="">{{ "Part5.LEADER" | translate }}</h5>
-              <div class="col-md-6">
-                <div class="common-wrapper">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Rectangle 1095.png"
-                    class="ancimg"
-                    alt="Mohd. Azam
-                                        Khan"
-                  />
-                </div>
-                </div>
-                <small>{{ "Part5.DUTTC" | translate }}</small>
-              </div>
-            </div>
-            <div class="row text-white mt-3">
               <div class="col-md-12">
-                <h5 class="text-center">{{ "Part5.CM" | translate }}</h5>
+                <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
               </div>
               <div class="col-md-6">
                 <div class="b">
@@ -557,7 +557,27 @@
                     />
                   </div>
                 </div>
-                <small>{{ "Part5.MULAYAM" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MULAYAM" | translate }}
+                </div>
+              </div>
+            </div>
+            <div class="row text-white mt-3">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+              <div class="col-md-6">
+                <div class="common-wrapper">
+                  <div class="w-97">
+                    <img
+                      src="./assets/part5img/Rectangle 1095.png"
+                      class="ancimg"
+                      alt="Mohd. Azam
+                                        Khan"
+                    />
+                  </div>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.DUTTC" | translate }}
+                </div>
               </div>
             </div>
           </div>
@@ -573,7 +593,7 @@
             <div class="w-97">
               <!-- <img src="./assets/part5img/Rectangle-d9.png" class="ancimg" alt="img" /> -->
               <video
-                src="{{vd.video910[currentLanguage]}}"
+                src="{{ vd.video910[currentLanguage] }}"
                 controls
                 _ngcontent-mqy-c16
                 class="ancimg p-1 common-wrapper b"
@@ -595,7 +615,7 @@
                 src="./assets/part5img/cm9&10.png"
                 class="ancimg"
                 alt="img"
-                style="height: 230px !important;"
+                style="height: 230px !important"
               />
             </div>
           </div>
@@ -606,7 +626,7 @@
                 src="./assets/part5img/mulayam singh yadav.png"
                 class="ancimg"
                 alt="img"
-                style="height: 166px !important;"
+                style="height: 166px !important"
               />
             </div>
           </div>
@@ -631,10 +651,7 @@
         </div>
       </div>
 
-      <div
-        class="col-md-6 text-white"
-   
-      >
+      <div class="col-md-6 text-white">
         <p [innerHTML]="'Part5.11.12TEN' | translate"></p>
       </div>
     </div>
@@ -647,9 +664,7 @@
           <div class="col-md-4">
             <div class="row mg-rw">
               <div class="col-md-12 text-center">
-                <strong class="text-center">{{
-                  "Part5.SPEAKER" | translate
-                }}</strong>
+                <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
                 <div class="">
                   <div class="w-97">
                     <img
@@ -661,7 +676,7 @@
                     />
                   </div>
                 </div>
-                <p>{{ "Part5.KESARI" | translate }}</p>
+                <p class="text-center mt-3">{{ "Part5.KESARI" | translate }}</p>
               </div>
             </div>
           </div>
@@ -677,33 +692,8 @@
 
           <div class="col-md-4">
             <div class="row text-white">
-              <h5 class="">{{ "Part5.LEADER" | translate }}</h5>
-              <div class="col-md-6">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Kailash.png"
-                    class="ancimg"
-                    alt="Mohd. Azam
-                                      Khan"
-                  />
-                </div>
-                <small>{{ "Part5.KAILASH" | translate }}</small>
-              </div>
-              <div class="col-md-6">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Rewati.png"
-                    class="ancimg"
-                    alt="Mohd. Azam
-                                      Khan"
-                  />
-                </div>
-                <small>{{ "Part5.REWATI" | translate }}</small>
-              </div>
-            </div>
-            <div class="row text-white mt-3">
               <div class="col-md-12">
-                <h5 class="text-center">{{ "Part5.CM" | translate }}</h5>
+                <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
               </div>
               <div class="col-md-6">
                 <div class="b">
@@ -716,7 +706,38 @@
                     />
                   </div>
                 </div>
-                <small>{{ "Part5.KALYAN" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.KALYAN" | translate }}
+                </div>
+              </div>
+            </div>
+            <div class="row text-white mt-3">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+              <div class="col-md-6">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Kailashnathsingh.png"
+                    class="ancimg"
+                    alt="Mohd. Azam
+                                      Khan"
+                  />
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.KAILASH" | translate }}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Rewatiraman.png"
+                    class="ancimg"
+                    alt="Mohd. Azam
+                                      Khan"
+                  />
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.REWATI" | translate }}
+                </div>
               </div>
             </div>
           </div>
@@ -728,24 +749,26 @@
             <div class="row align-items-center">
               <div class="col-md-12 text-center text-white">
                 <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
-                 <div class="w-97">
-                    <img
-                      src="./assets/part5img/Dhaniram.png"
-                      class="ancimg"
-                      alt="Shri Jagannath Prasad"
-                    />
-                  </div>
-                <small class="d-block">{{ "Part5.DHANI" | translate }}</small>
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Dhaniram.png"
+                    class="ancimg"
+                    alt="Shri Jagannath Prasad"
+                  />
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.DHANI" | translate }}
+                </div>
               </div>
               <div class="col-md-12 text-white mt-2">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Bharku.png"
-                      class="ancimg"
-                      alt="Babu Banarasi Das"
-                    />
-                  </div>
-                <div class="text-center text-white">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Bharku (1).png"
+                    class="ancimg"
+                    alt="Babu Banarasi Das"
+                  />
+                </div>
+                <div class="text-center text-white mt-3">
                   {{ "Part5.BHARKU" | translate }}
                 </div>
               </div>
@@ -762,52 +785,54 @@
           </div>
 
           <div class="col-md-4">
-            <div class="row mg-rw text-white text-center">
-              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
-              <div class="col-md-6">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Kalyan.png"
-                      class="ancimg"
-                      alt="Shri Raj Mangal
-                                          Pandey"
-                    />
-                  </div>
-                <small class="d-block">{{ "Part5.KALYAN" | translate }}</small>
-              </div>
-            </div>
-            <div class="row mt-2">
+            <div class="row">
               <div class="col-md-12 text-white">
                 <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
               </div>
               <div class="col-md-6">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Mulayam.png"
-                      class="ancimg"
-                      alt="Ram Naresh
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Mulayam.png"
+                    class="ancimg"
+                    alt="Ram Naresh
                                         Yadav"
-                    />
-                  </div>
-                <small class="d-block text-white">{{
-                  "Part5.MULAYAM" | translate
-                }}</small>
+                  />
+                </div>
+                <div class="d-block text-white mt-3 text-center">
+                  {{ "Part5.MULAYAM" | translate }}
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="common-wrapper">
                   <div class="w-97">
                     <img
-                      src="./assets/part5img/Mayawatiji.png"
+                      src="./assets/part5img/Mayawatiji (1).png"
                       class="ancimg"
                       alt="Babu Banarsi
                                         Das"
                     />
                   </div>
                 </div>
-                  <small class="d-block text-white">{{
-                    "Part5.MAYA1" | translate
-                  }}</small>
+                <div class="d-block text-white mt-3 text-center">
+                  {{ "Part5.MAYA1" | translate }}
                 </div>
+              </div>
+            </div>
+            <div class="row mg-rw text-white text-center mt-3">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+              <div class="col-md-6">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Kalyan.png"
+                    class="ancimg"
+                    alt="Shri Raj Mangal
+                                          Pandey"
+                  />
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.KALYAN" | translate }}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -822,7 +847,7 @@
             <div class="w-97">
               <!-- <img src="./assets/part5img/Rectangle-d18.png" class="ancimg" alt="img" /> -->
               <video
-              src="{{vd.video1112[currentLanguage]}}"
+                src="{{ vd.video1112[currentLanguage] }}"
                 controls
                 _ngcontent-mqy-c16
                 class="ancimg p-1 common-wrapper b"
@@ -840,13 +865,13 @@
       <div class="col-md-5">
         <div class="row mg-rw">
           <div class="col-md-6">
-            <div class="common-wrapper" style="height: 106px;">
+            <div class="common-wrapper" style="height: 106px">
               <div class="w-97">
                 <img
                   src="./assets/part5img/kalyan singh ji.png"
                   class="ancimg"
                   alt="img"
-                  style="height: 100px !important;"
+                  style="height: 100px !important"
                 />
               </div>
             </div>
@@ -858,7 +883,7 @@
                   src="./assets/part5img/mulayamsinghyadavji.png"
                   class="ancimg"
                   alt="img"
-                  style="height: 101px !important;"
+                  style="height: 101px !important"
                 />
               </div>
             </div>
@@ -889,177 +914,98 @@
             <div class="row align-items-center">
               <div class="col-md-12 text-center text-white">
                 <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Kesari.png"
-                      class="ancimg"
-                      alt="Shri Jagannath Prasad"
-                    />
-                  </div>
-                <small class="d-block">{{ "Part5.KESARI" | translate }}</small>
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Kesari.png"
+                    class="ancimg"
+                    alt="Shri Jagannath Prasad"
+                  />
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.KESARI" | translate }}
+                </div>
               </div>
-
             </div>
           </div>
-     
+
           <div class="col-md-8">
             <div class="row">
-          <div class="col-md-6 text-white mt-3">
-            <span
-              class="d-block p-2"
-              style="border: 1px solid #d4be8f; border-radius: 15px"
-              [innerHTML]="'Part5.13TH' | translate"
-            >
-            </span>
-          </div>
-          <div class="col-md-6">
-            <div class="row mg-rw text-white text-center">
-              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
-              <div class="col-md-6" style="margin-left: 24px;">
-                <div>
-                  <div class="w-97">
-                    <img
-                    src="./assets/part5img/Dhaniram.png"
-                    class="ancimg"
-                    alt="Shri Raj Mangal
-                                        Pandey"
-                  />
-                </div>
-                </div>
-              <small class="d-block">{{ "Part5.DHANI" | translate }}</small>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="row pt-4">
-            <div class="col-md-12 text-white mb-3" style="margin-left: -60px !important;">
-              <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
-            </div>
-            <div class="col-md-3">
-               <img
-                    src="./assets/part5img/Mayawatiji.png"
-                    class="img-fluid common-wrapper8"
-                  />
-                  <div class="d-block text-white">{{
-                    "Part5.MAYA" | translate
-                  }}</div>  
-            </div>
-          
-              <div class="col-md-3">
-               <img
-                    src="./assets/part5img/Kalyan.png"
-                    class="img-fluid"
-                  />
-                  <div class="text-center text-white">
-                    {{ "Part5.KALYAN1" | translate }}
-                  </div>
-            </div>
-
-              <div class="col-md-3">
-               <img
-                    src="./assets/part5img/Ram.png"
-                    class="img-fluid"
-                  />
-                  <div class="text-center text-white">
-                    {{ "Part5.RP" | translate }}
-                  </div>
-            </div>
-          
-         
-        </div>
-        <div class="row pt-2">
-          <div class="col-md-3">
-               <img
-                    src="./assets/part5img/Rajnath.png"
-                    class="img-fluid"
-                  />
-                  <div class="text-center text-white">
-                    {{ "Part5.RAJ" | translate }}
-                  </div>
-            </div>
-        </div>
-          </div>
-        </div>
-
-
-
-
-        <!-- <div class="row pt-2">
-    
-          <div class="col-md-6" style="float: none; margin-left: auto; margin-bottom: -8px;">
-            
-            <div class="row">
-              <div class="col-md-12 text-white" style="float: none; margin-left: auto;">
+              <div
+                class="col-md-12 text-white mb-3"
+                style="margin-left: -60px !important"
+              >
                 <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
               </div>
               <div class="col-md-3">
-                <div class="common-wrapper">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Mayawatiji.png"
-                    class="ancimg"
-                    alt="Ram Naresh
-                                      Yadav"
-                  />
+                <img
+                  src="./assets/part5img/Mayawatiji (1).png"
+                  class="img-fluid common-wrapper8"
+                />
+                <div class="d-block text-white mt-3">
+                  {{ "Part5.MAYA" | translate }}
                 </div>
               </div>
-              <small class="d-block text-white">{{
-                "Part5.MAYA" | translate
-              }}</small>
-            </div>
-            <div class="col-md-3">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Kalyan.png"
-                    class="ancimg"
-                    alt="Babu Banarsi
-                                      Das"
-                  />
-                </div>
-              <div class="text-center text-white">
-                {{ "Part5.KALYAN1" | translate }}
-              </div>
-            </div>
-            <div class="col-md-3">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Ram.png"
-                    class="ancimg"
-                    alt="Babu Banarsi
-                                      Das"
-                  />
-                </div>
-              <div class="text-center text-white">
-                {{ "Part5.RP" | translate }}
-              </div>
-            </div>
 
-            <div class="col-md-3">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Rajnath.png"
-                    class="ancimg"
-                    alt="Babu Banarsi
-                                      Das"
-                  />
+              <div class="col-md-3">
+                <img src="./assets/part5img/Kalyan.png" class="img-fluid" />
+                <div class="text-center text-white mt-3">
+                  {{ "Part5.KALYAN1" | translate }}
                 </div>
-                <div class="text-center text-white">
+              </div>
+
+              <div class="col-md-3">
+                <img src="./assets/part5img/Ram.png" class="img-fluid" />
+                <div class="text-center text-white mt-3">
+                  {{ "Part5.RP" | translate }}
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <img src="./assets/part5img/Rajnath.png" class="img-fluid" />
+                <div class="text-center text-white mt-3">
                   {{ "Part5.RAJ" | translate }}
                 </div>
               </div>
             </div>
+            <div class="row pt-4">
+              <div class="col-md-6 text-white mt-3">
+                <span
+                  class="d-block p-2"
+                  style="border: 1px solid #d4be8f; border-radius: 15px"
+                  [innerHTML]="'Part5.13TH' | translate"
+                >
+                </span>
+              </div>
+              <div class="col-md-6">
+                <div class="row mg-rw text-white text-center">
+                  <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+                  <div class="col-md-6" style="margin-left: 24px">
+                    <div>
+                      <div class="w-97">
+                        <img
+                          src="./assets/part5img/Dhaniram.png"
+                          class="ancimg"
+                          alt="Shri Raj Mangal
+                                        Pandey"
+                        />
+                      </div>
+                    </div>
+                    <div class="d-block mt-3 text-center">
+                      {{ "Part5.DHANI" | translate }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-      
-        </div> -->
-   </ng-template>
+        </div>
+      </ng-template>
       <ng-template ngbSlide>
         <div class="row text-white pt-4">
           <div class="col-md-4">
             <div class="row mg-rw">
               <div class="col-md-12 text-center">
-                <strong class="text-center">{{
-                  "Part5.SPEAKER" | translate
-                }}</strong>
+                <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
                 <div class="">
                   <div class="w-97">
                     <img
@@ -1071,7 +1017,7 @@
                     />
                   </div>
                 </div>
-                <p>{{ "Part5.KESARI" | translate }}</p>
+                <p class="text-center mt-3">{{ "Part5.KESARI" | translate }}</p>
               </div>
             </div>
           </div>
@@ -1087,50 +1033,25 @@
 
           <div class="col-md-4">
             <div class="row text-white">
-              <h5 class="">{{ "Part5.LEADER" | translate }}</h5>
-              <div class="col-md-6">
-                <div class="w-97">
-                  <img
-                    src="./assets/part5img/Azam.png"
-                    class="ancimg"
-                    alt="Mohd. Azam
-                                        Khan"
-                  />
-                </div>
-                <small>{{ "Part5.AZAM" | translate }}</small>
-              </div>
-              <div class="col-md-6">
-                <div class="b">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Lalji.png"
-                      class="ancimg"
-                      alt="Ram Naresh
-                                    Yadav"
-                    />
-                  </div>
-                </div>
-                <small>{{ "Part5.LAL" | translate }}</small>
-              </div>
-            </div>
-            <div class="row text-white mt-3">
               <div class="col-md-12">
-                <h5 class="text-center">{{ "Part5.CM" | translate }}</h5>
+                <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
               </div>
               <div class="col-md-6">
                 <div class="b">
                   <div class="common-wrapper">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Mayawatiji.png"
-                      class="ancimg"
-                      alt="Ram Naresh
+                    <div class="w-97">
+                      <img
+                        src="./assets/part5img/Mayawatiji (1).png"
+                        class="ancimg"
+                        alt="Ram Naresh
                                       Yadav"
-                    />
-                  </div>
+                      />
+                    </div>
                   </div>
                 </div>
-                <small>{{ "Part5.MAYA" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MAYA" | translate }}
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="b">
@@ -1143,7 +1064,40 @@
                     />
                   </div>
                 </div>
-                <small>{{ "Part5.MULAYAM1" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MULAYAM1" | translate }}
+                </div>
+              </div>
+            </div>
+            <div class="row text-white mt-3">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
+              <div class="col-md-6">
+                <div class="w-97">
+                  <img
+                    src="./assets/part5img/Azam.png"
+                    class="ancimg"
+                    alt="Mohd. Azam
+                                        Khan"
+                  />
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.AZAM" | translate }}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="b">
+                  <div class="w-97">
+                    <img
+                      src="./assets/part5img/Lalji (1).png"
+                      class="ancimg"
+                      alt="Ram Naresh
+                                    Yadav"
+                    />
+                  </div>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.LAL" | translate }}
+                </div>
               </div>
             </div>
           </div>
@@ -1164,10 +1118,7 @@
         </div>
       </div>
 
-      <div
-        class="col-md-6 text-white"
-
-      >
+      <div class="col-md-6 text-white">
         <p [innerHTML]="'Part5.13.14TEN' | translate"></p>
       </div>
     </div>
@@ -1181,7 +1132,7 @@
             <div class="w-97">
               <!-- <img src="./assets/part5img/Rectangle-d26.png" class="ancimg" alt="img" /> -->
               <video
-              src="{{vd.video1314[currentLanguage]}}"
+                src="{{ vd.video1314[currentLanguage] }}"
                 controls
                 _ngcontent-mqy-c16
                 class="ancimg p-1 common-wrapper b"
@@ -1200,46 +1151,45 @@
         <div class="row mg-rw">
           <div class="col-md-12">
             <div class="common-wrapper">
-            <div class="w-97">
-              <img
-                src="./assets/part5img/2006 events (1).png"
-                class="ancimg"
-                alt="img"
-                style="height: 145px !important;"
-              />
-            </div>
+              <div class="w-97">
+                <img
+                  src="./assets/part5img/2006 events (1).png"
+                  class="ancimg"
+                  alt="img"
+                  style="height: 145px !important"
+                />
+              </div>
             </div>
           </div>
 
           <div class="col-md-12 mt-3">
             <div class="common-wrapper">
-            <div class="w-97">
-              <img
-                src="./assets/part5img/2006 events (2).png"
-                class="ancimg"
-                alt="img"
-                style="height: 145px !important;"
-              />
-            </div>
+              <div class="w-97">
+                <img
+                  src="./assets/part5img/2006 events (2).png"
+                  class="ancimg"
+                  alt="img"
+                  style="height: 145px !important"
+                />
+              </div>
             </div>
           </div>
           <div class="col-md-12 mt-3">
             <div class="common-wrapper">
-            <div class="w-97">
-              <img
-                src="./assets/part5img/head3.png"
-                class="ancimg"
-                alt="img"
-                style="height: 145px !important;"
-              />
-            </div>
+              <div class="w-97">
+                <img
+                  src="./assets/part5img/head3.png"
+                  class="ancimg"
+                  alt="img"
+                  style="height: 145px !important"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div
-        class="col-md-7 text-white">
+      <div class="col-md-7 text-white">
         <span [innerHTML]="'Part5.HEAD' | translate"> </span>
       </div>
     </div>
@@ -1253,15 +1203,12 @@
             src="./assets/part5img/Pranab Mukharji (Dak Ticket).png"
             class="ancimg"
             alt="img"
-            style="height: 266px !important;"
+            style="height: 266px !important"
           />
         </div>
       </div>
 
-      <div
-        class="col-md-6 text-white"
-
-      >
+      <div class="col-md-6 text-white">
         <p [innerHTML]="'Part5.15.16TEN' | translate"></p>
       </div>
     </div>
@@ -1274,21 +1221,19 @@
           <div class="col-md-4">
             <div class="row mg-rw">
               <div class="col-md-12 text-center">
-                <strong class="text-center">{{
-                  "Part5.SPEAKER" | translate
-                }}</strong>
+                <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
                 <div class="">
                   <div class="w-97">
                     <img
-                      src="./assets/part5img/sukhdev.png"
-                      class="ancimg"
+                      src="./assets/part5img/sukhdev (1).png"
+                      class="ancimg common-wrapper8"
                       alt="Kesari Nath
                                       Tripathi
                                       "
                     />
                   </div>
                 </div>
-                <p>{{ "Part5.SUKH" | translate }}</p>
+                <p class="text-center mt-3">{{ "Part5.SUKH" | translate }}</p>
               </div>
             </div>
           </div>
@@ -1304,7 +1249,29 @@
 
           <div class="col-md-4">
             <div class="row text-white">
-              <h5 class="">{{ "Part5.LEADER" | translate }}</h5>
+              <div class="col-md-12">
+                <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
+              </div>
+              <div class="col-md-6">
+                <div class="b">
+                  <div class="common-wrapper">
+                    <div class="w-97">
+                      <img
+                        src="./assets/part5img/Mayawatiji (1).png"
+                        class="ancimg"
+                        alt="Ram Naresh
+                                      Yadav"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MAYA" | translate }}
+                </div>
+              </div>
+            </div>
+            <div class="row text-white mt-3">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
               <div class="col-md-6">
                 <div class="w-97">
                   <img
@@ -1314,40 +1281,24 @@
                                         Khan"
                   />
                 </div>
-                <small>{{ "Part5.MULAYAM" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MULAYAM" | translate }}
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="b">
                   <div class="w-97">
                     <img
-                      src="./assets/part5img/shivpal.png"
+                      src="./assets/part5img/shivpal (1).png"
                       class="ancimg"
                       alt="Ram Naresh
                                     Yadav"
                     />
                   </div>
                 </div>
-                <small>{{ "Part5.PAL" | translate }}</small>
-              </div>
-            </div>
-            <div class="row text-white mt-3">
-              <div class="col-md-12">
-                <h5 class="text-center">{{ "Part5.CM" | translate }}</h5>
-              </div>
-              <div class="col-md-6">
-                <div class="b">
-                  <div class="common-wrapper">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Mayawatiji.png"
-                      class="ancimg"
-                      alt="Ram Naresh
-                                      Yadav"
-                    />
-                  </div>
-                  </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.PAL" | translate }}
                 </div>
-                <small>{{ "Part5.MAYA" | translate }}</small>
               </div>
             </div>
           </div>
@@ -1358,9 +1309,7 @@
           <div class="col-md-4">
             <div class="row mg-rw">
               <div class="col-md-12 text-center">
-                <strong class="text-center">{{
-                  "Part5.SPEAKER" | translate
-                }}</strong>
+                <h4 class="text-center">{{ "Part5.SPEAKER" | translate }}</h4>
                 <div class="">
                   <div class="w-97">
                     <img
@@ -1372,7 +1321,7 @@
                     />
                   </div>
                 </div>
-                <p>{{ "Part5.MATA" | translate }}</p>
+                <p class="text-center mt-3">{{ "Part5.MATA" | translate }}</p>
               </div>
             </div>
           </div>
@@ -1388,7 +1337,27 @@
 
           <div class="col-md-4">
             <div class="row text-white">
-              <h5 class="">{{ "Part5.LEADER" | translate }}</h5>
+              <div class="col-md-12">
+                <h4 class="text-center">{{ "Part5.CM" | translate }}</h4>
+              </div>
+              <div class="col-md-6">
+                <div class="common-wrapper b">
+                  <div class="w-97">
+                    <img
+                      src="./assets/part5img/Akhi (1).png"
+                      class="ancimg"
+                      alt="Ram Naresh
+                                      Yadav"
+                    />
+                  </div>
+                </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.AKHI" | translate }}
+                </div>
+              </div>
+            </div>
+            <div class="row text-white mt-3">
+              <h4 class="text-center">{{ "Part5.LEADER" | translate }}</h4>
               <div class="col-md-6">
                 <div class="w-97">
                   <img
@@ -1398,38 +1367,24 @@
                                         Khan"
                   />
                 </div>
-                <small>{{ "Part5.MAURYA" | translate }}</small>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.MAURYA" | translate }}
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="b">
                   <div class="w-97">
                     <img
-                      src="./assets/part5img/Dinkar.png"
+                      src="./assets/part5img/Dinkar (1).png"
                       class="ancimg"
                       alt="Ram Naresh
                                     Yadav"
                     />
                   </div>
                 </div>
-                <small>{{ "Part5.DINKAR" | translate }}</small>
-              </div>
-            </div>
-            <div class="row text-white mt-3">
-              <div class="col-md-12">
-                <h5 class="text-center">{{ "Part5.CM" | translate }}</h5>
-              </div>
-              <div class="col-md-6">
-                <div class="common-wrapper b">
-                  <div class="w-97">
-                    <img
-                      src="./assets/part5img/Akhi.png"
-                      class="ancimg"
-                      alt="Ram Naresh
-                                      Yadav"
-                    />
-                  </div>
+                <div class="d-block mt-3 text-center">
+                  {{ "Part5.DINKAR" | translate }}
                 </div>
-                <small>{{ "Part5.AKHI" | translate }}</small>
               </div>
             </div>
           </div>
@@ -1445,7 +1400,7 @@
             <div class="w-97">
               <!-- <img src="./assets/part5img/Rectangle-d34.png" class="ancimg" alt="img" /> -->
               <video
-              src="{{vd.video1516[currentLanguage]}}"
+                src="{{ vd.video1516[currentLanguage] }}"
                 controls
                 _ngcontent-mqy-c16
                 class="ancimg p-1 common-wrapper b"
@@ -1483,10 +1438,7 @@
         </div>
       </div>
 
-      <div
-        class="col-md-8 text-white"
-
-      >
+      <div class="col-md-8 text-white">
         <span [innerHTML]="'Part5.MAYAP' | translate"></span>
       </div>
     </div>
@@ -1505,7 +1457,11 @@
       }}"
       (click)="showalltabs()"
     >
-      <img src="./assets/part5img/10.8’-4.8’-02 (1).png" class="ovalbtn" alt="img" />
+      <img
+        src="./assets/part5img/10.8’-4.8’-02 (1).png"
+        class="ovalbtn"
+        alt="img"
+      />
       <div class="rays" *ngIf="showtabsall">
         <img src="./assets/part5img/rays.png" />
         <img src="./assets/part5img/rays.png" />
@@ -1521,10 +1477,11 @@
     <div class="row h-100 align-items-center">
       <div class="col-md-6" *ngIf="!visible1">
         <div class="ps-5 ms-5">
-          <button 
+          <button
             type="button"
             class="ms-5 customBtn {{ visible11 ? 'rightSide' : '' }}"
-            (click)="showContent1()" [ngClass]="{'green' : toggle, 'red': !toggle}"
+            (click)="showContent1()"
+            [ngClass]="{ green: toggle, red: !toggle }"
           >
             {{ "Part5.7N8BTN" | translate }}
           </button>
@@ -1534,21 +1491,33 @@
         <div class="d-flex flex-column left-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button" [ngClass]="{'clicked': tab== 'tab19'  }" (click)="showTab('tab19')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab19' }"
+                (click)="showTab('tab19')"
+              >
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab20'  }" (click)="showTab('tab20')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab20' }"
+                (click)="showTab('tab20')"
+              >
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab21'  }" (click)="showTab('tab21')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab21' }"
+                (click)="showTab('tab21')"
+              >
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1560,7 +1529,8 @@
           <button
             type="button"
             class="customBtn ms-5 {{ visible21 ? 'leftSide' : '' }}"
-            (click)="showContent2()" [ngClass]="{'green' : toggle, 'red': !toggle}"
+            (click)="showContent2()"
+            [ngClass]="{ green: toggle, red: !toggle }"
           >
             {{ "Part5.15N16BTN" | translate }}
           </button>
@@ -1570,21 +1540,33 @@
         <div class="d-flex flex-column right-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab3'  }" (click)="showTab('tab3')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab3' }"
+                (click)="showTab('tab3')"
+              >
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab4'  }" (click)="showTab('tab4')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab4' }"
+                (click)="showTab('tab4')"
+              >
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab5'  }" (click)="showTab('tab5')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab5' }"
+                (click)="showTab('tab5')"
+              >
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1595,21 +1577,33 @@
         <div class="d-flex flex-column left-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab11'  }" (click)="showTab('tab11')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab11' }"
+                (click)="showTab('tab11')"
+              >
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab12'  }" (click)="showTab('tab12')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab12' }"
+                (click)="showTab('tab12')"
+              >
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab13'  }" (click)="showTab('tab13')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab13' }"
+                (click)="showTab('tab13')"
+              >
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1621,7 +1615,8 @@
           <button
             type="button"
             class="customBtn ms-5 {{ visible31 ? 'rightSide' : '' }}"
-            (click)="showContent3()" [ngClass]="{'green' : toggle, 'red': !toggle}"
+            (click)="showContent3()"
+            [ngClass]="{ green: toggle, red: !toggle }"
           >
             {{ "Part5.9N10BTN" | translate }}
           </button>
@@ -1631,21 +1626,33 @@
         <div class="d-flex flex-column left-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab15'  }" (click)="showTab('tab15')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab15' }"
+                (click)="showTab('tab15')"
+              >
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab16'  }" (click)="showTab('tab16')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab16' }"
+                (click)="showTab('tab16')"
+              >
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab17'  }" (click)="showTab('tab17')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab17' }"
+                (click)="showTab('tab17')"
+              >
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1658,7 +1665,8 @@
           <button
             type="button"
             class="customBtn ms-5 {{ visible41 ? 'leftSide' : '' }}"
-            (click)="showContent4()" [ngClass]="{'green' : toggle, 'red': !toggle}"
+            (click)="showContent4()"
+            [ngClass]="{ green: toggle, red: !toggle }"
           >
             {{ "Part5.13N14BTN" | translate }}
           </button>
@@ -1668,21 +1676,33 @@
         <div class="d-flex flex-column right-panel-open">
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab7'  }" (click)="showTab('tab7')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab7' }"
+                (click)="showTab('tab7')"
+              >
                 {{ "Part5.EMEMBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab8'  }" (click)="showTab('tab8')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab8' }"
+                (click)="showTab('tab8')"
+              >
                 {{ "Part5.LANDBTN" | translate }}
               </button>
             </div>
           </div>
           <div class="p-2 bd-highlight">
             <div class="text-center">
-              <button type="button"  [ngClass]="{'clicked': tab== 'tab9'  }" (click)="showTab('tab9')">
+              <button
+                type="button"
+                [ngClass]="{ clicked: tab == 'tab9' }"
+                (click)="showTab('tab9')"
+              >
                 {{ "Part5.HEADBTN" | translate }}
               </button>
             </div>
@@ -1694,7 +1714,8 @@
           <button
             type="button"
             class="customBtn {{ visible51 ? 'leftSide' : '' }}"
-            (click)="showContent5()" [ngClass]="{'green' : toggle, 'red': !toggle}"
+            (click)="showContent5()"
+            [ngClass]="{ green: toggle, red: !toggle }"
           >
             {{ "Part5.11N12BTN" | translate }}
           </button>
