@@ -26,7 +26,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 mt-5">
-            <img src="./assets/part3/election1920.png" class="ancimg common-wrapper" alt="logo" />
+            <img src="./assets/part3/election1920.jpg" class="ancimg common-wrapper" alt="logo" />
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-      <span [innerHTML]="'Part3.FIRSESS1' | translate"></span><br /><br /><br/><br/>
+      <span [innerHTML]="'Part3.FIRSESS1' | translate"></span><br /><br /><br/><br/><br/>
       <span [innerHTML]="'Part3.FIRSESS2' | translate"></span>
     </div>
   </div>
@@ -271,42 +271,30 @@
     </div>
   </div>
   <div *ngSwitchCase="'tab14'" class="container bghead fix-height">
-
-       <div class="w-80 align-items-center">
-      <!-- <img src="./assets/VideoIMage.png" _ngcontent-mqy-c16  class="ancimg  p-1 common-wrapper  bg-1857" alt="img" /> -->
-      <video
-      src="./assets/part3/World War 2_LOW SIZE.mp4"
-        controls
-        _ngcontent-mqy-c16
-        class="ancimg p-1 common-wrapper bg-1857"
-        alt="img"
-      ></video>
-    </div>
-
-    <div class="text-white pt-3">
-      <span [innerHTML]="'Part3.OCT' | translate"></span>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./assets/part3/sanvidhan sabha.png" class="img-fluid common-wrapper" style="height: 317px !important;" />
+        <div class="text-center text-white mt-3">
+          {{ "Part3.UPLEFT" | translate }}
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="text-white pt-3">
+          <span [innerHTML]="'Part3.OCT' | translate"></span>
+        </div>
+      </div>
     </div>
   </div>
   <div *ngSwitchCase="'tab15'" class="container bghead fix-height">
-    <div class="text-white">
-      <div class="d-flex align-items-center text-white">
-        <div class="w-60">
-          <div class="row">
-            <div class="col-md-6 mb-2">
-              <img src="./assets/part3/sanvidhan sabha.png" class="img-fluid common-wrapper" style="height: 317px !important;" />
-              <div class="text-center mt-3">
-                {{ "Part3.UPLEFT" | translate }}
-              </div>
-            </div>
-            <div class="col-md-6 ps-0 pe-4">
-              <img src="./assets/part3/UP name.png" class="img-fluid common-wrapper" style="height: 317px !important;" />
-              <div class="text-center mt-3">
-                {{ "Part3.UPRIGHT" | translate }}
-              </div>
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./assets/part3/UP name.png" class="img-fluid common-wrapper" style="height: 317px !important;" />
+        <div class="text-center text-white mt-3">
+          {{ "Part3.UPRIGHT" | translate }}
         </div>
-        <div class="w-40 ps-4" [innerHTML]="'Part3.DEC' | translate"></div>
+      </div>
+      <div class="col-md-8">
+        <div class="text-white ps-4" [innerHTML]="'Part3.DEC' | translate"></div>
       </div>
     </div>
   </div>
@@ -336,7 +324,7 @@
     <div class="row">
       <div class="col-md-12">
         <img
-        src="./assets/part3/brief1920.png"
+        src="./assets/part3/brief2.png"
         class="ancimg common-wrapper"
         alt="img"
       />

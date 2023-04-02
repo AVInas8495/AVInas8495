@@ -111,18 +111,18 @@
         <div class="row p-3">
           <img src="./assets/awadhsabha.png" class="ancimg common-wrapper" alt="logo" />
         </div>
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <img src="./assets/roomidarwaza.png" class="ancimg common-wrapper" alt="logo" />
+          </div>
+        </div>
         <div class="row p-3 text-white">
           {{ "Part1.DIV3" | translate }}
         </div>
       </div>
       <div class="col-md-6 text-white">
         <div class="row">
-          <p class="small-font">{{ "Part1.MUG1" | translate }} </p>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-12">
-            <img src="./assets/roomidarwaza.png" class="ancimg common-wrapper" alt="logo" />
-          </div>
+          <p class="small-font" [innerHTML]="'Part1.MUG1' | translate"></p>
         </div>
       </div>
     </div>
