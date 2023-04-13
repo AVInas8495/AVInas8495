@@ -1,2 +1,22 @@
-<app-ancient-begin style="width: 100%;"></app-ancient-begin>
+<!-- <app-ancient-begin style="width: 100%;"></app-ancient-begin> -->
+<!-- <p>{{'main.TEXT'| translate}}</p> -->
+<div class="langSelector " ngbDropdown>
+    <button  type="button" id="dropdownBasic1" ngbDropdownToggle>
+        <img src="../assets/language.png" class="img-fluid">
+    </button>
+    <div  ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button  ngbDropdownItem
+            (click)="translate.use('hn')">{{langhn | translate}}</button>
+            <button  ngbDropdownItem
+            (click)="translate.use('en')">{{langen | translate}}</button>
+    </div>
+</div>
+
+<!-- <label class="langSelector">
+    {{'Part1.SELECT'|translate}}:
+    <select #langselect (change)="translate.use(langselect.value)" class="form-select">
+        <option [value]="lang">{{lang}}</option>
+    </select>
+</label> -->
+
 <router-outlet></router-outlet>

@@ -1,0 +1,458 @@
+<ng-container [ngSwitch]="tab">
+  <div *ngSwitchCase="'tab1'" class="container bghead fix-height">
+    <div class="d-flex align-items-center">
+      <div class="w-50 common-wrapper">
+        <img
+          src="./assets/part3/Election-Indirect (1).png"
+          class="ancimg3 img-fluid"
+          alt="img"
+        />
+      </div>
+      <div class="w-35 text-white ps-4">
+        <p>
+          {{ "Part3.FIND" | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab2'" class="container bghead fix-height">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-md-12">
+            <img src="./assets/part3/imgtab32.png" class="ancimg common-wrapper" alt="logo" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mt-5">
+            <img src="./assets/part3/election1920.jpg" class="ancimg common-wrapper" alt="logo" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 text-white" style="margin-top: 120px !important;">
+        <p
+        class="small-font ps-4 pad31"
+        [innerHTML]="'Part3.YEAR' | translate"
+      ></p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab3'" class="container bghead fix-height">
+    <div class="text-white">
+      <div style="float: left; width: 63%">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <img src="./assets/part3/government house lko.png" class="img-fluid mb-2 common-wrapper" />
+            <img src="./assets/part3/img312.png" class="img-fluid" />
+          </div>
+          <div class="col-md-6 ps-0 pe-4">
+            <img src="./assets/part3/act 1919 (1).png" class="img-fluid common-wrapper"
+            style="height: 306px !important;"
+             />
+          </div>
+        </div>
+      </div>
+      <span [innerHTML]="'Part3.1920' | translate"></span>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab4'" class="container bghead fix-height">
+    <div class="text-white w-100">
+      <div style="float: left; width: 60%">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <img src="./assets/part3/Mukundi Lal.png" class="img-fluid common-wrapper"
+            style="height: 292px !important;"
+             />
+             <div class="text-center mt-3">
+              {{ "Part3.MUKINDI" | translate }}
+             </div>
+          </div>
+          <div class="col-md-6 ps-0 pe-4 text-center">
+            <img src="./assets/part3/lop sitting.png" class="img-fluid mb-2 common-wrapper" />
+
+            <img src="./assets/part3/women sex bar.png" class="img-fluid common-wrapper" />
+          </div>
+        </div>
+      </div>
+      <span [innerHTML]="'Part3.FIRSESS1' | translate"></span><br /><br /><br/><br/><br/>
+      <span [innerHTML]="'Part3.FIRSESS2' | translate"></span>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab5'" class="container bghead fix-height">
+    <div class="row text-white align-items-center">
+      <div class="col-md-8">
+        <img src="./assets/part3/imgtab33.png" class="w-100" />
+      </div>
+      <div class="col-md-4">
+        <span>{{ "Part3.WORK" | translate }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab6'" class="container bghead fix-height">
+    <div class="d-flex align-items-center">
+      <div class="w-30">
+        <div class="text-center text-white">
+          <img
+            src="./assets/part3/11 buildings.png"
+            class="img-fluid common-wrapper"
+            alt="img"
+            style="height: 347px !important;"
+          />
+        </div>
+      </div>
+      <div class="w-70 pe-4">
+        <div class="text-white ps-4">
+          <small [innerHTML]="'Part3.BEF' | translate"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab7'" class="container bghead fix-height">
+    <div class="d-flex align-items-center">
+      <div class="w-30">
+        <div class="text-center text-white">
+          <img
+            src="./assets/part3/img332.png"
+            class="img-fluid"
+            alt="img"
+          />
+          Decision to make Vidhan Bhawan 1920
+        </div>
+      </div>
+      <div class="w-70 ps-4">
+        <div class="text-white">
+          <p class="small-font">
+            The different halls the Council assembled in since 1887 were proving
+            to be inadequate in view of the growing size of the Council,
+            especially after the Government of India Act in 1919. In 1920, at an
+            informal meeting of the elected members of the Council, it was
+            decided that a building would be constructed in Lucknow that would
+            serve as a venue for all matters of the Council of North-Western
+            Provinces and Oudh.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab8'" class="container bghead fix-height">
+    <div class="d-flex align-items-center">
+      <div class="w-50">
+        <div>
+          <img
+            src="./assets/part3/img333.png"
+            class="img-fluid"
+            alt="img"
+          />
+        </div>
+      </div>
+      <div class="w-50 ps-4">
+        <div class="text-white">
+          <h4>{{ "Part3.1992" | translate }}</h4>
+          <p class="small-font" [innerHTML]="'Part3.FOUND' | translate"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab9'" class="container bghead fix-height">
+    <div class="row">
+      <div class="col-md-8 text-center text-white">
+        <img
+          src="./assets/part3/muddiman speech.png"
+          class="img-fluid common-wrapper"
+          alt="img"
+        />
+        <div class="text-center mt-3">
+          {{ "Part3.MUDDIAM" | translate }}
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <!-- <h4>Architecture</h4> -->
+          <div
+            class="text-white"
+            [innerHTML]="'Part3.WORKMAN' | translate"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab10'" class="container bghead fix-height">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img
+          src="./assets/part3/Foundation Stone 1937.png"
+          class="img-fluid common-wrapper mb-3"
+          style="height: 238px !important;"
+        />
+        <img src="./assets/part3/img336.png" class="img-fluid common-wrapper" style="height: 153px !important;" />
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="text-white">
+            {{ "Part3.VB" | translate }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngSwitchCase="'tab11'" class="container bghead fix-height">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="./assets/part3/img337.png" class="img-fluid" />
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="text-white">
+            In the year 1937, the construction for a separate building for the
+            Legislative Council was concluded by the 'Ford & McDonald' company,
+            under the directions of the architect A.L Mortimer. The building is
+            connected to the original Chamber House through a network of elegant
+            balconies. The Legislative Council meetings of the State have
+            convened in this building ever since. 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngSwitchCase="'tab12'" class="container bghead fix-height">
+    <div class="d-flex align-items-center text-white">
+      <div class="w-60">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <img src="./assets/part3/act 1935 (1).png" class="img-fluid common-wrapper" />
+          </div>
+          <div class="col-md-6 ps-0 pe-4">
+            <img src="./assets/part3/bicamrel.png" class="img-fluid common-wrapper" style="height: 322px !important;" />
+          </div>
+        </div>
+      </div>
+      <div class="w-40 ps-4">{{ "Part3.NEW" | translate }}</div>
+    </div>
+  </div>
+  <div *ngSwitchCase="'tab13'" class="container bghead fix-height">
+    <div class="text-white">
+      <div style="float: left; width: 100%">
+        <div class="row">
+          <!-- <div class="row">
+            <div class="col-md-6 mb-2">
+              <img src="./assets/part3/img341.png" class="img-fluid" />
+            </div>
+            <div class="col-md-6" [innerHTML]="'Part3.WITH' | translate"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-2">
+              <img src="./assets/part3/img342.png" class="img-fluid" />
+            </div>
+            <div
+              class="col-md-9 ps-0 pe-4"
+              [innerHTML]="'Part3.60' | translate"
+            ></div>
+          </div> -->
+          <div class="col-md-6">
+            <div class="row">
+              <img src="./assets/part3/img341.png" class="img-fluid" />
+            </div>
+            <div class="row pt-3">
+              <img src="./assets/part3/begum ejaj rasoolb.png" class="img-fluid common-wrapper" style="height: 208px !important; width: 378px !important; margin-left: 18px !important;" />
+            </div>
+          </div>
+          <div class="col-md-6" style="padding-left: 36px !important;padding-bottom: 30px !important;" [innerHTML]="'Part3.WITH' | translate"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngSwitchCase="'tab14'" class="container bghead fix-height">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./assets/part3/sanvidhan sabha.png" class="img-fluid common-wrapper" style="height: 317px !important;" />
+        <div class="text-center text-white mt-3">
+          {{ "Part3.UPLEFT" | translate }}
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="text-white pt-3">
+          <span [innerHTML]="'Part3.OCT' | translate"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngSwitchCase="'tab15'" class="container bghead fix-height">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./assets/part3/UP name.png" class="img-fluid common-wrapper" style="height: 317px !important;" />
+        <div class="text-center text-white mt-3">
+          {{ "Part3.UPRIGHT" | translate }}
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="text-white ps-4" [innerHTML]="'Part3.DEC' | translate"></div>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+<div class="row">
+  <div class="col-md-12">
+    <div
+      class="text-center bgceneter three-rays {{
+        visible1 || visible2 ? 'left-rays' : visible3 ? 'right-rays' : ''
+      }}"
+      (click)="showalltabs()"
+    >
+      <div class="text-center" style="cursor: pointer" (click)="showaob()">
+        <img src="./assets/part3/1920-1947.png" class="ovalbtn" alt="img" />
+        <div class="rays" *ngIf="isshow && showalltabs">
+          <img src="./assets/rays.png" />
+          <img src="./assets/rays.png" />
+          <img src="./assets/rays.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="fix-height footimg">
+  <div class="container140" *ngIf="!isshow">
+    <div class="row">
+      <div class="col-md-12">
+        <img
+        src="./assets/part3/brief2.png"
+        class="ancimg common-wrapper"
+        alt="img"
+      />
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row h-100 align-items-center" *ngIf="isshow">
+    <div
+      *ngIf="!visible2 && !visible3"
+      class="{{ visible1 ? 'col-md-6 mb-1' : 'col-md-4 mb-4' }} "
+    >
+      <div class="text-center {{ !visible1 ? 'mb-5 pb-5' : '' }}">
+        <button
+          type="button"
+          class="{{ !visible1 ? 'mb-5 ms-5' : 'rightSide' }} customBtn ms-5"
+          (click)="showContent()"
+        >
+          {{ "Part3.FEBTN" | translate }}
+        </button>
+      </div>
+    </div>
+
+    <div *ngIf="visible1" class="col-md-6">
+      <div class="d-flex flex-column right-panel-open">
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTab('tab3')">
+              {{ "Part3.FBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTab('tab4')">
+              {{ "Part3.MBTN" | translate }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="{{ visible2 ? 'col-md-6' : 'col-md-4' }} mb-4"
+      *ngIf="!visible1 && !visible3"
+    >
+      <div class="text-center">
+        <button
+          type="button"
+          class="customBtn {{ !visible2 ? 'mb-5' : 'rightSide' }}"
+          (click)="showContent1()"
+        >
+          {{ "Part3.VBBTN" | translate }}
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4" *ngIf="visible2">
+      <div class="d-flex flex-column right-panel-open">
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTab('tab6')">
+              {{ "Part3.PBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTab('tab8')">
+              {{ "Part3.FOBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTab('tab9')">
+              {{ "Part3.EBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTab('tab10')">
+              {{ "Part3.IBTN" | translate }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4" *ngIf="visible3">
+      <div class="d-flex flex-column left-panel-open">
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTab('tab13')">
+              {{ "Part3.GBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTab('tab14')">
+              {{ "Part3.ITBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTab('tab15')">
+              {{ "Part3.ABTN" | translate }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="{{ visible3 ? 'col-md-6' : 'col-md-4' }} mb-4"
+      *ngIf="!visible2 && !visible1"
+    >
+      <div class="text-center {{ !visible3 ? 'mb-5 pb-5' : '' }}">
+        <button
+          type="button"
+          class="customBtn {{ !visible3 ? 'mb-5 me-5' : 'leftSide' }}"
+          (click)="showContent2()"
+        >
+          {{ "Part3.BBTN" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

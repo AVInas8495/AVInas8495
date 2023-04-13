@@ -1,0 +1,451 @@
+<ng-container [ngSwitch]="tabpart">
+  <div *ngSwitchCase="'tab11'" class="container bghead fix-height">
+    <div class="d-flex common-wrapper" style="height: 316px !important;">
+      <div class="w-40">
+        <img src="./assets/1857 brief1.png" class="ancimg" style="height: 311px !important;" alt="img" />
+      </div>
+      <div class="w-60 text-bg-1920 text-white">
+        <p [innerHTML]="'Part2.P1' | translate"></p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab12'" class="container bghead fix-height">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="header">
+          <img src="./assets/1857overview.png" class="ancimg common-wrapper" alt="img" />
+        </div>
+      </div>
+      <div class="col-md-5">
+        <p class="small-font text-white">
+          {{ "Part2.UP" | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab13'" class="container bghead fix-height">
+    <div class="text-white" style="font-size: 18px !important;">
+      {{ "Part2.REVOLT" | translate }}
+      <div style="float: right; width: 60%; margin-left: 24px;">
+        <div class="row">
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti1.png" class="img-fluid common-wrapper" />
+          </div>
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti2.png" style="height: 190px !important;" class="img-fluid common-wrapper" />
+          </div>
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti3.png" class="img-fluid common-wrapper" />
+          </div>
+          <div class="col-md-6 p-2">
+            <img src="./assets/1857kranti4.png" style="height: 132px !important;" class="img-fluid common-wrapper" />
+          </div>
+        </div>
+      </div>
+      {{ "Part2.REVOLT2" | translate }}
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab14'" class="container bghead fix-height">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <img src="./assets/krantikavikas1.png" class="img-fluid mb-2 common-wrapper" />
+            <img src="./assets/krantikavikas2.png" class="img-fluid common-wrapper" />
+          </div>
+          <div class="col-md-6 ps-0 pe-4">
+            <img src="./assets/krantikavikas3.png" style="height: 342px !important;" class="img-fluid common-wrapper" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 text-white">
+        <p class="small-font">
+          {{ "Part2.NEWS" | translate }}
+          </p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab15'" class="container bghead fix-height">
+    <div class="row text-white">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <img src="./assets/eicfactory.png" class="img-fluid mb-2 common-wrapper" />
+            <img src="./assets/eic.png" class="img-fluid common-wrapper" />
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/powertransfer-modified.png" style="height: 295px !important;" class="img-fluid common-wrapper" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6" style="font-size: 18px !important;" [innerHTML]="'Part2.HISTORIAN' | translate"></div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab16'" class="container bghead fix-height">
+    <div class="row text-white align-items-center">
+      <div class="col-md-4">
+        <img src="./assets/council-act.png" class="w-100" />
+      </div>
+      <div class="col-md-8">
+        <p class="small-font">{{ "Part2.ICOUNCILS" | translate }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab17'" class="container bghead fix-height">
+    <div class="row text-white">
+      <div class="col-md-4 pe-0">
+        <img src="./assets/1861.png" class="w-100 common-wrapper4" />
+      </div>
+      <div class="col-md-8">
+        <p class="small-font">{{"Part2.ASSUM" | translate }}</p>
+        <!-- <img src="./assets/council-act-2.png" class="w-100"> -->
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab18'" class="container bghead fix-height">
+    <div class="row text-white">
+      <div class="col-md-8">
+        <p class="d-block small-font">{{ "Part2.AFTER" | translate }}</p>
+
+        <p class="d-block my-3 small-font">{{ "Part2.FIRST" | translate }}</p>
+
+        <small class="d-block"
+          >{{ "Part2.SIR" | translate }}<br />
+          {{ "Part2.RAJA" | translate }}</small
+        >
+        <div class="row mt-3">
+          <div class="col-3">
+            <img src="./assets/act-m1.png" class="img-fluid" />
+            {{ "Part2.AHMED" | translate }}
+          </div>
+          <div class="col-3">
+            <img src="./assets/act-m2.png" class="img-fluid" />
+            {{ "Part2.PRATAP" | translate }}
+          </div>
+          <div class="col-3">
+            <img src="./assets/act-m3.png" class="img-fluid" />
+            {{ "Part2.RAI" | translate }}
+          </div>
+          <div class="col-3">
+            <img src="./assets/act-m4.png" class="img-fluid" />
+            {{ "Part2.PANDIT" | translate }}
+          </div>
+        </div>
+        <p class="row mt-3 text-white small-font" [innerHTML]="'Part2.KEY' | translate"></p>
+      </div>
+      <div class="col-md-4 pe-0">
+        <img src="./assets/1887.png" class="w-100 common-wrapper4" />
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab19'" class="container bghead fix-height">
+    <div class="row text-white">
+      <div class="col-md-4">
+        <img src="./assets/1892.png" class="w-100 common-wrapper4" />
+      </div>
+      <div class="col-md-8">
+        <p
+          class="d-block mb-3 small-font"
+          [innerHTML]="'Part2.EIGHT' | translate"
+        ></p>
+        <p class="small-font" [innerHTML]="'Part2.ASRESULT' | translate"></p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab20'" class="container bghead fix-height">
+    <div class="row text-white">
+      <div class="col-md-4">
+        <img src="./assets/1909.png" class="w-100 common-wrapper4" />
+      </div>
+      <div class="col-md-8">
+        <p class="d-block small-font">{{ "Part2.CLEAR" | translate }}</p>
+        <p
+          class="d-block my-2 small-font"
+          [innerHTML]="'Part2.BRITISH' | translate"
+        ></p>
+        <p class="d-block small-font">{{ "Part2.MEM" | translate }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab21'" class="container bghead fix-height">
+    <div class="row text-white align-items-center">
+      <div class="col-md-4 common-wrapper4">
+        <img src="./assets/1915 (1).png" class="w-100" />
+      </div>
+      <div class="col-md-8">
+        <p class="d-block mb-2 small-font">{{ "Part2.GOVERN" | translate }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab22'" class="container bghead fix-height">
+    <div class="row text-white align-items-center">
+      <div class="col-md-4 common-wrapper4">
+        <img src="./assets/1915 (1).png" class="w-100" />
+      </div>
+      <div class="col-md-8">
+        <p class="d-block small-font" [innerHTML]="'Part2.1915.2' | translate"></p>
+        <!-- <span class="d-block my-2">{{'Part2.REPORT' | translate}}</span> -->
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab43'" class="container bghead fix-height">
+    <div class="row text-white align-items-center">
+      <div class="col-md-4 common-wrapper4">
+        <img src="./assets/1919 (1).png" class="w-100" />
+      </div>
+      <div class="col-md-8">
+        <p class="d-block small-font" [innerHTML]="'Part2.1919' | translate"></p>
+        <p class="d-block my-2 small-font">{{ "Part2.REPORT2" | translate }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab23'" class="container bghead fix-height">
+    <div class="d-flex text-white">
+      <div class="w-45">
+        <img src="./assets/world war 1b.png" class="w-100 common-wrapper4" />
+      </div>
+      <div class="w-55 ps-4">
+        <p class="d-block mb-2 small-font">{{ "Part2.1915" | translate }}</p>
+        <img src="./assets/world war 1 indiab.png" class="w-100 common-wrapper4" />
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'tab24'" class="container bghead fix-height">
+    <div class="header">
+      <img src="./assets/Frame37.png" class="ancimg" alt="img" />
+    </div>
+  </div>
+</ng-container>
+
+<div
+  class="row bgceneter four-rays {{
+    main_options_left
+      ? 'left-rays'
+      : submenu_revolt
+      ? 'left-rays'
+      : submenu_face_ww1
+      ? 'right-rays'
+      : submenu_indian_council
+      ? 'left-rays'
+      : submenu_gov_act
+      ? 'right-rays'
+      : main_options_right
+      ? 'right-rays'
+      : ''
+  }}"
+  (click)="showalltabs()"
+>
+  <div class="col-md-12">
+    <div class="text-center" style="cursor: pointer" (click)="showaob()">
+      <img src="./assets/oval2.png" class="ovalbtn" alt="img" />
+      <div class="rays" *ngIf="isshow && showalltabs">
+        <img src="./assets/rays.png" />
+        <img src="./assets/rays.png" />
+        <img src="./assets/rays.png" />
+        <img src="./assets/rays.png" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!isshow" class="container bghead fix-height">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-5 p-2">
+          <img src="./assets/ww1.png" class="ancimg common-wrapper" alt="img" />
+        </div>
+        <div class="col-md-7 p-2 text-white">
+          <p>{{ "Part2.P2" | translate }}</p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-12">
+        <img src="./assets/worldwar1.png" class="ancimg common-wrapper" style="height: 178px !important;" alt="img" />
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="./assets/thornhillhall.png"
+        class="img2 common-wrapper"
+        alt="img"
+      />
+    </div>
+  </div>
+</div>
+
+<div *ngIf="isshow" class="container bghead fix-height">
+  <div class="row h-100 align-items-center">
+    <div
+      *ngIf="!main_options_left && !submenu_gov_act && !submenu_face_ww1"
+      class="col-md-6 mb-4"
+    >
+      <div
+        class="d-flex align-items-center justify-content-center {{
+          submenu_revolt ? 'ms-5' : ''
+        }}"
+      >
+        <div
+          *ngIf="!revolt"
+          class="p-2 {{ !submenu_revolt ? 'mb-5 pb-5' : '' }}"
+        >
+          <div class="text-center">
+            <button
+              type="button"
+              class="customBtn {{ !submenu_revolt ? '' : 'rightSide' }} "
+              type="button"
+              (click)="showContentpart()"
+            >
+              {{ "Part2.REVBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div *ngIf="!indian_council" class="p-2  {{ main_options_left }}">
+          <div class="text-center">
+            <button
+              type="button"
+              class="customBtn {{
+                !submenu_indian_council ? 'mb-5' : 'rightSide'
+              }}"
+              (click)="showContentpart1()"
+            >
+              {{ "Part2.ACTBTN" | translate }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="submenu_face_ww1" class="col-md-6">
+      <div class="d-flex flex-column mb-3 left-panel-open">
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTabpart('tab22')">
+              1915
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="submenu_gov_act" class="col-md-6">
+      <div class="d-flex flex-column mb-3 left-panel-open">
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTabpart('tab43')">
+              1919
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="!main_options_right" class="col-md-6 mb-4">
+      <div
+        class="d-flex align-items-center {{
+          main_options_right || submenu_gov_act || submenu_face_ww1
+            ? 'ms-5'
+            : ''
+        }}"
+      >
+        <div *ngIf="!face_ww1" class="p-2">
+          <div class="text-center">
+            <button
+              type="button"
+              class="customBtn {{ !submenu_face_ww1 ? '' : 'leftSide' }}"
+              type="button"
+              (click)="showContentpart2()"
+            >
+              {{ "Part2.ACTBTN2" | translate }}
+            </button>
+          </div>
+        </div>
+        <div
+          *ngIf="!gov_act"
+          class="p-2  {{ !submenu_gov_act ? 'mb-5 pb-5' : '' }}"
+        >
+          <div class="text-center">
+            <button
+              type="button"
+              class="customBtn {{ !submenu_gov_act ? 'mb-5 ' : 'leftSide' }}"
+              (click)="showContentpart3()"
+            >
+              {{ "Part2.FACEBTN" | translate }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="submenu_revolt" class="col-md-6 mb-2">
+      <div class="d-flex flex-column mb-3 right-panel-open">
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTabpart('tab13')">
+              {{ "Part2.ORGBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTabpart('tab14')">
+              {{ "Part2.DEVBTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTabpart('tab15')">
+              {{ "Part2.EICBTN" | translate }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="submenu_indian_council" class="col-md-6">
+      <div class="d-flex flex-column mb-3 right-panel-open">
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" type="button" (click)="showTabpart('tab17')">
+              {{ "Part2.1861BTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTabpart('tab18')">
+              {{ "Part2.1887BTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTabpart('tab19')">
+              {{ "Part2.1892BTN" | translate }}
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="text-center">
+            <button type="button" (click)="showTabpart('tab20')">
+              {{ "Part2.1909BTN" | translate }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
